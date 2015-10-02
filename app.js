@@ -19,10 +19,14 @@ const col = {
 }
 
 const judeteUrl = 'https://dl.dropboxusercontent.com/u/103063/static/MapData/judete.topojson'
-
-
 const width = 960
 const height = 400
+const fixchar = {'ş': 'ș', 'ţ': 'ț', '-': ' '}
+
+function norm(txt) {
+  return txt.toLowerCase().replace(/./g, (ch) => fixchar[ch] || ch)
+}
+
 var projection = d3.geo.mercator()
 var path = d3.geo.path()
     .projection(projection)
@@ -33,11 +37,12 @@ var svg = d3.select('body').append('svg')
     .append('g')
 
 d3.csv('data/instante-2013.csv', (data) => {
+  let label = {}
   for(let row of data) {
     let name = row[col.name]
     let m = name.match(/^Tribunalul (.*)$/)
     if(m) {
-      //console.log(m[1])
+      label[norm(m[1])] = row[col.population]
     }
   }
 
@@ -64,6 +69,18 @@ d3.csv('data/instante-2013.csv', (data) => {
           .attr('d', path)
         .append('title')
           .text((d) => nameMap[d.properties.id])
+
+      function mid(feature) {
+        return projection(d3.geo.centroid(feature.geometry))
+      }
+
+      svg.selectAll('.county-label')
+          .data(layer.features)
+        .enter().append('text')
+          .attr('class', 'county-label')
+          .attr('x', (d) => mid(d)[0])
+          .attr('y', (d) => mid(d)[1] + 5)
+          .text((d) => label[norm(nameMap[d.properties.id])])
     })
   })
 })

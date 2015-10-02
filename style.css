@@ -3,3 +3,7 @@
   stroke-width: 1px;
   stroke: steelblue;
 }
+
+.county-label {
+  text-anchor: middle;
+}
