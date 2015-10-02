@@ -44,7 +44,7 @@ d3.csv('data/instante-2013.csv', (data) => {
   d3.json('map/judete.topojson', (error, res) => {
     let layer = topojson.feature(res, res.objects.judete)
     let [[bx0, by0], [bx1, by1]] = d3.geo.bounds(layer)
-    projection.center([(bx1+bx0)/2, (by1+by0)/2])
+    projection.center([(bx1+bx0)/2, (by1+by0)/2 - .8])
 
     let [px0, py0] = projection.invert([0, height])
     let [px1, py1] = projection.invert([width, 0])
