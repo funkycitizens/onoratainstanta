@@ -41,20 +41,29 @@ d3.csv('data/instante-2013.csv', (data) => {
     }
   }
 
-  d3.json('map/judete.topojson', (error, res) => {
-    let layer = topojson.feature(res, res.objects.judete)
-    let [[bx0, by0], [bx1, by1]] = d3.geo.bounds(layer)
-    projection.center([(bx1+bx0)/2, (by1+by0)/2 - .8])
+  d3.csv('map/judete.csv', (data) => {
+    let nameMap = {}
+    for(let row of data) {
+      nameMap[row.SIRUTA] = row.NAME_UTF8
+    }
 
-    let [px0, py0] = projection.invert([0, height])
-    let [px1, py1] = projection.invert([width, 0])
-    let s = d3.min([(px1-px0)/(bx1-bx0), (py1-py0)/(by1-by0)])
-    projection.scale(s * projection.scale())
+    d3.json('map/judete.topojson', (error, res) => {
+      let layer = topojson.feature(res, res.objects.judete)
+      let [[bx0, by0], [bx1, by1]] = d3.geo.bounds(layer)
+      projection.center([(bx1+bx0)/2, (by1+by0)/2 - .8])
 
-    svg.selectAll('.county')
-        .data(layer.features)
-      .enter().append('path')
-        .attr('class', 'county')
-        .attr('d', path)
+      let [px0, py0] = projection.invert([0, height])
+      let [px1, py1] = projection.invert([width, 0])
+      let s = d3.min([(px1-px0)/(bx1-bx0), (py1-py0)/(by1-by0)])
+      projection.scale(s * projection.scale())
+
+      svg.selectAll('.county')
+          .data(layer.features)
+        .enter().append('path')
+          .attr('class', 'county')
+          .attr('d', path)
+        .append('title')
+          .text((d) => nameMap[d.properties.id])
+    })
   })
 })
