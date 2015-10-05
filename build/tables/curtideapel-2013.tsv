@@ -1,0 +1,17 @@
+nume	cod	populatie	judecatori	stoc	dosare_solutionate		incarcatura	incarcatura_judecator	indice_atacabilitate	indice_casare		durata	performanta	operativitate	incarcatura	siguranta									
+Denumirea instantei in clar (cu diactritice)	Codul informatic al instantei (din portal)	Populația	Numar de judecatori	Stoc (total volum de activitate al instantei)	Dosare solutionate	Operativitate (procent solutionate din stoc)	Incarcatura pe schema	Incarcatura pe judecator	Indice de atacabilitate (procent atacate din solutionate)	Indice de casare/desfiintare	Indicator de "siguranta" (100%-Desfiintare*Atacare) [ne mai gandim la denumire - certitudine/ stabilitate/ predictibilitate]	Durata in zile (extras din portal, ca diferenta dintre data inregistrarii dosarului si data solutionarii)	Performanta pentru gogoasa	Operativitatea relativa	Incarcatura relativa	Siguranta relativa									
+Curtea de Apel BUCUREŞTI (exercitiu 2012)	CurteadeApelBUCURESTI	3514547	170	65952	39723	60%	883.77	987.75	44%	11%	95.16%	101	51.58%	67.32%	88.96%	68.88%									
+Curtea de Apel Alba	CurteadeApelALBAIULIA	1158263	42	27974	21381	76%	1787.02	1914.67	44%	11%	95.16%	98	42.47%	81.89%	42.50%	69.61%									
+Curtea de Apel BACĂU	CurteadeApelBACAU	1086934	29	12610	9592	76%	1112.19	1227.24	44%	11%	95.16%	79	58.65%	83.94%	60.00%	74.65%									
+Curtea de Apel BRAŞOV	CurteadeApelBRASOV	759394	35	13132	10574	81%	1006.76	1064.29	44%	11%	95.16%	139	41.06%	85.12%	50.59%	58.93%									
+Curtea de Apel CLUJ	CurteadeApelCLUJ	1680374	53	29424	20419	69%	1515.29	1601.06	44%	11%	95.16%	58	55.72%	73.32%	66.96%	80.01%									
+Curtea de Apel CONSTANŢA	CurteadeApelCONSTANTA	897165	33	12114	8701	72%	923.25	1007.18	44%	11%	95.16%	97	47.93%	78.36%	59.08%	69.82%									
+Curtea de Apel CRAIOVA	CurteadeApelCRAIOVA	1703928	90	41486	35892	87%	1279.87	1322.53	44%	11%	95.16%	79	71.60%	89.40%	72.95%	74.63%									
+Curtea de Apel GALAŢI	CurteadeApelGALATI	1197689	41	20816	13890	67%	1342.16	1440.37	44%	11%	95.16%	180	21.09%	71.61%	57.61%	48.30%									
+Curtea de Apel IAŞI	CurteadeApelIASI	1167847	36	14676	11215	76%	1065.31	1154.08	44%	11%	95.16%	67	62.78%	82.78%	65.09%	77.60%									
+Curtea de Apel ORADEA	CurteadeApelORADEA	919758	32	15198	13155	87%	1238.51	1354.63	44%	11%	95.16%	116	55.31%	94.67%	48.36%	64.88%									
+Curtea de Apel PITEŞTI	CurteadeApelPITESTI	984145	31	14796	10113	68%	1171.44	1360.39	44%	11%	95.16%	148	33.21%	79.37%	51.50%	56.45%									
+Curtea de Apel PLOIEŞTI	CurteadeApelPLOIESTI	1732700	52	23202	18061	78%	1251.98	1276.06	44%	11%	95.16%	103	55.91%	79.34%	74.25%	68.24%									
+Curtea de Apel SUCEAVA	CurteadeApelSUCEAVA	1047436	40	22152	18773	85%	1527.64	1604.03	44%	11%	95.16%	155	39.65%	88.98%	47.13%	54.72%									
+Curtea de Apel TÂRGU MUREŞ	CurteadeApelTARGUMURES	861713	24	15576	12099	78%	1595.32	1861.21	44%	11%	95.16%	74	47.62%	90.62%	24.68%	75.92%									
+Curtea de Apel TIMIŞOARA	CurteadeApelTIMISOARA	1409748	48	29998	23994	80%	1591.04	1789.92	44%	11%	95.16%	67	65.41%	89.98%	55.67%	77.66%									
