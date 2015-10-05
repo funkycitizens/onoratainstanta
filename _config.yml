@@ -4,5 +4,11 @@ defaults:
     values:
       layout: 'page'
 
+  - scope: {path: '', type: 'instante'}
+    values: {layout: 'instanta'}
+
+collections:
+  instante: {output: true}
+
 exclude:
   - build

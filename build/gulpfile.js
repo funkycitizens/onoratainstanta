@@ -9,7 +9,7 @@ function template(name) {
 
 function instanta(row, folder) {
   var m = row.cod.match(/^(Judecatoria|Tribunalul|CurteaDeApel)(.*)$/)
-  var filename = '../instante/' + folder + '/' + m[2].toLowerCase() + '.html'
+  var filename = '../_instante/' + folder + '/' + m[2].toLowerCase() + '.html'
   var html = template('instanta.html')({
     meta: row,
     indici_2013: row,
