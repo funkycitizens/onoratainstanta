@@ -8,7 +8,7 @@ function template(name) {
 }
 
 function instanta(row, folder) {
-  var m = row.cod.match(/^(Judecatoria|Tribunalul|CurteaDeApel)(.*)$/)
+  var m = row.cod.match(/^(Judecatoria|Tribunalul|CurteadeApel)(.*)$/)
   var filename = '../_instante/' + folder + '/' + m[2].toLowerCase() + '.html'
   var html = template('instanta.html')({
     meta: row,
@@ -25,5 +25,11 @@ function table(name) {
 gulp.task('instante', function() {
   table('judecatorii-2013').forEach(function(row) {
     instanta(row, 'judecatorii')
+  })
+  table('tribunale-2013').forEach(function(row) {
+    instanta(row, 'tribunale')
+  })
+  table('curtideapel-2013').forEach(function(row) {
+    instanta(row, 'curtideapel')
   })
 })
