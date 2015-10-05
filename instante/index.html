@@ -1,0 +1,33 @@
+---
+title: "Instanțe"
+---
+<div class="row">
+
+  <div class="col-md-4">
+    <h2>Curți de apel</h2>
+    {% for i in site.collections.instante.docs %}
+      {% if i.type == 'curtideapel' %}
+        <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="col-md-4">
+    <h2>Tribunale</h2>
+    {% for i in site.collections.instante.docs %}
+      {% if i.type == 'tribunale' %}
+        <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="col-md-4">
+    <h2>Judecătorii</h2>
+    {% for i in site.collections.instante.docs %}
+      {% if i.type == 'judecatorii' %}
+        <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div>
