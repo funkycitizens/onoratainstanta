@@ -7,10 +7,11 @@ function template(name) {
   return Handlebars.compile(fs.readFileSync(name, {encoding: 'utf-8'}))
 }
 
-function instanta(row, folder, contact) {
+function instanta(row, type, contact) {
   var m = row.cod.match(/^(Judecatoria|Tribunalul|CurteadeApel)(.*)$/)
-  var filename = '../_instante/' + folder + '/' + m[2].toLowerCase() + '.html'
+  var filename = '../_instante/' + type + '/' + m[2].toLowerCase() + '.html'
   var html = template('instanta.html')({
+    type: type,
     meta: row,
     indici_2013: row,
     contact: contact,
