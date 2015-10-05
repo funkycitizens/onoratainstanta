@@ -1,0 +1,9 @@
+{
+  "name": "onoratainstanta",
+  "private": true,
+  "devDependencies": {
+    "d3": "^3.5.6",
+    "gulp": "^3.9.0",
+    "handlebars": "^4.0.3"
+  }
+}

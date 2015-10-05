@@ -3,3 +3,6 @@ defaults:
   - scope: {path: ''}
     values:
       layout: 'page'
+
+exclude:
+  - build
