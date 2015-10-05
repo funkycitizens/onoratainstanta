@@ -1,9 +1,9 @@
-.county {
+svg .county {
   fill: white;
   stroke-width: 1px;
   stroke: steelblue;
 }
 
-.county-label {
+svg .county-label {
   text-anchor: middle;
 }
