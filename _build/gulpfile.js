@@ -31,7 +31,7 @@ function parchet(row, type) {
   var html = template('parchet.html')({
     type: type,
     meta: {nume: row.name.trim()},
-    indici_2014: row,
+    indici_2014_json: JSON.stringify(row),
   })
   fs.writeFileSync(filename, html)
 }
