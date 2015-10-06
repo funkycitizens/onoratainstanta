@@ -1,0 +1,13 @@
+<table class="table">
+  <thead>
+    <th>Instanță</th>
+    <th>Indice</th>
+  </thead>
+
+  {% for row in include.rows %}
+  <tr>
+    <td>{{ row.name }}</td>
+    <td>{{ row.perf }}</td>
+  </tr>
+  {% endfor %}
+</table>
