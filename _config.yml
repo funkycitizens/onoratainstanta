@@ -12,3 +12,4 @@ defaults:
 
 collections:
   instante: {output: true}
+  parchete: {output: true}

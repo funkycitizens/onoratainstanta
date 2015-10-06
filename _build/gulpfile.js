@@ -24,7 +24,7 @@ function parchet(row, type) {
   var filename = '../_parchete/' + type + '/' + code + '.html'
   var html = template('parchet.html')({
     type: type,
-    meta: row,
+    meta: {nume: row.name.trim()},
     indici_2014: row,
   })
   fs.writeFileSync(filename, html)
