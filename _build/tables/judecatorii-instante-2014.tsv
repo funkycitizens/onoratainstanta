@@ -1,178 +1,178 @@
 nume	cod	populatie	judecatori	stoc	dosare_solutionate		incarcatura	incarcatura_judecator	indice_atacabilitate	indice_casare		durata	performanta	operativitate	incarcatura	siguranta									
 Denumirea instantei in clar (cu diactritice)	Codul informatic al instantei (din portal)	Populația	Numar de judecatori	Stoc (total volum de activitate al instantei)	Dosare solutionate	Operativitate (procent solutionate din stoc)	Incarcatura pe schema	Incarcatura pe judecator	Indice de atacabilitate (procent atacate din solutionate)	Indice de casare/desfiintare	Indicator de "siguranta" (100%-Desfiintare*Atacare) [ne mai gandim la denumire - certitudine/ stabilitate/ predictibilitate]	Durata in zile (extras din portal, ca diferenta dintre data inregistrarii dosarului si data solutionarii)	Performanta pentru gogoasa	Operativitatea relativa	Incarcatura relativa	Siguranta relativa									
-Judecătoria ADJUD	JudecatoriaADJUD	44270	4	5559	4144	75%	1389.75	1389.75	9%	10%	99.10%														
-Judecătoria AGNITA	JudecatoriaAGNITA	24777	2	1643	1455	89%	547.6667	821.5	9%	10%	99.10%														
-Judecătoria AIUD	JudecatoriaAIUD	65983	6	7188	5226	73%	898.5	1198	9%	10%	99.10%														
-Judecătoria ALBA IULIA	JudecatoriaALBAIULIA	130980	12	14605	10475	72%	912.8125	1217.083	9%	10%	99.10%														
-Judecătoria ALEŞD	JudecatoriaALESD	58233	5	3852	2536	66%	642	770.4	9%	10%	99.10%														
-Judecătoria ALEXANDRIA	JudecatoriaALEXANDRIA	117419	10	12671	7751	61%	1151.909	1267.1	9%	10%	99.10%														
-Judecătoria ARAD	JudecatoriaARAD	256771	31	25434	21785	86%	820.4516	820.4516	9%	10%	99.10%														
-Judecătoria AVRIG	JudecatoriaAVRIG	34220	4	1904	1549	81%	476	476	9%	10%	99.10%														
-Judecătoria BABADAG	JudecatoriaBABADAG	42882	3	1726	1331	77%	575.3333	575.3333	9%	10%	99.10%														
-Judecătoria BACĂU	JudecatoriaBACAU	280580	33	33628	25807	77%	960.8	1019.03	9%	10%	99.10%														
-Judecătoria BAIA DE ARAMĂ	JudecatoriaBAIADEARAMA	15955	3	1301	953	73%	433.6667	433.6667	9%	10%	99.10%														
-Judecătoria BAIA MARE	JudecatoriaBAIAMARE	237968	22	19571	14173	72%	850.913	889.5909	9%	10%	99.10%														
-Judecătoria BĂILEŞTI	JudecatoriaBAILESTI	65153	7	7317	5708	78%	1045.286	1045.286	9%	10%	99.10%														
-Judecătoria BĂLCEŞTI	JudecatoriaBALCESTI	36697	5	3183	2277	72%	636.6	636.6	9%	10%	99.10%														
-Judecătoria BALŞ	JudecatoriaBALS	47160	7	5436	4558	84%	679.5	776.5714	9%	10%	99.10%														
-Judecătoria BÂRLAD	JudecatoriaBARLAD	153788	11	8055	6520	81%	575.3571	732.2727	9%	10%	99.10%														
-Judecătoria BECLEAN	JudecatoriaBECLEAN	57133	3	3780	2163	57%	945	1260	9%	10%	99.10%														
-Judecătoria BEIUŞ	JudecatoriaBEIUS	89607	7	3281	2440	74%	468.7143	468.7143	9%	10%	99.10%														
-Judecătoria BICAZ	JudecatoriaBICAZ	44197	5	2985	1572	53%	597	597	9%	10%	99.10%														
-Judecătoria BISTRIŢA	JudecatoriaBISTRITA	136054	16	18235	13143	72%	911.75	1139.688	9%	10%	99.10%														
-Judecătoria BLAJ	JudecatoriaBLAJ	45726	4	2974	2353	79%	743.5	743.5	9%	10%	99.10%														
-Judecătoria BOLINTIN VALE	JudecatoriaBOLINTINVALE	105495	6	7300	3742	51%	912.5	1216.667	9%	10%	99.10%														
-Judecătoria BOTOŞANI	JudecatoriaBOTOSANI	240507	22	39734	30430	77%	1370.138	1806.091	9%	10%	99.10%														
-Judecătoria BRAD	JudecatoriaBRAD	36892	3	4443	3680	83%	1481	1481	9%	10%	99.10%														
-Judecătoria BRĂILA	JudecatoriaBRAILA	230468	21	32003	23705	74%	1142.964	1523.952	9%	10%	99.10%														
-Judecătoria BRAŞOV	JudecatoriaBRASOV	384014	35	51878	38186	74%	1206.465	1482.229	9%	10%	99.10%														
-Judecătoria BREZOI	JudecatoriaBREZOI	30413	6	7165	5357	75%	1023.571	1194.167	9%	10%	99.10%														
-Judecătoria BUFTEA	JudecatoriaBUFTEA	206050	13	28668	15648	55%	1592.667	2205.231	9%	10%	99.10%														
-Judecătoria BUHUŞI	JudecatoriaBUHUSI	37213	4	3009	1339	44%	752.25	752.25	9%	10%	99.10%														
-Judecătoria BUZĂU	JudecatoriaBUZAU	250318	28	49276	38772	79%	1759.857	1759.857	9%	10%	99.10%														
-Judecătoria CALAFAT	JudecatoriaCALAFAT	65482	3	5399	4741	88%	899.8333	1799.667	9%	10%	99.10%														
-Judecătoria CĂLĂRAŞI	JudecatoriaCALARASI	145094	11	12050	10002	83%	1004.167	1095.455	9%	10%	99.10%														
-Judecătoria CÂMPENI	JudecatoriaCAMPENI	49391	4	3323	2639	79%	664.6	830.75	9%	10%	99.10%														
-Judecătoria CÂMPINA	JudecatoriaCAMPINA	149552	12	13605	9717	71%	1046.538	1133.75	9%	10%	99.10%														
-Judecătoria CĂMPULUNG	JudecatoriaCAMPULUNG	126396	13	6438	4889	76%	585.2727	643.8	9%	10%	99.10%														
-Judecătoria CÂMPULUNG MOLDOVENESC	JudecatoriaCAMPULUNGMOLDOVENESC	48664	5	4541	3346	74%	756.8333	908.2	9%	10%	99.10%														
-Judecătoria CARACAL	JudecatoriaCARACAL	112148	13	7145	6106	85%	549.6154	549.6154	9%	10%	99.10%														
-Judecătoria CARANSEBEŞ	JudecatoriaCARANSEBES	102518	6	6800	5172	76%	850	1133.333	9%	10%	99.10%														
-Judecătoria CAREI	JudecatoriaCAREI	85249	5	4710	3864	82%	942	942	9%	10%	99.10%														
-Judecătoria CHIŞINEU CRIŞ	JudecatoriaCHISINEUCRIS	49144	2	2383	2070	87%	794.3333	1191.5	9%	10%	99.10%														
-Judecătoria CLUJ-NAPOCA	JudecatoriaCLUJNAPOCA	402777	43	46324	34908	75%	1029.422	1077.302	9%	10%	99.10%														
-Judecătoria CONSTANŢA	JudecatoriaCONSTANTA	434815	52	70766	52105	74%	1220.103	1360.885	9%	10%	99.10%														
-Judecătoria CORABIA	JudecatoriaCORABIA	74445	4	3307	2669	81%	661.4	826.75	9%	10%	99.10%														
-Judecătoria CORNETU	JudecatoriaCORNETU	182688	15	23101	15640	68%	1443.813	1540.067	9%	10%	99.10%														
-Judecătoria COSTEŞTI	JudecatoriaCOSTESTI	66960	5	5186	4005	77%	864.3333	1037.2	9%	10%	99.10%														
-Judecătoria CRAIOVA	JudecatoriaCRAIOVA	447051	51	64356	49039	76%	1170.109	1261.882	9%	10%	99.10%														
-Judecătoria CURTEA DE ARGEŞ	JudecatoriaCURTEADEARGES	92520	8	5282	3687	70%	660.25	660.25	9%	10%	99.10%														
-Judecătoria DARABANI	JudecatoriaDarabani	42521	3	4616	3233	70%	1154	1538.667	9%	10%	99.10%														
-Judecătoria DEJ	JudecatoriaDEJ	59430	6	4593	3513	76%	765.5	765.5	9%	10%	99.10%														
-Judecătoria DETA	JudecatoriaDETA	49467	4	2552	1976	77%	638	638	9%	10%	99.10%														
-Judecătoria DEVA	JudecatoriaDEVA	109135	18	17959	15222	85%	945.2105	997.7222	9%	10%	99.10%														
-Judecătoria DOROHOI	JudecatoriaDOROHOI	72085	5	6325	4953	78%	1054.167	1265	9%	10%	99.10%														
-Judecătoria DRĂGĂŞANI	JudecatoriaDRAGASANI	60782	9	8403	4528	54%	840.3	933.6667	9%	10%	99.10%														
-Judecătoria DRAGOMIREŞTI	JudecatoriaDRAGOMIRESTI	31874	2	2069	1841	89%	689.6667	1034.5	9%	10%	99.10%														
-Judecătoria DROBETA-TURNU SEVERIN	JudecatoriaDROBETATURNUSEVERIN	136655	24	22595	17612	78%	836.8519	941.4583	9%	10%	99.10%														
-Judecătoria FĂGĂRAŞ	JudecatoriaFAGARAS	72406	9	7846	5906	75%	871.7778	871.7778	9%	10%	99.10%														
-Judecătoria FĂGET	JudecatoriaFAGET	25620	5	1552	1299	84%	310.4	310.4	9%	10%	99.10%														
-Judecătoria FĂLTICENI	JudecatoriaFALTICENI	111917	8	7137	5719	80%	892.125	892.125	9%	10%	99.10%														
-Judecătoria FĂUREI	JudecatoriaFAUREI	50965	2	2565	1596	62%	855	1282.5	9%	10%	99.10%														
-Judecătoria FETEŞTI	JudecatoriaFETESTI	75554	5	6938	4262	61%	867.25	1387.6	9%	10%	99.10%														
-Judecătoria FILIAŞI	JudecatoriaFILIASI	38648	3	2324	1873	81%	774.6667	774.6667	9%	10%	99.10%														
-Judecătoria FOCŞANI	JudecatoriaFOCSANI	251215	21	25648	18834	73%	949.9259	1221.333	9%	10%	99.10%														
-Judecătoria GĂEŞTI	JudecatoriaGAESTI	93118	8	7761	6316	81%	970.125	970.125	9%	10%	99.10%														
-Judecătoria GALAŢI	JudecatoriaGALATI	304837	33	42051	29652	71%	1168.083	1274.273	9%	10%	99.10%														
-Judecătoria GHEORGHENI	JudecatoriaGHEORGHENI	50356	3	3023	2217	73%	604.6	1007.667	9%	10%	99.10%														
-Judecătoria GHERLA	JudecatoriaGHERLA	62677	8	5800	4666	80%	644.4444	725	9%	10%	99.10%														
-Judecătoria GIURGIU	JudecatoriaGIURGIU	175927	19	33739	21220	63%	1606.619	1775.737	9%	10%	99.10%														
-Judecătoria GURA HONŢ	JudecatoriaGURAHONT	34139	2	1519	1193	79%	506.3333	759.5	9%	10%	99.10%														
-Judecătoria GURA HUMORULUI	JudecatoriaGURAHUMORULUI	54338	6	4294	3357	78%	858.8	715.6667	9%	10%	99.10%														
-Judecătoria HÂRLĂU	JudecatoriaHARLAU	78036	5	3590	2250	63%	718	718	9%	10%	99.10%														
-Judecătoria HÂRŞOVA	JudecatoriaHARSOVA	25817	2	1726	1207	70%	863	863	9%	10%	99.10%														
-Judecătoria HAŢEG	JudecatoriaHATEG	33417	3	3005	2027	67%	1001.667	1001.667	9%	10%	99.10%														
-Judecătoria HOREZU	JudecatoriaHOREZU	70049	5	4417	2381	54%	631	883.4	9%	10%	99.10%														
-Judecătoria HUEDIN	JudecatoriaHUEDIN	45817	4	1950	1233	63%	487.5	487.5	9%	10%	99.10%														
-Judecătoria HUNEDOARA	JudecatoriaHUNEDOARA	82206	7	8919	7752	87%	991	1274.143	9%	10%	99.10%														
-Judecătoria HUŞI	JudecatoriaHUSI	75220	5	3585	2820	79%	597.5	717	9%	10%	99.10%														
-Judecătoria IAŞI	JudecatoriaIASI	500387	47	62609	46082	74%	1138.345	1332.106	9%	10%	99.10%														
-Judecătoria INEU	JudecatoriaINEU	49701	3	2989	2460	82%	747.25	996.3333	9%	10%	99.10%														
-Judecătoria ÎNSURĂŢEI	JudecatoriaINSURATEI	39779	2	2773	1916	69%	924.3333	1386.5	9%	10%	99.10%														
-Judecătoria ÎNTORSURA BUZĂULUI	JudecatoriaINTORSURABUZAULUI	18986	3	727	518	71%	242.3333	242.3333	9%	10%	99.10%														
-Judecătoria JIBOU	JudecatoriaJIBOU	48376	3	1777	1314	74%	592.3333	592.3333	9%	10%	99.10%														
-Judecătoria LEHLIU-GARA	JudecatoriaLEHLIUGARA	48979	5	3009	2470	82%	601.8	601.8	9%	10%	99.10%														
-Judecătoria LIEŞTI	JudecatoriaLIESTI	54034	2	2100	1594	76%	700	1050	9%	10%	99.10%														
-Judecătoria LIPOVA	JudecatoriaLIPOVA	40874	4	2254	1785	79%	563.5	563.5	9%	10%	99.10%														
-Judecătoria LUDUŞ	JudecatoriaLUDUS	55119	3	5704	5116	90%	1426	1901.333	9%	10%	99.10%														
-Judecătoria LUGOJ	JudecatoriaLUGOJ	84187	8	4746	3547	75%	527.3333	593.25	9%	10%	99.10%														
-Judecătoria MACIN	JudecatoriaMACIN	44851	2	2038	1589	78%	679.3333	1019	9%	10%	99.10%														
-Judecătoria MANGALIA	JudecatoriaMANGALIA	93038	7	6578	4446	68%	822.25	939.7143	9%	10%	99.10%														
-Judecătoria MARGHITA	JudecatoriaMARGHITA	89559	4	5967	3300	55%	994.5	1491.75	9%	10%	99.10%														
-Judecătoria MEDGIDIA	JudecatoriaMEDGIDIA	130412	13	22232	16784	75%	1710.154	1710.154	9%	10%	99.10%														
-Judecătoria MEDIAŞ	JudecatoriaMEDIAS	103584	11	5668	4628	82%	472.3333	515.2727	9%	10%	99.10%														
-Judecătoria MIERCUREA CIUC	JudecatoriaMIERCUREACIUC	110871	13	10180	7914	78%	925.4545	1018	9%	10%	99.10%														
-Judecătoria MIZIL	JudecatoriaMIZIL	54259	6	3662	2993	82%	523.1429	610.3333	9%	10%	99.10%														
-Judecătoria MOINEŞTI	JudecatoriaMOINESTI	121762	9	10268	6885	67%	855.6667	1140.889	9%	10%	99.10%														
-Judecătoria MOLDOVA-NOUĂ	JudecatoriaMOLDOVANOUA	24521	2	2153	1678	78%	717.6667	1076.5	9%	10%	99.10%														
-Judecătoria MORENI	JudecatoriaMORENI	56441	4	9316	6091	65%	1863.2	2329	9%	10%	99.10%														
-Judecătoria MOTRU	JudecatoriaMOTRU	49700	8	4579	3264	71%	572.375	572.375	9%	10%	99.10%														
-Judecătoria NĂSĂUD	JudecatoriaNASAUD	93038	5	5263	3014	57%	751.8571	1052.6	9%	10%	99.10%														
-Judecătoria NEGREŞTI-OAŞ	JudecatoriaNEGRESTIOAS	61062	4	2906	1508	52%	726.5	726.5	9%	10%	99.10%														
-Judecătoria NOVACI	JudecatoriaNOVACI	27675	3	2826	1977	70%	565.2	942	9%	10%	99.10%														
-Judecătoria ODORHEIUL SECUIESC	JudecatoriaODORHEIULSECUIESC	117555	6	3887	3093	80%	647.8333	647.8333	9%	10%	99.10%														
-Judecătoria OLTENIŢA	JudecatoriaOLTENITA	112618	8	6435	5165	80%	804.375	804.375	9%	10%	99.10%														
-Judecătoria ONEŞTI	JudecatoriaONESTI	141101	13	11357	8805	78%	811.2143	873.6154	9%	10%	99.10%														
-Judecătoria ORADEA	JudecatoriaORADEA	284697	33	37213	27371	74%	1094.5	1127.667	9%	10%	99.10%														
-Judecătoria ORAŞTIE	JudecatoriaORASTIE	34970	2	2994	2296	77%	998	1497	9%	10%	99.10%														
-Judecătoria ORAVIŢA	JudecatoriaORAVITA	51579	5	2925	1716	59%	585	585	9%	10%	99.10%														
-Judecătoria ORŞOVA	JudecatoriaORSOVA	17458	4	2210	1764	80%	442	552.5	9%	10%	99.10%														
-Judecătoria PANCIU	JudecatoriaPANCIU	44825	14	6054	5422	90%	1210.8	1513.5	9%	10%	99.10%														
-Judecătoria PAŞCANI	JudecatoriaPASCANI	158767	11	8827	6779	77%	735.5833	802.4545	9%	10%	99.10%														
-Judecătoria PĂTĂRLAGELE	JudecatoriaPATARLAGELE	58698	14	5828	4076	70%	1165.6	1457	9%	10%	99.10%														
-Judecătoria PETROŞANI	JudecatoriaPETROSANI	121945	13	16424	13429	82%	912.4444	1263.385	9%	10%	99.10%														
-Judecătoria PIATRA-NEAMT	JudecatoriaPIATRANEAMT	183595	19	17983	11326	63%	817.4091	946.4737	9%	10%	99.10%														
-Judecătoria PITEŞTI	JudecatoriaPITESTI	277563	28	47275	34528	73%	1432.576	1688.393	9%	10%	99.10%														
-Judecătoria PLOIEŞTI	JudecatoriaPLOIESTI	416681	31	79247	56508	71%	2031.974	2556.355	9%	10%	99.10%														
-Judecătoria PODU TURCULUI	JudecatoriaPODUTURCULUI	35512	3	2403	1566	65%	801	801	9%	10%	99.10%														
-Judecătoria POGOANELE	JudecatoriaPOGOANELE	45147	4	2301	1821	79%	575.25	575.25	9%	10%	99.10%														
-Judecătoria PUCIOASA	JudecatoriaPUCIOASA	64166	4	3703	2332	63%	925.75	925.75	9%	10%	99.10%														
-Judecătoria RĂCARI	JudecatoriaRACARI	80726	5	4850	2875	59%	692.8571	970	9%	10%	99.10%														
-Judecătoria RĂDĂUŢI	JudecatoriaRADAUTI	164993	11	9350	6720	72%	719.2308	850	9%	10%	99.10%														
-Judecătoria RĂDUCĂNENI	JudecatoriaRADUCANENI	35158	5	1626	1225	75%	325.2	325.2	9%	10%	99.10%														
-Judecătoria RÂMNICU SARAT	JudecatoriaRAMNICUSARAT	96906	7	5287	4251	80%	755.2857	755.2857	9%	10%	99.10%														
-Judecătoria RÂMNICU VÂLCEA	JudecatoriaRAMNICUVALCEA	173773	24	25241	15587	62%	1051.708	1051.708	9%	10%	99.10%														
-Judecătoria REGHIN	JudecatoriaREGHIN	96968	6	5014	4196	84%	716.2857	835.6667	9%	10%	99.10%														
-Judecătoria REŞITA	JudecatoriaRESITA	116961	9	10442	7187	69%	949.2727	1160.222	9%	10%	99.10%														
-Judecătoria ROMAN	JudecatoriaROMAN	153713	11	9188	5469	60%	706.7692	835.2727	9%	10%	99.10%														
-Judecătoria ROŞIORI DE VEDE	JudecatoriaROSIORIDEVEDE	87881	8	5924	4733	80%	740.5	740.5	9%	10%	99.10%														
-Judecătoria RUPEA	JudecatoriaRUPEA	37504	3	2382	1565	66%	794	794	9%	10%	99.10%														
-Judecătoria SALIŞTE	JudecatoriaSALISTE	26125	4	1708	1218	71%	427	427	9%	10%	99.10%														
-Judecătoria SALONTA	JudecatoriaSALONTA	53302	4	2452	1689	69%	613	613	9%	10%	99.10%														
-Judecătoria SÂNNICOLAUL MARE	JudecatoriaSANNICOLAULMARE	63834	4	2913	2118	73%	728.25	728.25	9%	10%	99.10%														
-Judecătoria SATU MARE	JudecatoriaSATUMARE	198049	20	17278	13562	78%	785.3636	863.9	9%	10%	99.10%														
-Judecătoria SĂVENI	JudecatoriaSAVENI	57513	3	4180	2259	54%	1045	1393.333	9%	10%	99.10%														
-Judecătoria SEBEŞ	JudecatoriaSEBES	50296	3	3239	2529	78%	809.75	1079.667	9%	10%	99.10%														
-Judecătoria SECTORUL 1 BUCUREŞTI	JudecatoriaSECTORUL1BUCURESTI	225453	53	93104	69337	74%	1477.841	1756.679	9%	10%	99.10%														
-Judecătoria SECTORUL 2 BUCUREŞTI	JudecatoriaSECTORUL2BUCURESTI	345370	37	100784	75315	75%	2290.545	2723.892	9%	10%	99.10%														
-Judecătoria SECTORUL 3 BUCUREŞTI	JudecatoriaSECTORUL3BUCURESTI	385439	42	112848	89511	79%	2170.154	2686.857	9%	10%	99.10%														
-Judecătoria SECTORUL 4 BUCUREŞTI	JudecatoriaSECTORUL4BUCURESTI	287828	31	55689	42116	76%	1546.917	1796.419	9%	10%	99.10%														
-Judecătoria SECTORUL 5 BUCUREŞTI	JudecatoriaSECTORUL5BUCURESTI	271575	26	47852	37998	79%	1329.222	1840.462	9%	10%	99.10%														
-Judecătoria SECTORUL 6 BUCUREŞTI	JudecatoriaSECTORUL6BUCURESTI	367760	31	32080	25998	81%	1002.5	1034.839	9%	10%	99.10%														
-Judecătoria SEGARCEA	JudecatoriaSEGARCEA	44210	3	3968	2408	61%	992	1322.667	9%	10%	99.10%														
-Judecătoria SFÂNTU GHEORGHE	JudecatoriaSFANTUGHEORGHE	113954	10	8273	6481	78%	827.3	827.3	9%	10%	99.10%														
-Judecătoria SIBIU	JudecatoriaSIBIU	208616	22	28388	22473	79%	1135.52	1290.364	9%	10%	99.10%														
-Judecătoria SIGHETU MARMAŢIEI	JudecatoriaSIGHETUMARMATIEI	81977	6	6002	4311	72%	1000.333	1000.333	9%	10%	99.10%														
-Judecătoria SIGHIŞOARA	JudecatoriaSIGHISOARA	85236	6	5240	4237	81%	873.3333	873.3333	9%	10%	99.10%														
-Judecătoria ŞIMLEUL SILVANIEI	JudecatoriaSIMLEULSILVANIEI	74363	3	2886	1957	68%	721.5	962	9%	10%	99.10%														
-Judecătoria SINAIA	JudecatoriaSINAIA	38031	4	3856	3263	85%	771.2	964	9%	10%	99.10%														
-Judecătoria SLATINA	JudecatoriaSLATINA	202647	18	19752	14339	73%	897.8182	1097.333	9%	10%	99.10%														
-Judecătoria SLOBOZIA	JudecatoriaSLOBOZIA	108160	9	10716	7726	72%	893	1190.667	9%	10%	99.10%														
-Judecătoria STREHAIA	JudecatoriaSTREHAIA	39516	5	3660	2897	79%	610	732	9%	10%	99.10%														
-Judecătoria SUCEAVA	JudecatoriaSUCEAVA	212402	20	19744	14830	75%	940.1905	987.2	9%	10%	99.10%														
-Judecătoria TÂRGOVIŞTE	JudecatoriaTARGOVISTE	224294	19	27276	15162	56%	1239.818	1435.579	9%	10%	99.10%														
-Judecătoria TÂRGU BUJOR	JudecatoriaTARGUBUJOR	58454	3	2864	2298	80%	716	954.6667	9%	10%	99.10%														
-Judecătoria TÂRGU JIU	JudecatoriaTARGUJIU	73407	34	24139	19524	81%	670.5278	709.9706	9%	10%	99.10%														
-Judecătoria TÂRGU LAPUŞ	JudecatoriaTARGULAPUS	190812	2	1058	748	71%	352.6667	529	9%	10%	99.10%														
-Judecătoria TÂRGU MUREŞ	JudecatoriaTARGUMURES	40418	27	25213	17820	71%	869.4138	933.8148	9%	10%	99.10%														
-Judecătoria TĂRGU NEAMŢ	JudecatoriaTARGUNEAMT	265563	7	5385	3606	67%	673.125	769.2857	9%	10%	99.10%														
-Judecătoria TÂRGU SECUIESC	JudecatoriaTARGUSECUIESC	89261	4	3381	2354	70%	845.25	845.25	9%	10%	99.10%														
-Judecătoria TÂRGU-CĂRBUNEŞTI	JudecatoriaTARGUCARBUNESTI	77237	8	5998	4522	75%	666.4444	749.75	9%	10%	99.10%														
-Judecătoria TÂRNAVENI	JudecatoriaTARNAVENI	47960	4	3416	2669	78%	854	854	9%	10%	99.10%														
-Judecătoria TECUCI	JudecatoriaTECUCI	118842	8	6418	4943	77%	713.1111	802.25	9%	10%	99.10%														
-Judecătoria TIMIŞOARA	JudecatoriaTIMISOARA	460432	52	51894	40264	78%	979.1321	997.9615	9%	10%	99.10%														
-Judecătoria TOPLIŢA	JudecatoriaTOPLITA	32085	2	3226	2436	76%	1075.333	1613	9%	10%	99.10%														
-Judecătoria TOPOLOVENI	JudecatoriaTOPOLOVENI	48992	4	3857	2784	72%	964.25	964.25	9%	10%	99.10%														
-Judecătoria TULCEA	JudecatoriaTULCEA	125350	10	14316	10641	74%	1022.571	1431.6	9%	10%	99.10%														
-Judecătoria TURDA	JudecatoriaTURDA	120405	14	10146	7105	70%	724.7143	724.7143	9%	10%	99.10%														
-Judecătoria TURNU MĂGURELE	JudecatoriaTURNUMAGURELE	63585	7	3815	3141	82%	476.875	545	9%	10%	99.10%														
-Judecătoria URZICENI	JudecatoriaURZICENI	90434	7	5795	4573	79%	724.375	827.8571	9%	10%	99.10%														
-Judecătoria VĂLENII DE MUNTE	JudecatoriaVALENIIDEMUNTE	104363	7	6765	4851	72%	966.4286	966.4286	9%	10%	99.10%														
-Judecătoria VÂNJU MARE	JudecatoriaVANJUMARE	55806	5	5625	4083	73%	937.5	1125	9%	10%	99.10%														
-Judecătoria VASLUI	JudecatoriaVASLUI	166491	16	12198	9746	80%	677.6667	762.375	9%	10%	99.10%														
-Judecătoria VATRA DORNEI	JudecatoriaVATRADORNEI	42496	4	3262	2401	74%	815.5	815.5	9%	10%	99.10%														
-Judecătoria VIDELE	JudecatoriaVIDELE	62470	3	6781	4468	66%	1695.25	2260.333	9%	10%	99.10%														
-Judecătoria VIŞEU DE SUS	JudecatoriaVISEUDESUS	86422	4	3604	2757	76%	901	901	9%	10%	99.10%														
-Judecătoria ZALĂU	JudecatoriaZALAU	101645	10	9150	7292	80%	762.5	915	9%	10%	99.10%														
-Judecătoria ZĂRNEŞTI	JudecatoriaZARNESTI	55293	7	4189	2806	67%	698.1667	598.4286	9%	10%	99.10%														
-Judecătoria ZIMNICEA	JudecatoriaZIMNICEA	48768	5	5674	4350	77%	945.6667	1134.8	9%	10%	99.10%														
+Judecătoria ADJUD	JudecatoriaADJUD	44270	4	5559	4144	75%	1389.75	1389.75	9%	10%	99.10%	49	31.30%	74.55%	68.61%	85.75%									
+Judecătoria AGNITA	JudecatoriaAGNITA	24777	2	1643	1455	89%	547.6667	821.5	9%	10%	99.10%	48	59.03%	132.84%	66.84%	85.99%									
+Judecătoria AIUD	JudecatoriaAIUD	65983	6	7188	5226	73%	898.5	1198	9%	10%	99.10%	61	47.40%	96.94%	83.86%	82.65%									
+Judecătoria ALBA IULIA	JudecatoriaALBAIULIA	130980	12	14605	10475	72%	912.8125	1217.083	9%	10%	99.10%	39	66.92%	95.63%	90.71%	88.59%									
+Judecătoria ALEŞD	JudecatoriaALESD	58233	5	3852	2536	66%	642	770.4	9%	10%	99.10%	58	40.58%	79.00%	84.12%	83.37%									
+Judecătoria ALEXANDRIA	JudecatoriaALEXANDRIA	117419	10	12671	7751	61%	1151.909	1267.1	9%	10%	99.10%	65	35.44%	67.29%	90.11%	81.58%									
+Judecătoria ARAD	JudecatoriaARAD	256771	31	25434	21785	86%	820.4516	820.4516	9%	10%	99.10%	34	70.27%	85.65%	96.80%	89.90%									
+Judecătoria AVRIG	JudecatoriaAVRIG	34220	4	1904	1549	81%	476	476	9%	10%	99.10%	43	53.03%	81.36%	86.09%	87.34%									
+Judecătoria BABADAG	JudecatoriaBABADAG	42882	3	1726	1331	77%	575.3333	575.3333	9%	10%	99.10%	50	46.89%	77.11%	86.58%	85.50%									
+Judecătoria BACĂU	JudecatoriaBACAU	280580	33	33628	25807	77%	960.8	1019.03	9%	10%	99.10%	51	56.91%	81.39%	96.47%	85.39%									
+Judecătoria BAIA DE ARAMĂ	JudecatoriaBAIADEARAMA	15955	3	1301	953	73%	433.6667	433.6667	9%	10%	99.10%	70	20.31%	73.25%	72.82%	80.06%									
+Judecătoria BAIA MARE	JudecatoriaBAIAMARE	237968	22	19571	14173	72%	850.913	889.5909	9%	10%	99.10%	53	52.52%	75.71%	96.26%	84.80%									
+Judecătoria BĂILEŞTI	JudecatoriaBAILESTI	65153	7	7317	5708	78%	1045.286	1045.286	9%	10%	99.10%	93	16.81%	78.01%	83.96%	73.86%									
+Judecătoria BĂLCEŞTI	JudecatoriaBALCESTI	36697	5	3183	2277	72%	636.6	636.6	9%	10%	99.10%	40	47.73%	71.54%	82.65%	88.31%									
+Judecătoria BALŞ	JudecatoriaBALS	47160	7	5436	4558	84%	679.5	776.5714	9%	10%	99.10%	57	49.13%	95.83%	83.53%	83.69%									
+Judecătoria BÂRLAD	JudecatoriaBARLAD	153788	11	8055	6520	81%	575.3571	732.2727	9%	10%	99.10%	55	63.24%	103.02%	95.24%	84.05%									
+Judecătoria BECLEAN	JudecatoriaBECLEAN	57133	3	3780	2163	57%	945	1260	9%	10%	99.10%	40	46.11%	76.30%	77.95%	88.29%									
+Judecătoria BEIUŞ	JudecatoriaBEIUS	89607	7	3281	2440	74%	468.7143	468.7143	9%	10%	99.10%	56	48.66%	74.37%	94.77%	84.00%									
+Judecătoria BICAZ	JudecatoriaBICAZ	44197	5	2985	1572	53%	597	597	9%	10%	99.10%	77	17.12%	52.66%	86.49%	78.23%									
+Judecătoria BISTRIŢA	JudecatoriaBISTRITA	136054	16	18235	13143	72%	911.75	1139.688	9%	10%	99.10%	43	61.97%	90.09%	91.62%	87.36%									
+Judecătoria BLAJ	JudecatoriaBLAJ	45726	4	2974	2353	79%	743.5	743.5	9%	10%	99.10%	99	13.19%	79.12%	83.74%	72.23%									
+Judecătoria BOLINTIN VALE	JudecatoriaBOLINTINVALE	105495	6	7300	3742	51%	912.5	1216.667	9%	10%	99.10%	48	45.45%	68.35%	88.47%	86.04%									
+Judecătoria BOTOŞANI	JudecatoriaBOTOSANI	240507	22	39734	30430	77%	1370.138	1806.091	9%	10%	99.10%	65	53.64%	100.95%	92.22%	81.55%									
+Judecătoria BRAD	JudecatoriaBRAD	36892	3	4443	3680	83%	1481	1481	9%	10%	99.10%	53	25.45%	82.83%	59.86%	84.66%									
+Judecătoria BRĂILA	JudecatoriaBRAILA	230468	21	32003	23705	74%	1142.964	1523.952	9%	10%	99.10%	34	73.53%	98.76%	93.14%	89.85%									
+Judecătoria BRAŞOV	JudecatoriaBRASOV	384014	35	51878	38186	74%	1206.465	1482.229	9%	10%	99.10%	44	65.35%	90.43%	96.05%	87.18%									
+Judecătoria BREZOI	JudecatoriaBREZOI	30413	6	7165	5357	75%	1023.571	1194.167	9%	10%	99.10%	69	18.09%	87.23%	60.73%	80.45%									
+Judecătoria BUFTEA	JudecatoriaBUFTEA	206050	13	28668	15648	55%	1592.667	2205.231	9%	10%	99.10%	49	48.32%	75.58%	88.67%	85.69%									
+Judecătoria BUHUŞI	JudecatoriaBUHUSI	37213	4	3009	1339	44%	752.25	752.25	9%	10%	99.10%	56	21.08%	44.50%	79.79%	83.80%									
+Judecătoria BUZĂU	JudecatoriaBUZAU	250318	28	49276	38772	79%	1759.857	1759.857	9%	10%	99.10%	39	60.02%	78.68%	92.97%	88.41%									
+Judecătoria CALAFAT	JudecatoriaCALAFAT	65482	3	5399	4741	88%	899.8333	1799.667	9%	10%	99.10%	63	70.43%	175.63%	67.02%	81.98%									
+Judecătoria CĂLĂRAŞI	JudecatoriaCALARASI	145094	11	12050	10002	83%	1004.167	1095.455	9%	10%	99.10%	35	68.04%	90.55%	92.45%	89.48%									
+Judecătoria CÂMPENI	JudecatoriaCAMPENI	49391	4	3323	2639	79%	664.6	830.75	9%	10%	99.10%	53	52.94%	99.27%	83.18%	84.68%									
+Judecătoria CÂMPINA	JudecatoriaCAMPINA	149552	12	13605	9717	71%	1046.538	1133.75	9%	10%	99.10%	42	57.43%	77.37%	92.42%	87.79%									
+Judecătoria CĂMPULUNG	JudecatoriaCAMPULUNG	126396	13	6438	4889	76%	585.2727	643.8	9%	10%	99.10%	45	60.48%	83.53%	95.33%	86.81%									
+Judecătoria CÂMPULUNG MOLDOVENESC	JudecatoriaCAMPULUNGMOLDOVENESC	48664	5	4541	3346	74%	756.8333	908.2	9%	10%	99.10%	53	45.96%	88.42%	81.34%	84.63%									
+Judecătoria CARACAL	JudecatoriaCARACAL	112148	13	7145	6106	85%	549.6154	549.6154	9%	10%	99.10%	48	59.56%	85.46%	95.10%	86.12%									
+Judecătoria CARANSEBEŞ	JudecatoriaCARANSEBES	102518	6	6800	5172	76%	850	1133.333	9%	10%	99.10%	44	65.07%	101.41%	88.95%	87.27%									
+Judecătoria CAREI	JudecatoriaCAREI	85249	5	4710	3864	82%	942	942	9%	10%	99.10%	59	47.18%	82.04%	90.79%	83.20%									
+Judecătoria CHIŞINEU CRIŞ	JudecatoriaCHISINEUCRIS	49144	2	2383	2070	87%	794.3333	1191.5	9%	10%	99.10%	41	60.11%	130.30%	63.63%	88.04%									
+Judecătoria CLUJ-NAPOCA	JudecatoriaCLUJNAPOCA	402777	43	46324	34908	75%	1029.422	1077.302	9%	10%	99.10%	47	58.45%	78.86%	97.33%	86.24%									
+Judecătoria CONSTANŢA	JudecatoriaCONSTANTA	434815	52	70766	52105	74%	1220.103	1360.885	9%	10%	99.10%	33	69.28%	82.13%	96.87%	90.19%									
+Judecătoria CORABIA	JudecatoriaCORABIA	74445	4	3307	2669	81%	661.4	826.75	9%	10%	99.10%	62	52.76%	100.88%	88.89%	82.34%									
+Judecătoria CORNETU	JudecatoriaCORNETU	182688	15	23101	15640	68%	1443.813	1540.067	9%	10%	99.10%	47	50.43%	72.22%	91.57%	86.25%									
+Judecătoria COSTEŞTI	JudecatoriaCOSTESTI	66960	5	5186	4005	77%	864.3333	1037.2	9%	10%	99.10%	35	63.09%	92.67%	84.51%	89.73%									
+Judecătoria CRAIOVA	JudecatoriaCRAIOVA	447051	51	64356	49039	76%	1170.109	1261.882	9%	10%	99.10%	38	65.80%	82.18%	97.13%	88.66%									
+Judecătoria CURTEA DE ARGEŞ	JudecatoriaCURTEADEARGES	92520	8	5282	3687	70%	660.25	660.25	9%	10%	99.10%	40	54.86%	69.80%	92.86%	88.11%									
+Judecătoria DARABANI	JudecatoriaDarabani	42521	3	4616	3233	70%	1154	1538.667	9%	10%	99.10%	70	22.72%	93.39%	63.81%	80.06%									
+Judecătoria DEJ	JudecatoriaDEJ	59430	6	4593	3513	76%	765.5	765.5	9%	10%	99.10%	50	46.97%	76.49%	87.12%	85.48%									
+Judecătoria DETA	JudecatoriaDETA	49467	4	2552	1976	77%	638	638	9%	10%	99.10%	41	53.65%	77.43%	87.10%	88.04%									
+Judecătoria DEVA	JudecatoriaDEVA	109135	18	17959	15222	85%	945.2105	997.7222	9%	10%	99.10%	31	69.01%	89.47%	90.86%	90.64%									
+Judecătoria DOROHOI	JudecatoriaDOROHOI	72085	5	6325	4953	78%	1054.167	1265	9%	10%	99.10%	53	49.96%	93.97%	82.45%	84.78%									
+Judecătoria DRĂGĂŞANI	JudecatoriaDRAGASANI	60782	9	8403	4528	54%	840.3	933.6667	9%	10%	99.10%	64	28.64%	59.87%	86.04%	81.67%									
+Judecătoria DRAGOMIREŞTI	JudecatoriaDRAGOMIRESTI	31874	2	2069	1841	89%	689.6667	1034.5	9%	10%	99.10%	30	72.31%	133.47%	67.54%	91.07%									
+Judecătoria DROBETA-TURNU SEVERIN	JudecatoriaDROBETATURNUSEVERIN	136655	24	22595	17612	78%	836.8519	941.4583	9%	10%	99.10%	44	61.62%	87.69%	93.11%	87.20%									
+Judecătoria FĂGĂRAŞ	JudecatoriaFAGARAS	72406	9	7846	5906	75%	871.7778	871.7778	9%	10%	99.10%	59	41.46%	75.27%	87.96%	83.18%									
+Judecătoria FĂGET	JudecatoriaFAGET	25620	5	1552	1299	84%	310.4	310.4	9%	10%	99.10%	50	51.00%	83.70%	87.88%	85.42%									
+Judecătoria FĂLTICENI	JudecatoriaFALTICENI	111917	8	7137	5719	80%	892.125	892.125	9%	10%	99.10%	51	52.08%	80.13%	92.03%	85.17%									
+Judecătoria FĂUREI	JudecatoriaFAUREI	50965	2	2565	1596	62%	855	1282.5	9%	10%	99.10%	63	36.25%	93.33%	74.84%	81.87%									
+Judecătoria FETEŞTI	JudecatoriaFETESTI	75554	5	6938	4262	61%	867.25	1387.6	9%	10%	99.10%	58	47.97%	98.29%	81.63%	83.37%									
+Judecătoria FILIAŞI	JudecatoriaFILIASI	38648	3	2324	1873	81%	774.6667	774.6667	9%	10%	99.10%	53	40.88%	80.59%	79.96%	84.59%									
+Judecătoria FOCŞANI	JudecatoriaFOCSANI	251215	21	25648	18834	73%	949.9259	1221.333	9%	10%	99.10%	66	52.13%	94.41%	95.14%	81.25%									
+Judecătoria GĂEŞTI	JudecatoriaGAESTI	93118	8	7761	6316	81%	970.125	970.125	9%	10%	99.10%	52	50.52%	81.38%	89.58%	85.11%									
+Judecătoria GALAŢI	JudecatoriaGALATI	304837	33	42051	29652	71%	1168.083	1274.273	9%	10%	99.10%	55	51.38%	76.92%	95.82%	84.24%									
+Judecătoria GHEORGHENI	JudecatoriaGHEORGHENI	50356	3	3023	2217	73%	604.6	1007.667	9%	10%	99.10%	62	55.46%	122.23%	79.99%	82.18%									
+Judecătoria GHERLA	JudecatoriaGHERLA	62677	8	5800	4666	80%	644.4444	725	9%	10%	99.10%	46	58.79%	90.50%	89.59%	86.67%									
+Judecătoria GIURGIU	JudecatoriaGIURGIU	175927	19	33739	21220	63%	1606.619	1775.737	9%	10%	99.10%	43	50.43%	69.52%	89.40%	87.53%									
+Judecătoria GURA HONŢ	JudecatoriaGURAHONT	34139	2	1519	1193	79%	506.3333	759.5	9%	10%	99.10%	48	61.23%	117.81%	77.75%	86.20%									
+Judecătoria GURA HUMORULUI	JudecatoriaGURAHUMORULUI	54338	6	4294	3357	78%	858.8	715.6667	9%	10%	99.10%	48	44.21%	65.15%	89.02%	85.98%									
+Judecătoria HÂRLĂU	JudecatoriaHARLAU	78036	5	3590	2250	63%	718	718	9%	10%	99.10%	81	22.91%	62.67%	90.80%	77.13%									
+Judecătoria HÂRŞOVA	JudecatoriaHARSOVA	25817	2	1726	1207	70%	863	863	9%	10%	99.10%	49	27.53%	69.93%	66.57%	85.82%									
+Judecătoria HAŢEG	JudecatoriaHATEG	33417	3	3005	2027	67%	1001.667	1001.667	9%	10%	99.10%	59	22.22%	67.45%	70.03%	82.96%									
+Judecătoria HOREZU	JudecatoriaHOREZU	70049	5	4417	2381	54%	631	883.4	9%	10%	99.10%	74	31.15%	75.47%	87.39%	79.10%									
+Judecătoria HUEDIN	JudecatoriaHUEDIN	45817	4	1950	1233	63%	487.5	487.5	9%	10%	99.10%	55	38.91%	63.23%	89.36%	84.08%									
+Judecătoria HUNEDOARA	JudecatoriaHUNEDOARA	82206	7	8919	7752	87%	991	1274.143	9%	10%	99.10%	33	73.56%	111.75%	84.50%	90.19%									
+Judecătoria HUŞI	JudecatoriaHUSI	75220	5	3585	2820	79%	597.5	717	9%	10%	99.10%	47	60.32%	94.39%	90.47%	86.21%									
+Judecătoria IAŞI	JudecatoriaIASI	500387	47	62609	46082	74%	1138.345	1332.106	9%	10%	99.10%	47	62.59%	86.13%	97.34%	86.47%									
+Judecătoria INEU	JudecatoriaINEU	49701	3	2989	2460	82%	747.25	996.3333	9%	10%	99.10%	35	70.59%	109.74%	83.96%	89.56%									
+Judecătoria ÎNSURĂŢEI	JudecatoriaINSURATEI	39779	2	2773	1916	69%	924.3333	1386.5	9%	10%	99.10%	52	41.00%	103.64%	65.14%	85.05%									
+Judecătoria ÎNTORSURA BUZĂULUI	JudecatoriaINTORSURABUZAULUI	18986	3	727	518	71%	242.3333	242.3333	9%	10%	99.10%	63	36.23%	71.25%	87.24%	82.08%									
+Judecătoria JIBOU	JudecatoriaJIBOU	48376	3	1777	1314	74%	592.3333	592.3333	9%	10%	99.10%	57	44.24%	73.94%	90.82%	83.61%									
+Judecătoria LEHLIU-GARA	JudecatoriaLEHLIUGARA	48979	5	3009	2470	82%	601.8	601.8	9%	10%	99.10%	35	60.30%	82.09%	87.71%	89.62%									
+Judecătoria LIEŞTI	JudecatoriaLIESTI	54034	2	2100	1594	76%	700	1050	9%	10%	99.10%	65	50.14%	113.86%	80.57%	81.48%									
+Judecătoria LIPOVA	JudecatoriaLIPOVA	40874	4	2254	1785	79%	563.5	563.5	9%	10%	99.10%	54	45.32%	79.19%	86.21%	84.57%									
+Judecătoria LUDUŞ	JudecatoriaLUDUS	55119	3	5704	5116	90%	1426	1901.333	9%	10%	99.10%	38	58.03%	119.59%	65.50%	88.70%									
+Judecătoria LUGOJ	JudecatoriaLUGOJ	84187	8	4746	3547	75%	527.3333	593.25	9%	10%	99.10%	53	53.96%	84.08%	92.95%	84.83%									
+Judecătoria MACIN	JudecatoriaMACIN	44851	2	2038	1589	78%	679.3333	1019	9%	10%	99.10%	53	56.49%	116.95%	77.28%	84.59%									
+Judecătoria MANGALIA	JudecatoriaMANGALIA	93038	7	6578	4446	68%	822.25	939.7143	9%	10%	99.10%	51	50.26%	77.24%	91.02%	85.35%									
+Judecătoria MARGHITA	JudecatoriaMARGHITA	89559	4	5967	3300	55%	994.5	1491.75	9%	10%	99.10%	40	53.88%	82.96%	83.34%	88.30%									
+Judecătoria MEDGIDIA	JudecatoriaMEDGIDIA	130412	13	22232	16784	75%	1710.154	1710.154	9%	10%	99.10%	42	51.93%	75.49%	86.89%	87.80%									
+Judecătoria MEDIAŞ	JudecatoriaMEDIAS	103584	11	5668	4628	82%	472.3333	515.2727	9%	10%	99.10%	38	68.04%	89.07%	95.03%	88.90%									
+Judecătoria MIERCUREA CIUC	JudecatoriaMIERCUREACIUC	110871	13	10180	7914	78%	925.4545	1018	9%	10%	99.10%	45	57.58%	85.51%	90.82%	86.76%									
+Judecătoria MIZIL	JudecatoriaMIZIL	54259	6	3662	2993	82%	523.1429	610.3333	9%	10%	99.10%	50	57.38%	95.35%	88.75%	85.40%									
+Judecătoria MOINEŞTI	JudecatoriaMOINESTI	121762	9	10268	6885	67%	855.6667	1140.889	9%	10%	99.10%	50	56.02%	89.40%	90.63%	85.40%									
+Judecătoria MOLDOVA-NOUĂ	JudecatoriaMOLDOVANOUA	24521	2	2153	1678	78%	717.6667	1076.5	9%	10%	99.10%	30	54.32%	116.91%	56.10%	90.93%									
+Judecătoria MORENI	JudecatoriaMORENI	56441	4	9316	6091	65%	1863.2	2329	9%	10%	99.10%	52	30.62%	81.73%	65.61%	85.04%									
+Judecătoria MOTRU	JudecatoriaMOTRU	49700	8	4579	3264	71%	572.375	572.375	9%	10%	99.10%	61	38.08%	71.28%	88.48%	82.41%									
+Judecătoria NĂSĂUD	JudecatoriaNASAUD	93038	5	5263	3014	57%	751.8571	1052.6	9%	10%	99.10%	55	47.02%	80.17%	88.69%	84.22%									
+Judecătoria NEGREŞTI-OAŞ	JudecatoriaNEGRESTIOAS	61062	4	2906	1508	52%	726.5	726.5	9%	10%	99.10%	59	30.06%	51.89%	88.10%	83.16%									
+Judecătoria NOVACI	JudecatoriaNOVACI	27675	3	2826	1977	70%	565.2	942	9%	10%	99.10%	58	43.93%	116.60%	65.96%	83.36%									
+Judecătoria ODORHEIUL SECUIESC	JudecatoriaODORHEIULSECUIESC	117555	6	3887	3093	80%	647.8333	647.8333	9%	10%	99.10%	43	59.50%	79.57%	94.49%	87.49%									
+Judecătoria OLTENIŢA	JudecatoriaOLTENITA	112618	8	6435	5165	80%	804.375	804.375	9%	10%	99.10%	45	56.84%	80.26%	92.86%	86.82%									
+Judecătoria ONEŞTI	JudecatoriaONESTI	141101	13	11357	8805	78%	811.2143	873.6154	9%	10%	99.10%	38	64.13%	83.49%	94.22%	88.70%									
+Judecătoria ORADEA	JudecatoriaORADEA	284697	33	37213	27371	74%	1094.5	1127.667	9%	10%	99.10%	42	59.15%	75.78%	96.04%	87.59%									
+Judecătoria ORAŞTIE	JudecatoriaORASTIE	34970	2	2994	2296	77%	998	1497	9%	10%	99.10%	43	45.97%	115.03%	57.19%	87.50%									
+Judecătoria ORAVIŢA	JudecatoriaORAVITA	51579	5	2925	1716	59%	585	585	9%	10%	99.10%	69	27.06%	58.67%	88.66%	80.37%									
+Judecătoria ORŞOVA	JudecatoriaORSOVA	17458	4	2210	1764	80%	442	552.5	9%	10%	99.10%	42	48.36%	99.77%	68.35%	87.75%									
+Judecătoria PANCIU	JudecatoriaPANCIU	44825	14	6054	5422	90%	1210.8	1513.5	9%	10%	99.10%	27	62.44%	111.95%	66.24%	91.81%									
+Judecătoria PAŞCANI	JudecatoriaPASCANI	158767	11	8827	6779	77%	735.5833	802.4545	9%	10%	99.10%	55	53.67%	83.78%	94.95%	84.10%									
+Judecătoria PĂTĂRLAGELE	JudecatoriaPATARLAGELE	58698	14	5828	4076	70%	1165.6	1457	9%	10%	99.10%	43	47.10%	87.42%	75.18%	87.40%									
+Judecătoria PETROŞANI	JudecatoriaPETROSANI	121945	13	16424	13429	82%	912.4444	1263.385	9%	10%	99.10%	30	80.40%	113.21%	89.64%	90.95%									
+Judecătoria PIATRA-NEAMT	JudecatoriaPIATRANEAMT	183595	19	17983	11326	63%	817.4091	946.4737	9%	10%	99.10%	55	48.11%	72.93%	94.84%	84.03%									
+Judecătoria PITEŞTI	JudecatoriaPITESTI	277563	28	47275	34528	73%	1432.576	1688.393	9%	10%	99.10%	47	58.98%	86.08%	93.52%	86.30%									
+Judecătoria PLOIEŞTI	JudecatoriaPLOIESTI	416681	31	79247	56508	71%	2031.974	2556.355	9%	10%	99.10%	29	72.74%	89.71%	93.70%	91.16%									
+Judecătoria PODU TURCULUI	JudecatoriaPODUTURCULUI	35512	3	2403	1566	65%	801	801	9%	10%	99.10%	31	45.75%	65.17%	77.44%	90.56%									
+Judecătoria POGOANELE	JudecatoriaPOGOANELE	45147	4	2301	1821	79%	575.25	575.25	9%	10%	99.10%	62	40.35%	79.14%	87.26%	82.18%									
+Judecătoria PUCIOASA	JudecatoriaPUCIOASA	64166	4	3703	2332	63%	925.75	925.75	9%	10%	99.10%	62	31.12%	62.98%	85.57%	82.22%									
+Judecătoria RĂCARI	JudecatoriaRACARI	80726	5	4850	2875	59%	692.8571	970	9%	10%	99.10%	49	51.41%	82.99%	87.98%	85.70%									
+Judecătoria RĂDĂUŢI	JudecatoriaRADAUTI	164993	11	9350	6720	72%	719.2308	850	9%	10%	99.10%	61	50.51%	84.94%	94.85%	82.60%									
+Judecătoria RĂDUCĂNENI	JudecatoriaRADUCANENI	35158	5	1626	1225	75%	325.2	325.2	9%	10%	99.10%	42	54.77%	75.34%	90.75%	87.68%									
+Judecătoria RÂMNICU SARAT	JudecatoriaRAMNICUSARAT	96906	7	5287	4251	80%	755.2857	755.2857	9%	10%	99.10%	48	54.49%	80.40%	92.21%	86.05%									
+Judecătoria RÂMNICU VÂLCEA	JudecatoriaRAMNICUVALCEA	173773	24	25241	15587	62%	1051.708	1051.708	9%	10%	99.10%	57	40.71%	61.75%	93.95%	83.55%									
+Judecătoria REGHIN	JudecatoriaREGHIN	96968	6	5014	4196	84%	716.2857	835.6667	9%	10%	99.10%	39	67.96%	97.63%	91.38%	88.39%									
+Judecătoria REŞITA	JudecatoriaRESITA	116961	9	10442	7187	69%	949.2727	1160.222	9%	10%	99.10%	50	53.24%	84.12%	90.08%	85.51%									
+Judecătoria ROMAN	JudecatoriaROMAN	153713	11	9188	5469	60%	706.7692	835.2727	9%	10%	99.10%	54	47.59%	70.35%	94.57%	84.44%									
+Judecătoria ROŞIORI DE VEDE	JudecatoriaROSIORIDEVEDE	87881	8	5924	4733	80%	740.5	740.5	9%	10%	99.10%	61	45.18%	79.90%	91.57%	82.54%									
+Judecătoria RUPEA	JudecatoriaRUPEA	37504	3	2382	1565	66%	794	794	9%	10%	99.10%	62	26.74%	65.70%	78.83%	82.17%									
+Judecătoria SALIŞTE	JudecatoriaSALISTE	26125	4	1708	1218	71%	427	427	9%	10%	99.10%	56	37.81%	71.31%	83.66%	83.94%									
+Judecătoria SALONTA	JudecatoriaSALONTA	53302	4	2452	1689	69%	613	613	9%	10%	99.10%	66	35.93%	68.88%	90.80%	81.23%									
+Judecătoria SÂNNICOLAUL MARE	JudecatoriaSANNICOLAULMARE	63834	4	2913	2118	73%	728.25	728.25	9%	10%	99.10%	45	49.57%	72.71%	88.59%	86.81%									
+Judecătoria SATU MARE	JudecatoriaSATUMARE	198049	20	17278	13562	78%	785.3636	863.9	9%	10%	99.10%	45	62.52%	86.34%	95.64%	86.98%									
+Judecătoria SĂVENI	JudecatoriaSAVENI	57513	3	4180	2259	54%	1045	1393.333	9%	10%	99.10%	74	19.70%	72.06%	75.77%	79.04%									
+Judecătoria SEBEŞ	JudecatoriaSEBES	50296	3	3239	2529	78%	809.75	1079.667	9%	10%	99.10%	37	62.06%	104.11%	78.53%	89.04%									
+Judecătoria SECTORUL 1 BUCUREŞTI	JudecatoriaSECTORUL1BUCURESTI	225453	53	93104	69337	74%	1477.841	1756.679	9%	10%	99.10%	40	63.65%	88.52%	92.08%	88.22%									
+Judecătoria SECTORUL 2 BUCUREŞTI	JudecatoriaSECTORUL2BUCURESTI	345370	37	100784	75315	75%	2290.545	2723.892	9%	10%	99.10%	37	65.61%	88.87%	92.11%	88.94%									
+Judecătoria SECTORUL 3 BUCUREŞTI	JudecatoriaSECTORUL3BUCURESTI	385439	42	112848	89511	79%	2170.154	2686.857	9%	10%	99.10%	43	66.92%	98.21%	92.89%	87.33%									
+Judecătoria SECTORUL 4 BUCUREŞTI	JudecatoriaSECTORUL4BUCURESTI	287828	31	55689	42116	76%	1546.917	1796.419	9%	10%	99.10%	39	65.02%	87.83%	93.58%	88.41%									
+Judecătoria SECTORUL 5 BUCUREŞTI	JudecatoriaSECTORUL5BUCURESTI	271575	26	47852	37998	79%	1329.222	1840.462	9%	10%	99.10%	31	80.75%	109.95%	93.03%	90.60%									
+Judecătoria SECTORUL 6 BUCUREŞTI	JudecatoriaSECTORUL6BUCURESTI	367760	31	32080	25998	81%	1002.5	1034.839	9%	10%	99.10%	36	67.82%	83.66%	97.10%	89.20%									
+Judecătoria SEGARCEA	JudecatoriaSEGARCEA	44210	3	3968	2408	61%	992	1322.667	9%	10%	99.10%	112	-6.07%	80.91%	70.08%	68.61%									
+Judecătoria SFÂNTU GHEORGHE	JudecatoriaSFANTUGHEORGHE	113954	10	8273	6481	78%	827.3	827.3	9%	10%	99.10%	55	49.45%	78.34%	92.74%	84.21%									
+Judecătoria SIBIU	JudecatoriaSIBIU	208616	22	28388	22473	79%	1135.52	1290.364	9%	10%	99.10%	45	62.18%	89.96%	93.56%	86.82%									
+Judecătoria SIGHETU MARMAŢIEI	JudecatoriaSIGHETUMARMATIEI	81977	6	6002	4311	72%	1000.333	1000.333	9%	10%	99.10%	54	44.42%	71.83%	89.54%	84.55%									
+Judecătoria SIGHIŞOARA	JudecatoriaSIGHISOARA	85236	6	5240	4237	81%	873.3333	873.3333	9%	10%	99.10%	58	46.35%	80.86%	89.75%	83.45%									
+Judecătoria ŞIMLEUL SILVANIEI	JudecatoriaSIMLEULSILVANIEI	74363	3	2886	1957	68%	721.5	962	9%	10%	99.10%	75	37.58%	90.41%	87.06%	78.83%									
+Judecătoria SINAIA	JudecatoriaSINAIA	38031	4	3856	3263	85%	771.2	964	9%	10%	99.10%	43	55.72%	105.78%	74.65%	87.42%									
+Judecătoria SLATINA	JudecatoriaSLATINA	202647	18	19752	14339	73%	897.8182	1097.333	9%	10%	99.10%	47	61.15%	88.73%	94.59%	86.30%									
+Judecătoria SLOBOZIA	JudecatoriaSLOBOZIA	108160	9	10716	7726	72%	893	1190.667	9%	10%	99.10%	56	54.24%	96.13%	88.99%	83.87%									
+Judecătoria STREHAIA	JudecatoriaSTREHAIA	39516	5	3660	2897	79%	610	732	9%	10%	99.10%	53	51.77%	94.98%	84.12%	84.75%									
+Judecătoria SUCEAVA	JudecatoriaSUCEAVA	212402	20	19744	14830	75%	940.1905	987.2	9%	10%	99.10%	49	55.46%	78.87%	95.35%	85.68%									
+Judecătoria TÂRGOVIŞTE	JudecatoriaTARGOVISTE	224294	19	27276	15162	56%	1239.818	1435.579	9%	10%	99.10%	45	50.09%	64.36%	93.60%	87.00%									
+Judecătoria TÂRGU BUJOR	JudecatoriaTARGUBUJOR	58454	3	2864	2298	80%	716	954.6667	9%	10%	99.10%	55	55.63%	106.98%	83.67%	84.07%									
+Judecătoria TÂRGU JIU	JudecatoriaTARGUJIU	73407	34	24139	19524	81%	670.5278	709.9706	9%	10%	99.10%	55	50.96%	85.64%	90.33%	84.18%									
+Judecătoria TÂRGU LAPUŞ	JudecatoriaTARGULAPUS	190812	2	1058	748	71%	352.6667	529	9%	10%	99.10%	44	73.72%	106.05%	97.23%	87.06%									
+Judecătoria TÂRGU MUREŞ	JudecatoriaTARGUMURES	40418	27	25213	17820	71%	869.4138	933.8148	9%	10%	99.10%	52	37.00%	75.91%	76.90%	84.98%									
+Judecătoria TĂRGU NEAMŢ	JudecatoriaTARGUNEAMT	265563	7	5385	3606	67%	673.125	769.2857	9%	10%	99.10%	45	58.86%	76.53%	97.10%	86.96%									
+Judecătoria TÂRGU SECUIESC	JudecatoriaTARGUSECUIESC	89261	4	3381	2354	70%	845.25	845.25	9%	10%	99.10%	60	40.20%	69.62%	90.53%	82.92%									
+Judecătoria TÂRGU-CĂRBUNEŞTI	JudecatoriaTARGUCARBUNESTI	77237	8	5998	4522	75%	666.4444	749.75	9%	10%	99.10%	54	51.83%	84.82%	91.26%	84.38%									
+Judecătoria TÂRNAVENI	JudecatoriaTARNAVENI	47960	4	3416	2669	78%	854	854	9%	10%	99.10%	48	45.00%	78.13%	82.19%	86.02%									
+Judecătoria TECUCI	JudecatoriaTECUCI	118842	8	6418	4943	77%	713.1111	802.25	9%	10%	99.10%	43	61.63%	86.64%	93.25%	87.37%									
+Judecătoria TIMIŞOARA	JudecatoriaTIMISOARA	460432	52	51894	40264	78%	979.1321	997.9615	9%	10%	99.10%	40	63.75%	79.08%	97.83%	88.20%									
+Judecătoria TOPLIŢA	JudecatoriaTOPLITA	32085	2	3226	2436	76%	1075.333	1613	9%	10%	99.10%	55	30.60%	113.27%	49.73%	84.09%									
+Judecătoria TOPOLOVENI	JudecatoriaTOPOLOVENI	48992	4	3857	2784	72%	964.25	964.25	9%	10%	99.10%	51	38.69%	72.18%	80.32%	85.27%									
+Judecătoria TULCEA	JudecatoriaTULCEA	125350	10	14316	10641	74%	1022.571	1431.6	9%	10%	99.10%	56	58.14%	104.06%	88.58%	84.02%									
+Judecătoria TURDA	JudecatoriaTURDA	120405	14	10146	7105	70%	724.7143	724.7143	9%	10%	99.10%	44	53.36%	70.03%	93.52%	87.23%									
+Judecătoria TURNU MĂGURELE	JudecatoriaTURNUMAGURELE	63585	7	3815	3141	82%	476.875	545	9%	10%	99.10%	47	61.26%	94.09%	91.43%	86.33%									
+Judecătoria URZICENI	JudecatoriaURZICENI	90434	7	5795	4573	79%	724.375	827.8571	9%	10%	99.10%	42	62.29%	90.19%	90.85%	87.74%									
+Judecătoria VĂLENII DE MUNTE	JudecatoriaVALENIIDEMUNTE	104363	7	6765	4851	72%	966.4286	966.4286	9%	10%	99.10%	50	47.77%	71.71%	90.74%	85.54%									
+Judecătoria VÂNJU MARE	JudecatoriaVANJUMARE	55806	5	5625	4083	73%	937.5	1125	9%	10%	99.10%	83	24.13%	87.10%	79.84%	76.44%									
+Judecătoria VASLUI	JudecatoriaVASLUI	166491	16	12198	9746	80%	677.6667	762.375	9%	10%	99.10%	50	60.66%	89.89%	95.42%	85.57%									
+Judecătoria VATRA DORNEI	JudecatoriaVATRADORNEI	42496	4	3262	2401	74%	815.5	815.5	9%	10%	99.10%	49	44.44%	73.61%	84.65%	85.86%									
+Judecătoria VIDELE	JudecatoriaVIDELE	62470	3	6781	4468	66%	1695.25	2260.333	9%	10%	99.10%	62	15.22%	87.85%	51.76%	82.20%									
+Judecătoria VIŞEU DE SUS	JudecatoriaVISEUDESUS	86422	4	3604	2757	76%	901	901	9%	10%	99.10%	53	48.65%	76.50%	91.66%	84.62%									
+Judecătoria ZALĂU	JudecatoriaZALAU	101645	10	9150	7292	80%	762.5	915	9%	10%	99.10%	53	58.02%	95.63%	91.00%	84.84%									
+Judecătoria ZĂRNEŞTI	JudecatoriaZARNESTI	55293	7	4189	2806	67%	698.1667	598.4286	9%	10%	99.10%	53	39.05%	57.42%	90.72%	84.84%									
+Judecătoria ZIMNICEA	JudecatoriaZIMNICEA	48768	5	5674	4350	77%	945.6667	1134.8	9%	10%	99.10%	67	34.59%	92.00%	76.73%	80.81%									

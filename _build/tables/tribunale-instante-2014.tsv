@@ -1,48 +1,44 @@
 nume	cod	populatie	judecatori	stoc	dosare_solutionate		incarcatura	incarcatura_judecator	indice_atacabilitate	indice_casare		durata	performanta	operativitate	incarcatura	siguranta									
 Denumirea instantei in clar (cu diactritice)	Codul informatic al instantei (din portal)	Populația	Numar de judecatori	Stoc (total volum de activitate al instantei)	Dosare solutionate	Operativitate (procent solutionate din stoc)	Incarcatura pe schema	Incarcatura pe judecator	Indice de atacabilitate (procent atacate din solutionate)	Indice de casare/desfiintare	Indicator de "siguranta" (100%-Desfiintare*Atacare) [ne mai gandim la denumire - certitudine/ stabilitate/ predictibilitate]	Durata in zile (extras din portal, ca diferenta dintre data inregistrarii dosarului si data solutionarii)	Performanta pentru gogoasa	Operativitatea relativa	Incarcatura relativa	Siguranta relativa									
-Tribunalul ALBA	TribunalulALBA	342376	28	14138	10153	72%	623	668	48%	10%	95.20%														
-Tribunalul ARAD	TribunalulARAD	430629	31	14601	11919	82%	593	612	48%	10%	95.20%														
-Tribunalul ARGES	TribunalulARGES	612431	31	20851	13407	64%	940	1031	48%	10%	95.20%														
-Tribunalul BACAU	TribunalulBACAU	616168	38	24084	14576	61%	984	984	48%	10%	95.20%														
-Tribunalul BIHOR	TribunalulBIHOR	575398	31	33431	17464	52%	1321	1619	48%	10%	95.20%														
-Tribunalul BISTRIŢA NĂSĂUD	TribunalulBISTRITANASAUD	286225	19	12998	9620	74%	802	887	48%	10%	95.20%														
-Tribunalul BOTOŞANI	TribunalulBOTOSANI	412626	24	15864	11687	74%	916	992	48%	10%	95.20%														
-Tribunalul BRAŞOV	TribunalulBRASOV	549217	41	21060	13341	63%	699	733	48%	10%	95.20%														
-Tribunalul BRĂILA	TribunalulBRAILA	321212	21	10459	7947	76%	643	735	48%	10%	95.20%														
-Tribunalul BUCUREŞTI	TribunalulBUCURESTI	1883425	198	153217	80744	53%	1021	1185	48%	10%	95.20%														
-Tribunalul BUZĂU	TribunalulBUZAU	451069	26	14286	8755	61%	903	938	48%	10%	95.20%														
-Tribunalul CARAŞ SEVERIN	TribunalulCARASSEVERIN	295579	20	12436	7154	58%	668	768	48%	10%	95.20%														
-Tribunalul CĂLĂRAŞI	TribunalulCALARASI	306691	18	5020	3808	76%	389	389	48%	10%	95.20%														
-Tribunalul CLUJ	TribunalulCLUJ	691106	31	23905	16096	67%	1051	1153	48%	10%	95.20%														
-Tribunalul Comercial ARGEŞ	TribunalulComercialARGES	612431	8	3717	1856	50%	426	479	48%	10%	95.20%														
-Tribunalul Comercial CLUJ	TribunalulComercialCLUJ	691106	11	7208	3947	55%	846	1000	48%	10%	95.20%														
-Tribunalul Comercial MUREŞ	TribunalulComercialMURES	550846	9	5644	3065	54%	730	811	48%	10%	95.20%														
-Tribunalul CONSTANŢA	TribunalulCONSTANTA	684082	54	27848	19673	71%	711	738	48%	10%	95.20%														
-Tribunalul COVASNA	TribunalulCOVASNA	210177	14	4537	3150	69%	409	439	48%	10%	95.20%														
-Tribunalul DÂMBOVIŢA	TribunalulDAMBOVITA	518745	31	14772	10127	69%	604	682	48%	10%	95.20%														
-Tribunalul DOLJ	TribunalulDOLJ	660544	69	33667	24391	72%	627	654	48%	10%	95.20%														
-Tribunalul GALAŢI	TribunalulGALATI	536167	30	22486	15321	68%	842	1066	48%	10%	95.20%														
-Tribunalul GIURGIU	TribunalulGIURGIU	281422	14	12110	7370	61%	1122	1442	48%	10%	95.20%														
-Tribunalul GORJ	TribunalulGORJ	341594	49	22544	16245	72%	605	630	48%	10%	95.20%														
-Tribunalul HARGHITA	TribunalulHARGHITA	310867	11	7421	5030	68%	653	890	48%	10%	95.20%														
-Tribunalul HUNEDOARA	TribunalulHUNEDOARA	418565	27	21033	14756	70%	866	1091	48%	10%	95.20%														
-Tribunalul IALOMIŢA	TribunalulIALOMITA	274148	17	6302	5303	84%	510	540	48%	10%	95.20%														
-Tribunalul IAŞI	TribunalulIASI	772348	52	33354	19586	59%	922	993	48%	10%	95.20%														
-Tribunalul ILFOV	TribunalulILFOV	388738	14	16936	9360	55%	1680	2160	48%	10%	95.20%														
-Tribunalul MARAMUREŞ	TribunalulMARAMURES	478659	26	17580	11448	65%	843	940	48%	10%	95.20%														
-Tribunalul MEHEDINŢI	TribunalulMEHEDINTI	265390	37	19756	16128	82%	608	674	48%	10%	95.20%														
-Tribunalul MUREŞ	TribunalulMURES	550846	25	15687	10963	70%	851	919	48%	10%	95.20%														
-Tribunalul NEAMŢ	TribunalulNEAMT	470766	31	16256	7547	46%	717	741	48%	10%	95.20%														
-Tribunalul OLT	TribunalulOLT	436400	23	10218	7077	69%	546	641	48%	10%	95.20%														
-Tribunalul pentru minori si familie BRAŞOV	TribunalulpentruminoriSifamilieBRASOV	549217	6	1410	1215	86%	311	311	48%	10%	95.20%														
-Tribunalul PRAHOVA	TribunalulPRAHOVA	762886	33	32165	21463	67%	1218	1551	48%	10%	95.20%														
-Tribunalul SATU MARE	TribunalulSATUMARE	344360	22	11702	8519	73%	594	729	48%	10%	95.20%														
-Tribunalul SĂLAJ	TribunalulSALAJ	224384	14	8231	6758	82%	711	762	48%	10%	95.20%														
-Tribunalul SIBIU	TribunalulSIBIU	397322	29	19420	10692	55%	843	901	48%	10%	95.20%														
-Tribunalul SUCEAVA	TribunalulSUCEAVA	634810	38	25542	20019	78%	879	948	48%	10%	95.20%														
-Tribunalul TELEORMAN	TribunalulTELEORMAN	380123	18	8184	6038	74%	536	626	48%	10%	95.20%														
-Tribunalul TIMIŞ	TribunalulTIMIS	683540	41	26823	18675	70%	808	926	48%	10%	95.20%														
-Tribunalul TULCEA	TribunalulTULCEA	213083	14	6019	4501	75%	507	580	48%	10%	95.20%														
-Tribunalul VÂLCEA	TribunalulVALCEA	371714	31	20402	13802	68%	1021	1120	48%	10%	95.20%														
-Tribunalul VASLUI	TribunalulVASLUI	395499	14	8708	6135	70%	543	853	48%	10%	95.20%														
-Tribunalul VRANCEA	TribunalulVRANCEA	340310	24	10015	7206	72%	551	620	48%	10%	95.20%														
+Tribunalul ALBA	TribunalulALBA	342376	28	14138	10153	72%	623	668	48%	10%	95.20%	85	80.60%	77.00%	85.24%	73.09%									
+Tribunalul ARAD	TribunalulARAD	430629	31	14601	11919	82%	593	612	48%	10%	95.20%	53	106.58%	84.25%	89.06%	81.37%									
+Tribunalul ARGES	TribunalulARGES	612431	31	20851	13407	64%	940	1031	48%	10%	95.20%	75	86.81%	70.52%	89.02%	75.51%									
+Tribunalul BACAU	TribunalulBACAU	616168	38	24084	14576	61%	984	984	48%	10%	95.20%	102	68.70%	60.52%	89.98%	68.64%									
+Tribunalul BIHOR	TribunalulBIHOR	575398	31	33431	17464	52%	1321	1619	48%	10%	95.20%	115	52.52%	64.02%	81.74%	65.25%									
+Tribunalul BISTRIŢA NĂSĂUD	TribunalulBISTRITANASAUD	286225	19	12998	9620	74%	802	887	48%	10%	95.20%	112	56.81%	81.86%	76.08%	66.07%									
+Tribunalul BOTOŞANI	TribunalulBOTOSANI	412626	24	15864	11687	74%	916	992	48%	10%	95.20%	105	69.96%	79.78%	83.99%	67.72%									
+Tribunalul BRAŞOV	TribunalulBRASOV	549217	41	21060	13341	63%	699	733	48%	10%	95.20%	110	68.87%	66.43%	90.43%	66.60%									
+Tribunalul BRĂILA	TribunalulBRAILA	321212	21	10459	7947	76%	643	735	48%	10%	95.20%	89	83.45%	86.85%	84.49%	72.07%									
+Tribunalul BUCUREŞTI	TribunalulBUCURESTI	1883425	198	153217	80744	53%	1021	1185	48%	10%	95.20%	85	85.81%	61.16%	95.80%	72.97%									
+Tribunalul BUZĂU	TribunalulBUZAU	451069	26	14286	8755	61%	903	938	48%	10%	95.20%	90	73.77%	63.66%	87.82%	71.83%									
+Tribunalul CARAŞ SEVERIN	TribunalulCARASSEVERIN	295579	20	12436	7154	58%	668	768	48%	10%	95.20%	70	95.73%	75.86%	90.91%	77.07%									
+Tribunalul CĂLĂRAŞI	TribunalulCALARASI	306691	18	5020	3808	76%	389	389	48%	10%	95.20%	85	65.03%	66.14%	78.97%	72.99%									
+Tribunalul CLUJ	TribunalulCLUJ	691106	31	23905	16096	67%	1051	1153	48%	10%	95.20%	90	81.29%	73.87%	88.84%	71.80%									
+Tribunalul CONSTANŢA	TribunalulCONSTANTA	684082	54	27848	19673	71%	711	738	48%	10%	95.20%	105	87.14%	73.33%	92.59%	72.25%									
+Tribunalul COVASNA	TribunalulCOVASNA	210177	14	4537	3150	69%	409	439	48%	10%	95.20%	101	77.06%	74.52%	83.45%	73.33%									
+Tribunalul DÂMBOVIŢA	TribunalulDAMBOVITA	518745	31	14772	10127	69%	604	682	48%	10%	95.20%	83	91.78%	77.41%	90.81%	74.65%									
+Tribunalul DOLJ	TribunalulDOLJ	660544	69	33667	24391	72%	627	654	48%	10%	95.20%	106	79.87%	75.57%	92.62%	67.84%									
+Tribunalul GALAŢI	TribunalulGALATI	536167	30	22486	15321	68%	842	1066	48%	10%	95.20%	72	78.91%	86.26%	86.03%	68.83%									
+Tribunalul GIURGIU	TribunalulGIURGIU	281422	14	12110	7370	61%	1122	1442	48%	10%	95.20%	114	59.80%	78.22%	69.28%	73.61%									
+Tribunalul GORJ	TribunalulGORJ	341594	49	22544	16245	72%	605	630	48%	10%	95.20%	79	70.50%	75.04%	86.52%	67.61%									
+Tribunalul HARGHITA	TribunalulHARGHITA	310867	11	7421	5030	68%	653	890	48%	10%	95.20%	88	88.66%	92.38%	79.66%	76.51%									
+Tribunalul HUNEDOARA	TribunalulHUNEDOARA	418565	27	21033	14756	70%	866	1091	48%	10%	95.20%	75	67.18%	88.38%	81.38%	65.54%									
+Tribunalul IALOMIŢA	TribunalulIALOMITA	274148	17	6302	5303	84%	510	540	48%	10%	95.20%	120	92.64%	89.10%	86.48%	74.64%									
+Tribunalul IAŞI	TribunalulIASI	772348	52	33354	19586	59%	922	993	48%	10%	95.20%	80	79.99%	63.24%	91.69%	72.33%									
+Tribunalul ILFOV	TribunalulILFOV	388738	14	16936	9360	55%	1680	2160	48%	10%	95.20%	114	58.88%	71.06%	68.88%	75.61%									
+Tribunalul MARAMUREŞ	TribunalulMARAMURES	478659	26	17580	11448	65%	843	940	48%	10%	95.20%	109	60.95%	72.61%	85.88%	63.95%									
+Tribunalul MEHEDINŢI	TribunalulMEHEDINTI	265390	37	19756	16128	82%	608	674	48%	10%	95.20%	97	83.80%	90.50%	79.87%	74.46%									
+Tribunalul MUREŞ	TribunalulMURES	550846	25	15687	10963	70%	851	919	48%	10%	95.20%	118	69.29%	75.47%	88.61%	65.36%									
+Tribunalul NEAMŢ	TribunalulNEAMT	470766	31	16256	7547	46%	717	741	48%	10%	95.20%	94	55.31%	47.98%	88.49%	66.72%									
+Tribunalul OLT	TribunalulOLT	436400	23	10218	7077	69%	546	641	48%	10%	95.20%	107	83.25%	81.31%	89.82%	69.82%									
+Tribunalul PRAHOVA	TribunalulPRAHOVA	762886	33	32165	21463	67%	1218	1551	48%	10%	95.20%	108	71.25%	84.97%	87.22%	64.46%									
+Tribunalul SATU MARE	TribunalulSATUMARE	344360	22	11702	8519	73%	594	729	48%	10%	95.20%	90	82.36%	89.34%	84.55%	70.71%									
+Tribunalul SĂLAJ	TribunalulSALAJ	224384	14	8231	6758	82%	711	762	48%	10%	95.20%	93	62.21%	87.99%	75.43%	67.42%									
+Tribunalul SIBIU	TribunalulSIBIU	397322	29	19420	10692	55%	843	901	48%	10%	95.20%	65	53.02%	58.84%	83.15%	66.08%									
+Tribunalul SUCEAVA	TribunalulSUCEAVA	634810	38	25542	20019	78%	879	948	48%	10%	95.20%	116	79.24%	84.53%	89.42%	67.08%									
+Tribunalul TELEORMAN	TribunalulTELEORMAN	380123	18	8184	6038	74%	536	626	48%	10%	95.20%	83	87.21%	86.17%	88.03%	71.65%									
+Tribunalul TIMIŞ	TribunalulTIMIS	683540	41	26823	18675	70%	808	926	48%	10%	95.20%	77	85.22%	79.79%	90.43%	70.85%									
+Tribunalul TULCEA	TribunalulTULCEA	213083	14	6019	4501	75%	507	580	48%	10%	95.20%		86.04%	85.55%	78.46%	78.14%									
+Tribunalul VÂLCEA	TribunalulVALCEA	371714	31	20402	13802	68%	1021	1120	48%	10%	95.20%		58.88%	74.21%	82.29%	64.99%									
+Tribunalul VASLUI	TribunalulVASLUI	395499	14	8708	6135	70%	543	853	48%	10%	95.20%		100.45%	110.67%	84.28%	73.62%									
+Tribunalul VRANCEA	TribunalulVRANCEA	340310	24	10015	7206	72%	551	620	48%	10%	95.20%		90.32%	80.96%	87.74%	75.04%									
