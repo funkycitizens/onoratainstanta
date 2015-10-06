@@ -95,4 +95,29 @@ gulp.task('data', function() {
   table('speciale-parchete-2014').slice(1).forEach(function(row) {
     parchet(row, 'speciale')
   })
+
+  var performance = {
+    judecatorii: [],
+    tribunale: [],
+    curtideapel: [],
+  }
+  table('performanta-instante').forEach(function(row) {
+    var name = row.name
+    var item = {
+      name: name,
+      perf_2014: row.perf_2014,
+      perf_2015: row.perf_2015,
+    }
+    if(name.match(/^(Judecătoria)(.*)$/)) {
+      performance.judecatorii.push(item)
+    }
+    if(name.match(/^(Tribunalul)(.*)$/)) {
+      performance.tribunale.push(item)
+    }
+    if(name.match(/^(Curtea de Apel)(.*)$/)) {
+      performance.curtideapel.push(item)
+    }
+  })
+
+  fs.writeFileSync('../_data/performance.yml', JSON.stringify(performance))
 })
