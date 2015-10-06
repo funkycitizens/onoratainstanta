@@ -67,4 +67,7 @@ gulp.task('data', function() {
   table('curtideapel-parchete-2014').slice(1).forEach(function(row) {
     parchet(row, 'curtideapel')
   })
+  table('speciale-parchete-2014').slice(1).forEach(function(row) {
+    parchet(row, 'speciale')
+  })
 })
