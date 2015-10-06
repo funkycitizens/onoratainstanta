@@ -7,13 +7,16 @@ function template(name) {
   return Handlebars.compile(fs.readFileSync(name, {encoding: 'utf-8'}))
 }
 
-function instanta(row, type, contact) {
-  var m = row.cod.match(/^(Judecatoria|Tribunalul|CurteadeApel)(.*)$/)
+function instanta(row_2013, row_2014, type, contact) {
+  var m = row_2013.cod.match(/^(Judecatoria|Tribunalul|CurteadeApel)(.*)$/)
   var filename = '../_instante/' + type + '/' + m[2].toLowerCase() + '.html'
   var html = template('instanta.html')({
     type: type,
-    meta: row,
-    indici_2013: row,
+    meta: row_2013,
+    indici: {
+      2013: row_2013,
+      2014: row_2014,
+    },
     contact: contact,
   })
   fs.writeFileSync(filename, html)
@@ -36,8 +39,12 @@ function table(name, skip1) {
 }
 
 function contacts(name) {
+  return by_code(table(name + '-instante-contact'))
+}
+
+function by_code(rows) {
   var rv = {}
-  table(name + '-instante-contact').forEach(function(row) {
+  rows.forEach(function(row) {
     rv[row.cod] = row
   })
   return rv
@@ -45,18 +52,29 @@ function contacts(name) {
 
 gulp.task('data', function() {
   var contact = {
-    judecatorii: contacts('judecatorii'),
-    tribunale: contacts('tribunale'),
-    curtideapel: contacts('curtideapel'),
+    judecatorii: by_code(table('judecatorii-instante-contact')),
+    tribunale: by_code(table('tribunale-instante-contact')),
+    curtideapel: by_code(table('curtideapel-instante-contact')),
+  }
+  var data_2014 = {
+    judecatorii: by_code(table('judecatorii-instante-2014').slice(1)),
+    tribunale: by_code(table('tribunale-instante-2014').slice(1)),
+    curtideapel: by_code(table('curtideapel-instante-2014').slice(1)),
   }
   table('judecatorii-instante-2013').slice(1).forEach(function(row) {
-    instanta(row, 'judecatorii', contact.judecatorii[row.cod])
+    var row_2014 = data_2014.judecatorii[row.cod]
+    var row_contact = contact.judecatorii[row.cod]
+    instanta(row, row_2014, 'judecatorii', row_contact)
   })
   table('tribunale-instante-2013').slice(1).forEach(function(row) {
-    instanta(row, 'tribunale', contact.tribunale[row.cod])
+    var row_2014 = data_2014.tribunale[row.cod]
+    var row_contact = contact.tribunale[row.cod]
+    instanta(row, row_2014, 'tribunale', row_contact)
   })
   table('curtideapel-instante-2013').slice(1).forEach(function(row) {
-    instanta(row, 'curtideapel', contact.curtideapel[row.cod])
+    var row_2014 = data_2014.curtideapel[row.cod]
+    var row_contact = contact.curtideapel[row.cod]
+    instanta(row, row_2014, 'curtideapel', row_contact)
   })
   table('judecatorii-parchete-2014').slice(1).forEach(function(row) {
     parchet(row, 'judecatorii')
