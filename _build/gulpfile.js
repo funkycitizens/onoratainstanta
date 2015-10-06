@@ -25,7 +25,7 @@ function parchet(row, type) {
   var html = template('parchet.html')({
     type: type,
     meta: row,
-    indici_2013: row,
+    indici_2014: row,
   })
   fs.writeFileSync(filename, html)
 }
@@ -58,13 +58,13 @@ gulp.task('data', function() {
   table('curtideapel-instante-2013').slice(1).forEach(function(row) {
     instanta(row, 'curtideapel', contact.curtideapel[row.cod])
   })
-  table('judecatorii-parchete-2013').slice(1).forEach(function(row) {
+  table('judecatorii-parchete-2014').slice(1).forEach(function(row) {
     parchet(row, 'judecatorii')
   })
-  table('tribunale-parchete-2013').slice(1).forEach(function(row) {
+  table('tribunale-parchete-2014').slice(1).forEach(function(row) {
     parchet(row, 'tribunale')
   })
-  table('curtideapel-parchete-2013').slice(1).forEach(function(row) {
+  table('curtideapel-parchete-2014').slice(1).forEach(function(row) {
     parchet(row, 'curtideapel')
   })
 })
