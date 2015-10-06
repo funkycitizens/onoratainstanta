@@ -9,6 +9,3 @@ defaults:
 
 collections:
   instante: {output: true}
-
-exclude:
-  - build
