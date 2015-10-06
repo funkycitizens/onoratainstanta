@@ -273,12 +273,12 @@
     border-radius: 5px;
     }
 .leaflet-control-layers-toggle {
-    background-image: url(/assets/layers.png);
+    background-image: url(assets/layers.png);
     width: 36px;
     height: 36px;
     }
 .leaflet-retina .leaflet-control-layers-toggle {
-    background-image: url(/assets/layers-2x.png);
+    background-image: url(assets/layers-2x.png);
     background-size: 26px 26px;
     }
 .leaflet-touch .leaflet-control-layers-toggle {
@@ -471,7 +471,7 @@
 @import url("//fonts.googleapis.com/css?family=Lato:300,400,700");
 @font-face {
   font-family: 'open_sansregular';
-  src: url(/assets/font/OpenSans-Regular.ttf) format("truetype");
+  src: url(assets/font/OpenSans-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
