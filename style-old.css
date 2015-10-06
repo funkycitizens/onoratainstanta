@@ -8961,7 +8961,7 @@ a {
 
 /* line 94, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 body {
-  font-family: 'Open Sans', Sans;
+  font-family: 'Open Sans', Sans, sans-serif;
   font-size: 14px;
 }
 
