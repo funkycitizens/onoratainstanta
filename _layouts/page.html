@@ -1,26 +1,6 @@
-<!doctype html>
-<meta charset="utf-8">
-<title>Onorată Instanță</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,latin-ext" rel="stylesheet">
-<link rel="stylesheet" href="{{ site.base_url }}/style-old.css">
-<link rel="stylesheet" href="{{ site.base_url }}/style.css">
-<body>
+---
+layout: base
+---
+<h1>{{ page.title }}</h1>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-<div class="body-wrapper">
-  <div class="container">
-    {% include navbar.html %}
-
-    <div class="content-box">
-      <h1>{{ page.title }}</h1>
-
-      {{ content }}
-    </div>
-  </div>
-</div>
-
-{% if site.analytics %}
-  {% include analytics.html %}
-{% endif %}
+{{ content }}
