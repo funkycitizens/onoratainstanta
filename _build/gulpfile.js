@@ -13,10 +13,10 @@ function instanta(row_2013, row_2014, type, contact, people) {
   var html = template('instanta.html')({
     type: type,
     meta: row_2013,
-    indici: {
+    indici_json: JSON.stringify({
       2013: row_2013,
       2014: row_2014,
-    },
+    }),
     people_json: JSON.stringify(people.map(function(p) {
       return p.Prenume + ' ' + p.Nume
     })),
