@@ -1,4 +1,4 @@
-base_url: '/onoratainstanta'
+base_url: ''
 defaults:
   - scope: {path: ''}
     values:
