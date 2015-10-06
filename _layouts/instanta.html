@@ -39,6 +39,14 @@ layout: page
 </div>
 
 
+<h2>Judecători</h2>
+<ul class="list-unstyled">
+  {% for p in page.people %}
+    <li>{{ p }}</li>
+  {% endfor %}
+</ul>
+
+
 <h2>Contact</h2>
 
 <p>Web site: {{ page.contact.website }}</p>
