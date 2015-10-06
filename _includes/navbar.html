@@ -1,3 +1,54 @@
+<header>
+  <div class="row">
+    <p class="notice"></p>
+    <p class="alert"></p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+          <button data-target="#bs-example-navbar-collapse"
+                  data-toggle="collapse" class="navbar-toggle" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="{{ site.base_url }}/">
+            <img alt="Logo of the site" src="{{ site.base_url }}/assets/logo.png"
+                 class="logo" height="100" width="100">
+          </a>
+        </div>
+        <div class="menu-right">
+          <div id="bs-example-navbar-collapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="{{ site.base_url }}/blog_posts">Blog</a></li> 
+              <li class="active-menu"><a href="{{ site.base_url }}/pages/despre">Despre</a></li>
+              <li><a href="{{ site.base_url }}/dictionary_terms">Dictionar legalez</a></li> 
+              <li><a href="{{ site.base_url }}/courts">Instanțe</a></li>
+              <li><a href="{{ site.base_url }}/pages/indicele-de-performanta">
+                Indicele de performanță
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="top-links">
+        <li><a href="{{ site.base_url }}/jurisprudences">Jurisprudenta</a></li>
+        <li><a href="{{ site.base_url }}/trial_proceedings">Dosare</a></li>
+        <!-- <li><a href="{{ site.base_url }}/trial_meetings">Sedinte</a></li> -->
+        <!-- <li><input placeholder="cauta" type="search"></li> -->
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!--
 <div>
   <a href="{{ site.base_url }}/">Home</a>
   <a href="{{ site.base_url }}/educatie.html">Educație</a>
@@ -6,3 +57,4 @@
   <a href="{{ site.base_url }}/analize.html">Analize</a>
   <a href="{{ site.base_url }}/blog.html">Blog</a>
 </div>
+
