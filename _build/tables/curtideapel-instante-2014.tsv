@@ -1,6 +1,6 @@
 nume	cod	populatie	judecatori	stoc	dosare_solutionate		incarcatura	incarcatura_judecator	indice_atacabilitate	indice_casare		durata	performanta	operativitate	incarcatura	siguranta									
 Denumirea instantei in clar (cu diactritice)	Codul informatic al instantei (din portal)	Populația	Numar de judecatori	Stoc (total volum de activitate al instantei)	Dosare solutionate	Operativitate (procent solutionate din stoc)	Incarcatura pe schema	Incarcatura pe judecator	Indice de atacabilitate (procent atacate din solutionate)	Indice de casare/desfiintare	Indicator de "siguranta" (100%-Desfiintare*Atacare) [ne mai gandim la denumire - certitudine/ stabilitate/ predictibilitate]	Durata in zile (extras din portal, ca diferenta dintre data inregistrarii dosarului si data solutionarii)	Performanta pentru gogoasa	Operativitatea relativa	Incarcatura relativa	Siguranta relativa									
-Curtea de Apel BUCUREŞTI (exercitiu 2012)	CurteadeApelBUCURESTI	3514547	168	66983	43144	64%	809	934	5%	14%	99.30%	68	33.32%	74.36%	88.66%	80.83%									
+Curtea de Apel BUCUREŞTI	CurteadeApelBUCURESTI	3514547	168	66983	43144	64%	809	934	5%	14%	99.30%	68	33.32%	74.36%	88.66%	80.83%									
 Curtea de Apel Alba	CurteadeApelALBAIULIA	1158263	43	18603	15787	85%	1086	1137	5%	14%	99.30%	51	50.39%	88.85%	62.63%	85.49%									
 Curtea de Apel BACĂU	CurteadeApelBACAU	1086934	32	10786	8619	80%	859	859	5%	14%	99.30%	46	50.67%	79.91%	68.99%	86.77%									
 Curtea de Apel BRAŞOV	CurteadeApelBRASOV	759394	36	9027	7167	79%	599	615	5%	14%	99.30%	53	42.13%	81.52%	67.01%	84.76%									
