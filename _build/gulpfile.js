@@ -96,11 +96,19 @@ gulp.task('data', function() {
     parchet(row, 'speciale')
   })
 
-  var performance = {
-    judecatorii: [],
-    tribunale: [],
-    curtideapel: [],
+  var perf = {
+    instante: {
+      judecatorii: [],
+      tribunale: [],
+      curtideapel: [],
+    },
+    parchete: {
+      judecatorii: [],
+      tribunale: [],
+      curtideapel: [],
+    },
   }
+
   table('performanta-instante').forEach(function(row) {
     var name = row.name
     var item = {
@@ -109,15 +117,34 @@ gulp.task('data', function() {
       perf_2015: row.perf_2015,
     }
     if(name.match(/^(Judecătoria)(.*)$/)) {
-      performance.judecatorii.push(item)
+      perf.instante.judecatorii.push(item)
     }
     if(name.match(/^(Tribunalul)(.*)$/)) {
-      performance.tribunale.push(item)
+      perf.instante.tribunale.push(item)
     }
     if(name.match(/^(Curtea de Apel)(.*)$/)) {
-      performance.curtideapel.push(item)
+      perf.instante.curtideapel.push(item)
     }
   })
 
-  fs.writeFileSync('../_data/performance.yml', JSON.stringify(performance))
+  table('performanta-parchete').forEach(function(row) {
+    var name = row.type + ' ' + row.name.trim()
+    var item = {
+      name: name,
+      perf: row.performance,
+    }
+    if(name.match(/^(Judecătoria)(.*)$/)) {
+      perf.parchete.judecatorii.push(item)
+    }
+    if(name.match(/^(Tribunalul)(.*)$/)) {
+      perf.parchete.tribunale.push(item)
+    }
+    if(name.match(/^(Curtea de Apel)(.*)$/)) {
+      perf.parchete.curtideapel.push(item)
+    }
+  })
+
+  console.log(perf.parchete)
+
+  fs.writeFileSync('../_data/performance.yml', JSON.stringify(perf))
 })
