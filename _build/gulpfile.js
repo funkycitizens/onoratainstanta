@@ -26,7 +26,7 @@ function table(name, skip1) {
 
 function contacts(name) {
   var rv = {}
-  table(name + '-contact').forEach(function(row) {
+  table(name + '-instante-contact').forEach(function(row) {
     rv[row.cod] = row
   })
   return rv
@@ -38,13 +38,13 @@ gulp.task('instante', function() {
     tribunale: contacts('tribunale'),
     curtideapel: contacts('curtideapel'),
   }
-  table('judecatorii-2013').slice(1).forEach(function(row) {
+  table('judecatorii-instante-2013').slice(1).forEach(function(row) {
     instanta(row, 'judecatorii', contact.judecatorii[row.cod])
   })
-  table('tribunale-2013').slice(1).forEach(function(row) {
+  table('tribunale-instante-2013').slice(1).forEach(function(row) {
     instanta(row, 'tribunale', contact.tribunale[row.cod])
   })
-  table('curtideapel-2013').slice(1).forEach(function(row) {
+  table('curtideapel-instante-2013').slice(1).forEach(function(row) {
     instanta(row, 'curtideapel', contact.curtideapel[row.cod])
   })
 })
