@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<h2>Judecătorii</h2>
+{% include perftable.html rows=site.data.performance.judecatorii %}
+
+<h2>Tribunale</h2>
+{% include perftable.html rows=site.data.performance.tribunale %}
+
+<h2>Curți de apel</h2>
+{% include perftable.html rows=site.data.performance.curtideapel %}

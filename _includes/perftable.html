@@ -1,0 +1,15 @@
+<table class="table">
+  <thead>
+    <th>Instanță</th>
+    <th>Indice 2014</th>
+    <th>Indice 2015</th>
+  </thead>
+
+  {% for row in include.rows %}
+  <tr>
+    <td>{{ row.name }}</td>
+    <td>{{ row.perf_2014 }}</td>
+    <td>{{ row.perf_2015 }}</td>
+  </tr>
+  {% endfor %}
+</table>
