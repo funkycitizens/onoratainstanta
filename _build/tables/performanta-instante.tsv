@@ -1,0 +1,1001 @@
+name	perf_2015						perf_2014																		
+2015						2014																			
+Curţi de apel						Curţi de apel																			
+Instanţa	performanţă	operativitate Z	încărcătură Z	siguranţă Z		Instanţa	performanţă	operativitate Z	încărcătură Z	siguranţă Z															
+Curtea de Apel CRAIOVA	0.83	0.03	1.43	1.04		Curtea de Apel CRAIOVA	0.86	0.90	1.00	0.69															
+Curtea de Apel GALAŢI	0.56	1.05	-0.12	0.74		Curtea de Apel TIMIŞOARA	0.62	0.97	-0.13	1.01															
+Curtea de Apel IAŞI	0.43	0.29	0.19	0.80		Curtea de Apel IAŞI	0.51	0.04	0.49	1.00															
+Curtea de Apel PLOIEŞTI	0.29	0.05	1.24	-0.42		Curtea de Apel BACĂU	0.35	0.19	0.15	0.69															
+Curtea de Apel PITEŞTI	0.17	1.14	-0.98	0.36		Curtea de Apel PLOIEŞTI	0.24	-0.40	1.09	0.02															
+Curtea de Apel CLUJ	0.09	-1.04	0.47	0.84		Curtea de Apel CLUJ	0.23	-1.18	0.61	1.26															
+Curtea de Apel BACĂU	0.03	-0.49	0.10	0.47		Curtea de Apel ORADEA	0.21	1.58	-0.61	-0.33															
+Curtea de Apel Alba	0.02	0.74	-0.48	-0.21		Curtea de Apel BUCUREŞTI	0.06	-1.95	2.05	0.09															
+Curtea de Apel SUCEAVA	-0.05	0.64	-0.77	-0.01		Curtea de Apel CONSTANŢA	-0.08	-0.53	0.09	0.19															
+Curtea de Apel ORADEA	-0.12	0.01	-0.51	0.15		Curtea de Apel TÂRGU MUREŞ	-0.10	1.06	-2.17	0.83															
+Curtea de Apel TIMIŞOARA	-0.16	-1.10	-0.30	0.91		Curtea de Apel Alba	-0.30	-0.07	-1.00	0.17															
+Curtea de Apel BRAŞOV	-0.31	-0.27	-0.08	-0.59		Curtea de Apel BRAŞOV	-0.36	0.35	-0.47	-0.95															
+Curtea de Apel TÂRGU MUREŞ	-0.55	1.89	-2.07	-1.47		Curtea de Apel SUCEAVA	-0.41	0.84	-0.69	-1.39															
+Curtea de Apel CONSTANŢA	-0.55	-1.68	-0.05	0.06		Curtea de Apel PITEŞTI	-0.67	-0.40	-0.41	-1.21															
+Curtea de Apel BUCUREŞTI	-0.67	-1.26	1.92	-2.66		Curtea de Apel GALAŢI	-1.16	-1.40	-0.01	-2.06															
+																									
+Tribunale						Tribunale																			
+Instanţa	performanţă	operativitate Z	încărcătură Z	siguranţă Z		Instanţa	performanţă	operativitate Z	încărcătură Z	siguranţă Z															
+Tribunalul ARAD	2.26	0.98	1.89	3.92		Tribunalul OLT	0.93	0.98	0.53	1.27															
+Tribunalul VASLUI	2.02	2.88	1.07	2.10		Tribunalul PRAHOVA	0.82	0.07	0.47	1.91															
+Tribunalul CĂLĂRAŞI	1.83	0.38	2.20	2.91		Tribunalul ARAD	0.75	0.72	0.20	1.32															
+Tribunalul IALOMIŢA	1.71	1.33	1.45	2.34		Tribunalul SUCEAVA	0.73	-0.03	0.43	1.80															
+Tribunalul DÂMBOVIŢA	1.67	0.49	2.18	2.34		Tribunalul CĂLĂRAŞI	0.68	0.40	0.79	0.84															
+Tribunalul VRANCEA	1.61	0.75	1.66	2.43		Tribunalul MUREŞ	0.60	-1.14	0.38	2.56															
+Tribunalul HARGHITA	1.55	1.57	0.29	2.78		Tribunalul IALOMIŢA	0.52	0.37	0.28	0.91															
+Tribunalul TELEORMAN	1.49	1.12	1.71	1.64		Tribunalul CONSTANŢA	0.46	0.33	0.87	0.16															
+Tribunalul CONSTANŢA	1.49	0.20	2.48	1.78		Tribunalul DOLJ	0.41	0.08	1.12	0.04															
+Tribunalul ARGES	1.47	-0.01	1.88	2.54		Tribunalul VASLUI	0.38	2.91	-0.08	-1.68															
+Tribunalul TULCEA	1.44	1.08	0.09	3.16		Tribunalul DÂMBOVIŢA	0.34	0.10	0.82	0.12															
+Tribunalul BUCUREŞTI	1.43	-0.68	3.03	1.95		Tribunalul HARGHITA	0.32	2.00	-1.43	0.39															
+Tribunalul TIMIŞ	1.41	0.66	2.12	1.45		Tribunalul VRANCEA	0.27	0.78	0.02	0.01															
+Tribunalul MEHEDINŢI	1.35	1.43	0.33	2.30		Tribunalul MEHEDINŢI	0.25	0.36	-0.73	1.11															
+Tribunalul BRĂILA	1.34	1.17	1.11	1.73		Tribunalul ALBA	0.22	0.82	-0.63	0.48															
+Tribunalul OLT	1.33	0.77	2.01	1.21		Tribunalul GORJ	0.21	0.30	0.08	0.24															
+Tribunalul SATU MARE	1.29	1.35	1.12	1.41		Tribunalul BUZĂU	0.19	0.08	0.43	0.07															
+Tribunalul CLUJ	1.25	0.24	1.85	1.67		Tribunalul GALAŢI	0.17	0.66	-0.02	-0.12															
+Tribunalul ALBA	1.22	0.46	1.24	1.97		Tribunalul IAŞI	0.08	-0.85	1.04	0.05															
+Tribunalul IAŞI	1.20	-0.53	2.33	1.80		Tribunalul COVASNA	-0.01	-0.15	-0.43	0.54															
+Tribunalul DOLJ	1.19	0.36	2.49	0.74		Tribunalul TELEORMAN	-0.04	0.77	0.47	-1.37															
+Tribunalul SUCEAVA	1.17	1.00	1.95	0.56		Tribunalul BUCUREŞTI	-0.05	-1.15	1.67	-0.67															
+Tribunalul GALAŢI	1.16	1.13	1.37	0.97		Tribunalul NEAMŢ	-0.10	-1.85	0.69	0.86															
+Tribunalul COVASNA	1.08	0.28	0.93	2.03		Tribunalul ARGES	-0.11	0.57	-0.12	-0.77															
+Tribunalul BUZĂU	0.95	-0.50	1.67	1.68		Tribunalul BRAŞOV	-0.14	-0.77	0.78	-0.45															
+Tribunalul PRAHOVA	0.85	1.03	1.57	-0.06		Tribunalul CARAŞ SEVERIN	-0.26	0.47	-2.15	0.90															
+Tribunalul GORJ	0.82	0.32	1.46	0.69		Tribunalul HUNEDOARA	-0.30	0.00	-0.48	-0.43															
+Tribunalul BOTOŞANI	0.80	0.66	1.02	0.71		Tribunalul TIMIŞ	-0.31	-0.51	0.84	-1.25															
+Tribunalul MUREŞ	0.77	0.35	1.81	0.16		Tribunalul MARAMUREŞ	-0.33	-0.19	0.05	-0.85															
+Tribunalul BRAŞOV	0.75	-0.30	2.12	0.45		Tribunalul CLUJ	-0.34	0.29	-0.08	-1.23															
+Tribunalul BACAU	0.75	-0.72	2.04	0.93		Tribunalul BRĂILA	-0.37	-0.38	0.12	-0.84															
+Tribunalul HUNEDOARA	0.69	1.28	0.58	0.20		Tribunalul BOTOŞANI	-0.41	-0.54	0.00	-0.70															
+Tribunalul CARAŞ SEVERIN	0.60	-0.32	0.17	1.95		Tribunalul GIURGIU	-0.42	0.30	-1.82	0.25															
+Tribunalul SĂLAJ	0.49	1.25	-0.43	0.64		Tribunalul SIBIU	-0.45	-1.21	-0.55	0.42															
+Tribunalul MARAMUREŞ	0.44	0.15	1.35	-0.18		Tribunalul BACAU	-0.48	-0.95	0.56	-1.03															
+Tribunalul GIURGIU	0.39	0.55	-1.47	2.10		Tribunalul TULCEA	-0.57	0.99	-1.54	-1.16															
+Tribunalul ILFOV	0.36	0.03	-1.54	2.57		Tribunalul SATU MARE	-0.62	0.76	-1.18	-1.43															
+Tribunalul VÂLCEA	0.36	0.26	0.74	0.07		Tribunalul ILFOV	-0.76	-1.83	-0.32	-0.14															
+Tribunalul BISTRIŢA NĂSĂUD	0.27	0.81	-0.32	0.32		Tribunalul VÂLCEA	-0.77	-0.83	-0.34	-1.15															
+Tribunalul NEAMŢ	0.21	-1.63	1.79	0.48		Tribunalul BIHOR	-0.85	-1.73	-0.17	-0.64															
+Tribunalul SIBIU	0.12	-0.84	0.88	0.33		Tribunalul BISTRIŢA NĂSĂUD	-1.00	-0.41	-1.71	-0.88															
+Tribunalul BIHOR	0.10	-0.47	0.64	0.13		Tribunalul SĂLAJ	-1.17	1.30	-3.26	-1.56															
+																									
+Judecătorii						Judecătorii																			
+Instanţa	performanţă	operativitate Z	încărcătură Z	siguranţă Z		Instanţa	performanţă	operativitate Z	încărcătură Z	siguranţă Z															
+Judecătoria SECTORUL 5 BUCUREŞTI	1.23	1.42	0.71	1.56		Judecătoria TÂRGU BUJOR	1.28	5.06	-2.24	1.03															
+Judecătoria PETROŞANI	1.22	1.61	0.37	1.67		Judecătoria TÂRGU LAPUŞ	1.10	1.06	1.16	1.08															
+Judecătoria TÂRGU LAPUŞ	0.95	1.19	1.12	0.53		Judecătoria ODORHEIUL SECUIESC	1.03	0.94	0.74	1.42															
+Judecătoria HUNEDOARA	0.94	1.53	-0.14	1.44		Judecătoria SECTORUL 5 BUCUREŞTI	1.01	1.23	0.84	0.95															
+Judecătoria BRĂILA	0.94	0.76	0.72	1.35		Judecătoria IAŞI	0.97	1.02	1.24	0.65															
+Judecătoria PLOIEŞTI	0.91	0.23	0.77	1.73		Judecătoria SIBIU	0.95	0.63	0.73	1.48															
+Judecătoria DRAGOMIREŞTI	0.89	2.80	-1.83	1.70		Judecătoria SECTORUL 3 BUCUREŞTI	0.91	0.84	0.83	1.07															
+Judecătoria INEU	0.82	1.41	-0.20	1.26		Judecătoria GURA HONŢ	0.91	2.84	-1.23	1.11															
+Judecătoria CALAFAT	0.82	5.29	-1.88	-0.95		Judecătoria MEDIAŞ	0.90	0.34	0.88	1.50															
+Judecătoria ARAD	0.81	-0.01	1.08	1.36		Judecătoria DRAGOMIREŞTI	0.89	2.81	-2.16	2.02															
+Judecătoria CONSTANŢA	0.77	-0.22	1.09	1.44		Judecătoria ARAD	0.86	-0.22	1.14	1.64															
+Judecătoria DEVA	0.76	0.21	0.49	1.58		Judecătoria BÂRLAD	0.84	0.93	1.00	0.59															
+Judecătoria MEDIAŞ	0.72	0.19	0.91	1.07		Judecătoria CĂLĂRAŞI	0.77	-0.14	0.86	1.60															
+Judecătoria CĂLĂRAŞI	0.72	0.28	0.65	1.24		Judecătoria URZICENI	0.76	1.22	0.58	0.48															
+Judecătoria REGHIN	0.72	0.69	0.54	0.92		Judecătoria BRĂILA	0.76	0.79	0.78	0.69															
+Judecătoria SECTORUL 6 BUCUREŞTI	0.71	-0.13	1.11	1.16		Judecătoria TIMIŞOARA	0.75	0.07	1.25	0.93															
+Judecătoria SECTORUL 3 BUCUREŞTI	0.68	0.73	0.69	0.61		Judecătoria CĂMPULUNG	0.67	0.52	0.95	0.53															
+Judecătoria ALBA IULIA	0.68	0.58	0.48	0.98		Judecătoria REGHIN	0.65	0.58	0.43	0.93															
+Judecătoria CRAIOVA	0.63	-0.22	1.11	1.00		Judecătoria VASLUI	0.63	0.40	0.93	0.57															
+Judecătoria SECTORUL 2 BUCUREŞTI	0.62	0.18	0.62	1.08		Judecătoria HUNEDOARA	0.63	0.35	0.20	1.33															
+Judecătoria BRAŞOV	0.61	0.27	1.01	0.56		Judecătoria CONSTANŢA	0.62	0.59	1.18	0.07															
+Judecătoria CARANSEBEŞ	0.60	0.92	0.30	0.59		Judecătoria INEU	0.60	0.19	-0.40	2.01															
+Judecătoria SECTORUL 4 BUCUREŞTI	0.60	0.12	0.76	0.92		Judecătoria DROBETA-TURNU SEVERIN	0.59	0.02	0.70	1.04															
+Judecătoria ONEŞTI	0.57	-0.14	0.83	1.01		Judecătoria PETROŞANI	0.58	0.62	0.42	0.69															
+Judecătoria TIMIŞOARA	0.55	-0.40	1.19	0.86		Judecătoria DEVA	0.56	0.47	0.40	0.82															
+Judecătoria SECTORUL 1 BUCUREŞTI	0.55	0.16	0.61	0.87		Judecătoria TECUCI	0.55	0.30	0.63	0.72															
+Judecătoria BÂRLAD	0.53	1.01	0.93	-0.35		Judecătoria MEDGIDIA	0.55	0.22	0.48	0.94															
+Judecătoria COSTEŞTI	0.52	0.40	-0.14	1.31		Judecătoria ALBA IULIA	0.54	-0.20	0.70	1.13															
+Judecătoria IAŞI	0.50	0.02	1.14	0.36		Judecătoria SLOBOZIA	0.53	1.45	0.24	-0.10															
+Judecătoria SATU MARE	0.50	0.03	0.97	0.51		Judecătoria CARANSEBEŞ	0.53	0.40	0.19	1.00															
+Judecătoria PANCIU	0.50	1.54	-1.96	1.92		Judecătoria GIURGIU	0.50	0.86	0.36	0.29															
+Judecătoria URZICENI	0.49	0.26	0.49	0.73		Judecătoria HUŞI	0.50	0.48	0.53	0.48															
+Judecătoria SIBIU	0.49	0.24	0.76	0.46		Judecătoria AVRIG	0.50	1.41	-0.65	0.73															
+Judecătoria SEBEŞ	0.48	1.08	-0.74	1.11		Judecătoria LEHLIU-GARA	0.50	0.59	0.07	0.83															
+Judecătoria BISTRIŢA	0.48	0.25	0.57	0.62		Judecătoria BRAŞOV	0.49	-0.27	1.07	0.66															
+Judecătoria TECUCI	0.47	0.05	0.73	0.62		Judecătoria SECTORUL 6 BUCUREŞTI	0.49	0.09	1.19	0.18															
+Judecătoria DROBETA-TURNU SEVERIN	0.46	0.11	0.71	0.57		Judecătoria CLUJ-NAPOCA	0.48	-0.57	1.23	0.78															
+Judecătoria TURNU MĂGURELE	0.45	0.49	0.55	0.32		Judecătoria CRAIOVA	0.47	-0.63	1.21	0.85															
+Judecătoria GURA HONŢ	0.45	1.88	-0.81	0.28		Judecătoria FĂLTICENI	0.46	0.19	0.56	0.64															
+Judecătoria SLATINA	0.45	0.17	0.86	0.31		Judecătoria TURNU MĂGURELE	0.45	-0.34	0.89	0.80															
+Judecătoria VASLUI	0.43	0.24	0.95	0.10		Judecătoria MOLDOVA-NOUĂ	0.44	2.60	-2.65	1.37															
+Judecătoria CĂMPULUNG	0.42	-0.14	0.94	0.46		Judecătoria TURDA	0.43	-0.32	0.70	0.90															
+Judecătoria HUŞI	0.41	0.50	0.45	0.28		Judecătoria SECTORUL 1 BUCUREŞTI	0.42	0.64	0.72	-0.12															
+Judecătoria LEHLIU-GARA	0.41	-0.22	0.18	1.28		Judecătoria SECTORUL 4 BUCUREŞTI	0.41	0.37	0.76	0.11															
+Judecătoria CHIŞINEU CRIŞ	0.40	2.62	-2.22	0.82		Judecătoria ONEŞTI	0.41	-0.73	0.88	1.06															
+Judecătoria BUZĂU	0.40	-0.42	0.70	0.92		Judecătoria SATU MARE	0.40	-0.13	0.92	0.41															
+Judecătoria CARACAL	0.38	-0.02	0.91	0.26		Judecătoria OLTENIŢA	0.39	0.26	0.74	0.18															
+Judecătoria ODORHEIUL SECUIESC	0.38	-0.37	0.85	0.66		Judecătoria RÂMNICU VÂLCEA	0.39	-0.16	0.98	0.34															
+Judecătoria ORADEA	0.37	-0.59	1.01	0.68		Judecătoria PANCIU	0.36	1.53	-2.09	1.64															
+Judecătoria AGNITA	0.36	2.77	-1.90	0.22		Judecătoria ROMAN	0.35	-0.12	1.00	0.18															
+Judecătoria PITEŞTI	0.36	0.01	0.76	0.31		Judecătoria BALŞ	0.33	-0.43	0.10	1.33															
+Judecătoria TĂRGU NEAMŢ	0.35	-0.55	1.11	0.50		Judecătoria FĂUREI	0.32	2.42	-1.58	0.12															
+Judecătoria GHERLA	0.35	0.27	0.36	0.42		Judecătoria CÂMPENI	0.31	0.48	-0.18	0.64															
+Judecătoria CLUJ-NAPOCA	0.34	-0.41	1.13	0.29		Judecătoria GHEORGHENI	0.31	0.59	-0.26	0.59															
+Judecătoria TULCEA	0.33	1.07	0.26	-0.36		Judecătoria LUGOJ	0.31	-0.16	0.73	0.34															
+Judecătoria LUDUŞ	0.32	1.99	-2.03	1.01		Judecătoria REŞITA	0.29	-0.05	0.37	0.55															
+Judecătoria ZALĂU	0.32	0.58	0.50	-0.12		Judecătoria TÂRGU SECUIESC	0.29	0.99	0.03	-0.16															
+Judecătoria MIERCUREA CIUC	0.30	-0.02	0.49	0.44		Judecătoria LUDUŞ	0.29	-0.28	-0.61	1.75															
+Judecătoria CÂMPINA	0.30	-0.50	0.65	0.74		Judecătoria BEIUŞ	0.29	-0.53	0.87	0.53															
+Judecătoria MIZIL	0.30	0.56	0.28	0.04		Judecătoria TĂRGU NEAMŢ	0.29	-0.24	1.17	-0.06															
+Judecătoria BACĂU	0.28	-0.26	1.05	0.04		Judecătoria CÂMPINA	0.28	-0.75	0.92	0.66															
+Judecătoria OLTENIŢA	0.27	-0.33	0.69	0.46		Judecătoria CARACAL	0.27	-0.52	0.80	0.54															
+Judecătoria MACIN	0.26	1.83	-0.86	-0.19		Judecătoria AGNITA	0.25	2.21	-1.56	0.11															
+Judecătoria MOINEŞTI	0.24	0.21	0.47	0.04		Judecătoria BOLINTIN VALE	0.25	0.34	0.61	-0.21															
+Judecătoria SINAIA	0.23	1.17	-1.12	0.64		Judecătoria ORADEA	0.24	-0.13	1.02	-0.18															
+Judecătoria TÂRGU BUJOR	0.23	1.24	-0.23	-0.34		Judecătoria CÂMPULUNG MOLDOVENESC	0.24	0.40	-0.42	0.72															
+Judecătoria GHEORGHENI	0.22	2.14	-0.59	-0.90		Judecătoria FOCŞANI	0.23	0.72	0.94	-0.97															
+Judecătoria SUCEAVA	0.22	-0.41	0.94	0.13		Judecătoria PĂTĂRLAGELE	0.23	0.92	-1.21	0.98															
+Judecătoria CURTEA DE ARGEŞ	0.19	-0.94	0.69	0.84		Judecătoria BISTRIŢA	0.21	-0.70	0.66	0.67															
+Judecătoria RĂDUCĂNENI	0.19	-0.62	0.48	0.71		Judecătoria TÂRGOVIŞTE	0.21	-0.79	1.07	0.34															
+Judecătoria RÂMNICU SARAT	0.18	-0.32	0.62	0.23		Judecătoria ZALĂU	0.20	-0.02	0.48	0.15															
+Judecătoria MOLDOVA-NOUĂ	0.17	1.83	-2.97	1.66		Judecătoria RÂMNICU SARAT	0.19	0.14	0.57	-0.15															
+Judecătoria SLOBOZIA	0.17	0.61	0.30	-0.40		Judecătoria VATRA DORNEI	0.18	0.71	-1.02	0.85															
+Judecătoria LUGOJ	0.16	-0.10	0.70	-0.12		Judecătoria COSTEŞTI	0.17	-0.38	-0.04	0.92															
+Judecătoria MARGHITA	0.16	-0.17	-0.26	0.89		Judecătoria SIGHIŞOARA	0.16	-0.63	0.45	0.67															
+Judecătoria PAŞCANI	0.15	-0.12	0.90	-0.34		Judecătoria ZIMNICEA	0.16	1.79	-1.46	0.16															
+Judecătoria DETA	0.15	-0.50	0.12	0.82		Judecătoria CURTEA DE ARGEŞ	0.15	-0.55	0.68	0.33															
+Judecătoria BOTOŞANI	0.15	0.89	0.63	-1.08		Judecătoria MIERCUREA CIUC	0.15	-0.46	0.46	0.46															
+Judecătoria TURDA	0.13	-0.93	0.76	0.58		Judecătoria GHERLA	0.15	-0.81	0.46	0.80															
+Judecătoria REŞITA	0.13	-0.10	0.41	0.08		Judecătoria DETA	0.15	-0.35	-0.26	1.05															
+Judecătoria AVRIG	0.12	-0.26	0.02	0.61		Judecătoria ROŞIORI DE VEDE	0.14	-0.46	0.50	0.39															
+Judecătoria CÂMPENI	0.12	0.79	-0.27	-0.16		Judecătoria TULCEA	0.14	-0.71	0.55	0.57															
+Judecătoria CORABIA	0.11	0.89	0.30	-0.85		Judecătoria SUCEAVA	0.13	-1.02	1.01	0.38															
+Judecătoria BAIA MARE	0.10	-0.60	1.03	-0.13		Judecătoria STREHAIA	0.09	0.14	-0.35	0.47															
+Judecătoria FOCŞANI	0.09	0.50	0.92	-1.17		Judecătoria CAREI	0.08	-0.04	0.13	0.16															
+Judecătoria FĂLTICENI	0.08	-0.34	0.61	-0.02		Judecătoria CHIŞINEU CRIŞ	0.08	-0.21	-0.98	1.44															
+Judecătoria MEDGIDIA	0.08	-0.61	0.10	0.75		Judecătoria DEJ	0.07	-0.39	0.23	0.38															
+Judecătoria TÂRGU-CĂRBUNEŞTI	0.07	-0.06	0.53	-0.25		Judecătoria ÎNSURĂŢEI	0.07	1.62	-1.82	0.42															
+Judecătoria STREHAIA	0.07	0.54	-0.18	-0.15		Judecătoria BAIA MARE	0.06	-0.96	1.03	0.10															
+Judecătoria RĂCARI	0.06	-0.17	0.20	0.13		Judecătoria MARGHITA	0.06	0.75	0.31	-0.89															
+Judecătoria GALAŢI	0.06	-0.53	0.98	-0.29		Judecătoria MANGALIA	0.05	-0.75	0.48	0.43															
+Judecătoria FĂGET	0.04	-0.13	0.19	0.05		Judecătoria RĂDĂUŢI	0.05	-0.68	0.94	-0.12															
+Judecătoria TÂRGU JIU	0.04	-0.01	0.44	-0.31		Judecătoria ORAŞTIE	0.05	2.20	-1.52	-0.54															
+Judecătoria GĂEŞTI	0.02	-0.26	0.36	-0.04		Judecătoria CALAFAT	0.03	-0.43	-0.59	1.11															
+Judecătoria RĂDĂUŢI	0.02	-0.05	0.89	-0.77		Judecătoria BUZĂU	0.03	1.10	0.29	-1.30															
+Judecătoria CORNETU	0.02	-0.80	0.56	0.29		Judecătoria ALEXANDRIA	0.01	0.52	0.38	-0.89															
+Judecătoria GIURGIU	0.02	-0.96	0.35	0.67		Judecătoria JIBOU	0.00	-0.38	0.38	0.01															
+Judecătoria MANGALIA	0.01	-0.51	0.51	0.03		Judecătoria MORENI	-0.01	-0.09	0.00	0.06															
+Judecătoria LIEŞTI	0.01	1.65	-0.53	-1.10		Judecătoria RĂDUCĂNENI	-0.01	-0.79	0.42	0.34															
+Judecătoria TÂRGOVIŞTE	0.00	-1.26	0.76	0.51		Judecătoria RĂCARI	-0.02	1.55	-0.11	-1.50															
+Judecătoria DOROHOI	0.00	0.48	-0.35	-0.14		Judecătoria SLATINA	-0.02	-0.58	0.93	-0.42															
+Judecătoria SÂNNICOLAUL MARE	-0.02	-0.77	0.26	0.46		Judecătoria SFÂNTU GHEORGHE	-0.05	-0.86	0.63	0.08															
+Judecătoria SFÂNTU GHEORGHE	-0.02	-0.44	0.68	-0.30		Judecătoria GALAŢI	-0.06	0.07	0.90	-1.16															
+Judecătoria BALŞ	-0.03	0.59	-0.24	-0.45		Judecătoria BABADAG	-0.06	-0.43	-0.06	0.30															
+Judecătoria BEIUŞ	-0.05	-0.68	0.88	-0.37		Judecătoria VIŞEU DE SUS	-0.06	-0.81	0.43	0.19															
+Judecătoria VIŞEU DE SUS	-0.05	-0.55	0.57	-0.18		Judecătoria BACĂU	-0.07	-0.52	1.14	-0.84															
+Judecătoria ORŞOVA	-0.07	0.82	-1.75	0.73		Judecătoria MOINEŞTI	-0.07	-0.77	0.63	-0.09															
+Judecătoria BUFTEA	-0.07	-0.60	0.27	0.13		Judecătoria TÂRGU JIU	-0.08	-0.26	0.18	-0.15															
+Judecătoria PIATRA-NEAMT	-0.08	-0.76	0.89	-0.35		Judecătoria GURA HUMORULUI	-0.10	-0.59	0.20	0.07															
+Judecătoria FETEŞTI	-0.08	0.73	-0.43	-0.55		Judecătoria SEBEŞ	-0.11	-0.67	-0.48	0.81															
+Judecătoria VĂLENII DE MUNTE	-0.09	-0.83	0.48	0.09		Judecătoria PIATRA-NEAMT	-0.12	-0.80	0.97	-0.51															
+Judecătoria BĂLCEŞTI	-0.09	-0.84	-0.33	0.90		Judecătoria PODU TURCULUI	-0.13	2.32	-2.56	-0.15															
+Judecătoria ROMAN	-0.10	-0.91	0.86	-0.24		Judecătoria CORNETU	-0.14	0.56	0.45	-1.42															
+Judecătoria AIUD	-0.10	0.65	-0.21	-0.76		Judecătoria CORABIA	-0.14	-0.04	0.13	-0.50															
+Judecătoria CAREI	-0.11	-0.22	0.48	-0.60		Judecătoria PAŞCANI	-0.15	-0.37	0.94	-1.00															
+Judecătoria PĂTĂRLAGELE	-0.12	0.09	-1.07	0.63		Judecătoria LIPOVA	-0.15	-0.76	-0.26	0.57															
+Judecătoria NĂSĂUD	-0.12	-0.33	0.27	-0.30		Judecătoria SÂNNICOLAUL MARE	-0.15	-1.26	0.05	0.77															
+Judecătoria DEJ	-0.12	-0.55	0.12	0.07		Judecătoria BĂILEŞTI	-0.15	0.00	-0.20	-0.25															
+Judecătoria BABADAG	-0.12	-0.51	0.07	0.08		Judecătoria FĂGET	-0.16	-0.51	0.18	-0.14															
+Judecătoria SIGHIŞOARA	-0.15	-0.29	0.38	-0.53		Judecătoria POGOANELE	-0.18	-0.48	-0.29	0.22															
+Judecătoria BECLEAN	-0.16	-0.56	-0.80	0.89		Judecătoria PITEŞTI	-0.18	-0.65	0.83	-0.72															
+Judecătoria ORAŞTIE	-0.16	1.72	-2.86	0.66		Judecătoria DOROHOI	-0.22	-0.40	-0.15	-0.10															
+Judecătoria CÂMPULUNG MOLDOVENESC	-0.16	0.15	-0.46	-0.18		Judecătoria FĂGĂRAŞ	-0.23	-1.00	-0.01	0.32															
+Judecătoria PODU TURCULUI	-0.17	-1.22	-0.85	1.55		Judecătoria AIUD	-0.25	0.40	-0.35	-0.81															
+Judecătoria BOLINTIN VALE	-0.18	-1.03	0.25	0.23		Judecătoria SINAIA	-0.27	0.60	-0.89	-0.51															
+Judecătoria LIPOVA	-0.19	-0.39	0.03	-0.20		Judecătoria NĂSĂUD	-0.27	-0.11	-0.05	-0.64															
+Judecătoria ROŞIORI DE VEDE	-0.19	-0.35	0.56	-0.79		Judecătoria HUEDIN	-0.27	-0.89	0.27	-0.19															
+Judecătoria TÂRNAVENI	-0.20	-0.45	-0.37	0.23		Judecătoria NOVACI	-0.31	2.75	-3.11	-0.56															
+Judecătoria VATRA DORNEI	-0.22	-0.72	-0.13	0.18		Judecătoria DRĂGĂŞANI	-0.32	-0.55	0.31	-0.72															
+Judecătoria SIGHETU MARMAŢIEI	-0.22	-0.83	0.36	-0.20		Judecătoria TÂRGU-CĂRBUNEŞTI	-0.32	-0.44	0.49	-1.01															
+Judecătoria JIBOU	-0.23	-0.70	0.49	-0.48		Judecătoria TÂRNAVENI	-0.33	-0.91	-0.14	0.05															
+Judecătoria GURA HUMORULUI	-0.23	-1.22	0.31	0.22		Judecătoria MIZIL	-0.34	-0.90	0.58	-0.69															
+Judecătoria NOVACI	-0.24	1.81	-1.99	-0.55		Judecătoria MOTRU	-0.36	-0.80	-0.06	-0.21															
+Judecătoria FĂGĂRAŞ	-0.34	-0.62	0.20	-0.60		Judecătoria SALONTA	-0.38	-0.33	-0.17	-0.64															
+Judecătoria ÎNSURĂŢEI	-0.36	1.05	-2.07	-0.06		Judecătoria VIDELE	-0.40	1.36	-3.22	0.66															
+Judecătoria FILIAŞI	-0.36	-0.31	-0.59	-0.19		Judecătoria GĂEŞTI	-0.40	-0.67	0.32	-0.87															
+Judecătoria RÂMNICU VÂLCEA	-0.37	-1.42	0.80	-0.49		Judecătoria BLAJ	-0.43	-0.07	-0.69	-0.53															
+Judecătoria ALEŞD	-0.38	-0.40	-0.18	-0.55		Judecătoria MACIN	-0.47	-0.73	-0.21	-0.47															
+Judecătoria POGOANELE	-0.39	-0.39	0.13	-0.90		Judecătoria BĂLCEŞTI	-0.48	-0.99	-0.45	0.01															
+Judecătoria TÂRGU SECUIESC	-0.39	-0.96	0.46	-0.68		Judecătoria BECLEAN	-0.48	-1.29	-0.22	0.06															
+Judecătoria ZĂRNEŞTI	-0.44	-1.67	0.48	-0.12		Judecătoria ZĂRNEŞTI	-0.48	0.31	-0.39	-1.37															
+Judecătoria HUEDIN	-0.44	-1.33	0.34	-0.34		Judecătoria TOPLIŢA	-0.53	1.72	-3.61	0.29															
+Judecătoria TOPOLOVENI	-0.45	-0.80	-0.56	0.01		Judecătoria FETEŞTI	-0.54	0.95	-0.96	-1.60															
+Judecătoria MOTRU	-0.48	-0.86	0.25	-0.83		Judecătoria HOREZU	-0.54	-0.10	0.08	-1.61															
+Judecătoria SALIŞTE	-0.49	-0.86	-0.23	-0.38		Judecătoria HÂRLĂU	-0.55	-1.18	0.52	-1.00															
+Judecătoria ŞIMLEUL SILVANIEI	-0.50	0.27	0.11	-1.87		Judecătoria BUHUŞI	-0.56	-0.74	-0.16	-0.79															
+Judecătoria TÂRGU MUREŞ	-0.52	-0.58	-0.90	-0.08		Judecătoria ORŞOVA	-0.57	-0.84	-1.13	0.26															
+Judecătoria FĂUREI	-0.55	0.44	-1.10	-0.99		Judecătoria BUFTEA	-0.58	-0.68	0.38	-1.45															
+Judecătoria ÎNTORSURA BUZĂULUI	-0.55	-0.86	0.13	-0.92		Judecătoria LIEŞTI	-0.59	-0.75	-0.31	-0.72															
+Judecătoria SALONTA	-0.56	-1.00	0.48	-1.17		Judecătoria SECTORUL 2 BUCUREŞTI	-0.60	0.11	0.93	-2.83															
+Judecătoria ALEXANDRIA	-0.58	-1.09	0.42	-1.07		Judecătoria FILIAŞI	-0.62	-0.52	-1.33	-0.03															
+Judecătoria ZIMNICEA	-0.62	0.36	-0.92	-1.30		Judecătoria TÂRGU MUREŞ	-0.63	-0.22	-1.47	-0.19															
+Judecătoria ADJUD	-0.75	-0.67	-1.72	0.15		Judecătoria NEGREŞTI-OAŞ	-0.63	-0.37	-0.42	-1.09															
+Judecătoria HOREZU	-0.75	-0.61	0.15	-1.80		Judecătoria ŞIMLEUL SILVANIEI	-0.63	0.26	-0.08	-2.08															
+Judecătoria PUCIOASA	-0.76	-1.35	-0.04	-0.88		Judecătoria ÎNTORSURA BUZĂULUI	-0.67	-0.95	-0.62	-0.44															
+Judecătoria MORENI	-0.78	-0.24	-2.02	-0.06		Judecătoria HÂRŞOVA	-0.69	-0.58	-1.57	0.09															
+Judecătoria TOPLIŢA	-0.78	1.61	-3.61	-0.34		Judecătoria RUPEA	-0.69	-0.89	-0.76	-0.43															
+Judecătoria NEGREŞTI-OAŞ	-0.80	-2.00	0.22	-0.61		Judecătoria SALIŞTE	-0.74	-0.60	-0.36	-1.25															
+Judecătoria DRĂGĂŞANI	-0.85	-1.53	0.01	-1.04		Judecătoria SIGHETU MARMAŢIEI	-0.74	-1.04	0.51	-1.68															
+Judecătoria HÂRŞOVA	-0.90	-0.94	-1.93	0.17		Judecătoria PLOIEŞTI	-0.76	-0.40	0.90	-2.79															
+Judecătoria ORAVIŢA	-0.92	-1.60	0.27	-1.42		Judecătoria TOPOLOVENI	-0.78	-1.09	-0.44	-0.82															
+Judecătoria RUPEA	-0.93	-1.19	-0.71	-0.90		Judecătoria VÂNJU MARE	-0.78	-0.37	-0.91	-1.06															
+Judecătoria BRAD	-0.98	-0.18	-2.60	-0.17		Judecătoria ALEŞD	-0.78	-1.28	0.05	-1.12															
+Judecătoria VÂNJU MARE	-1.03	0.07	-0.61	-2.57		Judecătoria ORAVIŢA	-0.86	-1.43	0.30	-1.46															
+Judecătoria HÂRLĂU	-1.08	-1.36	0.48	-2.37		Judecătoria ADJUD	-0.87	-0.76	-2.01	0.16															
+Judecătoria DARABANI	-1.09	0.44	-2.20	-1.52		Judecătoria VĂLENII DE MUNTE	-0.91	-1.33	0.61	-1.99															
+Judecătoria HAŢEG	-1.11	-1.08	-1.58	-0.67		Judecătoria SEGARCEA	-1.13	-1.25	-1.13	-1.01															
+Judecătoria BUHUŞI	-1.16	-2.43	-0.61	-0.42		Judecătoria BOTOŞANI	-1.17	-1.03	0.60	-3.09															
+Judecătoria BAIA DE ARAMĂ	-1.19	-0.74	-1.31	-1.52		Judecătoria SĂVENI	-1.23	-0.01	-1.45	-2.24															
+Judecătoria SĂVENI	-1.21	-0.81	-1.01	-1.81		Judecătoria BRAD	-1.25	-1.41	-1.69	-0.63															
+Judecătoria BREZOI	-1.28	0.08	-2.51	-1.40		Judecătoria BICAZ	-1.30	0.00	-1.17	-2.72															
+Judecătoria BICAZ	-1.32	-1.95	0.06	-2.05		Judecătoria DARABANI	-1.32	-0.72	-1.22	-2.01															
+Judecătoria BĂILEŞTI	-1.33	-0.46	-0.20	-3.33		Judecătoria HAŢEG	-1.34	-1.49	-0.79	-1.74															
+Judecătoria VIDELE	-1.39	0.12	-3.40	-0.89		Judecătoria BAIA DE ARAMĂ	-1.35	-1.08	-2.10	-0.87															
+Judecătoria BLAJ	-1.47	-0.40	-0.22	-3.80		Judecătoria PUCIOASA	-1.40	-1.60	0.12	-2.73															
+Judecătoria SEGARCEA	-2.24	-0.29	-1.58	-4.86		Judecătoria BREZOI	-2.22	-2.23	-2.88	-1.55															
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
