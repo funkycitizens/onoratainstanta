@@ -144,7 +144,5 @@ gulp.task('data', function() {
     }
   })
 
-  console.log(perf.parchete)
-
   fs.writeFileSync('../_data/performance.yml', JSON.stringify(perf))
 })
