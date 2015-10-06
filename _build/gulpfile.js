@@ -19,6 +19,17 @@ function instanta(row, type, contact) {
   fs.writeFileSync(filename, html)
 }
 
+function parchet(row, type) {
+  var code = row.name.replace(/[ -]/g, '').toLowerCase()
+  var filename = '../_parchete/' + type + '/' + code + '.html'
+  var html = template('parchet.html')({
+    type: type,
+    meta: row,
+    indici_2013: row,
+  })
+  fs.writeFileSync(filename, html)
+}
+
 function table(name, skip1) {
   var data = fs.readFileSync('tables/' + name + '.tsv', 'utf-8')
   return d3.tsv.parse(data)
@@ -32,7 +43,7 @@ function contacts(name) {
   return rv
 }
 
-gulp.task('instante', function() {
+gulp.task('data', function() {
   var contact = {
     judecatorii: contacts('judecatorii'),
     tribunale: contacts('tribunale'),
@@ -46,5 +57,14 @@ gulp.task('instante', function() {
   })
   table('curtideapel-instante-2013').slice(1).forEach(function(row) {
     instanta(row, 'curtideapel', contact.curtideapel[row.cod])
+  })
+  table('judecatorii-parchete-2013').slice(1).forEach(function(row) {
+    parchet(row, 'judecatorii')
+  })
+  table('tribunale-parchete-2013').slice(1).forEach(function(row) {
+    parchet(row, 'tribunale')
+  })
+  table('curtideapel-parchete-2013').slice(1).forEach(function(row) {
+    parchet(row, 'curtideapel')
   })
 })
