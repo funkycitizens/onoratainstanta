@@ -1,10 +1,14 @@
 <!doctype html>
 <meta charset="utf-8">
 <title>Onorată Instanță</title>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="{{ site.base_url }}/style-old.css">
+<link rel="stylesheet" href="{{ site.base_url }}/style.css">
 <body>
 
-{% include navbar.html %}
+<div class="body-wrapper">
+  <div class="container">
+    {% include navbar.html %}
 
-{{ content }}
+    {{ content }}
+  </div>
+</div>
