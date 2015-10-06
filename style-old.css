@@ -9054,7 +9054,7 @@ ul.find-more li {
   height: 60px !important;
   margin: 20px 0px 0px 60px;
   padding: 5px 0;
-  background-image: url("/assets/menu-border.jpg"), url("/assets/menu-border.jpg");
+  background-image: url("assets/menu-border.jpg"), url("assets/menu-border.jpg");
   background-repeat: repeat-x, repeat-x;
   background-position: left 5px, left 52px;
 }
