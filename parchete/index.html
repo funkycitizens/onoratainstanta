@@ -5,7 +5,7 @@ title: "Parchete"
 
   <div class="col-md-4">
     <h2>Parchete speciale</h2>
-    {% for i in site.collections.parchete.docs %}
+    {% for i in site.parchete %}
       {% if i.type == 'speciale' %}
         <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
       {% endif %}
@@ -18,7 +18,7 @@ title: "Parchete"
 
   <div class="col-md-4">
     <h2>Parchete de pe lângă curțile de apel</h2>
-    {% for i in site.collections.parchete.docs %}
+    {% for i in site.parchete %}
       {% if i.type == 'curtideapel' %}
         <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
       {% endif %}
@@ -27,7 +27,7 @@ title: "Parchete"
 
   <div class="col-md-4">
     <h2>Parchete de pe lângă tribunale</h2>
-    {% for i in site.collections.parchete.docs %}
+    {% for i in site.parchete %}
       {% if i.type == 'tribunale' %}
         <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
       {% endif %}
@@ -36,7 +36,7 @@ title: "Parchete"
 
   <div class="col-md-4">
     <h2>Parchete de pe lângă judecătorii</h2>
-    {% for i in site.collections.parchete.docs %}
+    {% for i in site.parchete %}
       {% if i.type == 'judecatorii' %}
         <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
       {% endif %}
