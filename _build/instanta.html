@@ -11,3 +11,8 @@ contact:
   program: '{{contact.program}}'
   adresa: '{{contact.adresa}}'
 ---
+<script src="{{ site.base_url }}/assets/instanta.js"></script>
+<script>
+var indici = {{indici_json_raw}}
+instanta_charts(indici)
+</script>

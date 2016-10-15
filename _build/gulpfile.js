@@ -10,13 +10,15 @@ function template(name) {
 function instanta(row_2013, row_2014, type, contact, people) {
   var m = row_2013.cod.match(/^(Judecatoria|Tribunalul|CurteadeApel)(.*)$/)
   var filename = '../_instante/' + type + '/' + m[2].toLowerCase() + '.html'
+  var indici_json = JSON.stringify({
+    2013: row_2013,
+    2014: row_2014,
+  })
   var html = template('instanta.html')({
     type: type,
     meta: row_2013,
-    indici_json: JSON.stringify({
-      2013: row_2013,
-      2014: row_2014,
-    }),
+    indici_json: indici_json,
+    indici_json_raw: new Handlebars.SafeString(indici_json),
     people_json: JSON.stringify(people.map(function(p) {
       return p.Prenume + ' ' + p.Nume
     })),
