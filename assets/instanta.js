@@ -1,18 +1,20 @@
 function instanta_charts(indici) {
 
-var charts = d3.select('#charts')
-perfChart(charts.append('div'), indici)
-
+var charts = d3.selectAll('.chart')
+    .each(function() {
+      var year = this.dataset.year
+      perfChart(d3.select(this), year, indici[year])
+    })
 }
 
-function perfChart(perf, indici) {
+function perfChart(container, year, yearData) {
 
-var percentage = indici[2014].performanta
+var percentage = yearData.performanta
 var performance = +percentage.match(/[\d\.]+/) / 100
 var data = [{performance: performance}]
 
-perf.append('p')
-    .text('Performanță ' + Math.round(performance * 100) + '%')
+//container.append('p')
+//    .text('Performanță ' + Math.round(performance * 100) + '%')
 
 var radius = 60
 
@@ -23,7 +25,7 @@ var arc = d3.arc()
     .innerRadius(radius * .6)
     .outerRadius(radius)
 
-var svg = perf.append('svg')
+var svg = container.append('svg')
     .attr('width', radius * 2).attr('height', radius)
   .append('g')
     .attr('transform', 'translate('+radius+','+radius+')')
