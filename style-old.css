@@ -5805,8 +5805,8 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   /* line 233, /home/andrei/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav {
-    float: left;
     margin: 0;
+    display: inline-block;
   }
   /* line 271, /home/andrei/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav > li {
@@ -8905,7 +8905,7 @@ body {
 }
 
 /*======================================
-			Typography 
+			Typography
 ====================================== */
 /* line 55, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 h1 {
@@ -8950,7 +8950,7 @@ a {
 }
 
 /*======================================
-			Layout 
+			Layout
 ====================================== */
 /* line 89, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 .body-wrapper {
@@ -8987,7 +8987,7 @@ body {
 }
 
 /*======================================
-			Top links 
+			Top links
 ====================================== */
 /* line 120, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 ul.top-links {
@@ -9034,7 +9034,7 @@ ul.find-more li {
 }
 
 /*======================================
-			Navigation 
+			Navigation
 ====================================== */
 /* line 155, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 .navbar {
@@ -9050,18 +9050,16 @@ ul.find-more li {
 
 /* line 167, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 #bs-example-navbar-collapse {
-  background-color: #FECF87;
+  background-color: #05817a;
   height: 60px !important;
   margin: 20px 0px 0px 60px;
   padding: 5px 0;
-  background-image: url("assets/menu-border.jpg"), url("assets/menu-border.jpg");
-  background-repeat: repeat-x, repeat-x;
   background-position: left 5px, left 52px;
 }
 
 /* line 177, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #D24541;
+  color: #FFF;
   font-size: 1.15em;
   font-weight: 700;
   padding-bottom: 17px;
@@ -9070,11 +9068,10 @@ ul.find-more li {
 /* line 183, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: #D24541;
-  border-bottom: 4px solid #D24541;
 }
 
 /*======================================
-			Mobile  
+			Mobile
 ====================================== */
 @media only screen and (max-width: 769px) {
   /* line 194, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
