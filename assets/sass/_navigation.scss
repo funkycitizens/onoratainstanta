@@ -1,0 +1,357 @@
+/* line 28, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: 'open_sansregular';
+}
+
+/* line 33, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+#map {
+  height: 600px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 39, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.leaflet-container a.leaflet-popup-close-button {
+  color: #D54545;
+}
+
+/* line 42, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.leaflet-popup-tip {
+  background-color: #FECF87;
+}
+
+/* line 45, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.leaflet-popup-content-wrapper {
+  color: #D54545;
+  background-color: #FECF87;
+}
+
+/*======================================
+			Typography
+====================================== */
+/* line 55, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 2.2em;
+}
+
+/* line 59, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+/* line 64, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-size: 1.75em;
+}
+
+/* line 67, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+h4 {
+  font-size: 1.5em;
+}
+
+/* line 70, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+h5 {
+  font-size: 1.2em;
+}
+
+/* line 73, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+h6 {
+  font-size: 1em;
+}
+
+/* line 76, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 81, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+a {
+  font-size: 1em;
+}
+
+/*======================================
+			Layout
+====================================== */
+
+/* line 94, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: 'Open Sans', Sans, sans-serif;
+  font-size: 14px;
+}
+
+/* line 98, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.mainContainer {
+  margin: 50px 0;
+  min-height: 350px;
+}
+
+/* line 102, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.footer {
+  background-color: #fff;
+  min-height: 60px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* line 109, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.img-footer-logo {
+  width: 150px;
+  height: auto;
+}
+
+/*======================================
+			Top links
+====================================== */
+/* line 120, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+ul.top-links {
+  list-style: none;
+  float: right;
+  margin-top: -10px;
+}
+
+/* line 125, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+ul.top-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* line 130, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+ul.top-links li a {
+  color: #fecf87;
+  font-size: 12px;
+}
+
+/* line 134, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+ul.top-links li a:hover {
+  color: #727172;
+  text-decoration: none;
+}
+
+/* line 138, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+ul.top-links input {
+  border: 1px solid #000;
+  box-shadow: none;
+  padding: 2px 5px;
+}
+
+/* line 144, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+ul.find-more {
+  list-style: none;
+}
+
+/* line 147, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+ul.find-more li {
+  font-size: 1.25em;
+  color: #FECF87;
+  font-weight: 400;
+}
+
+/*======================================
+			Navigation
+====================================== */
+/* line 155, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 159, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.navbar-default {
+  background-color: #05817a;
+  border: none;
+  border-radius: 0;
+}
+
+/* line 167, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+#bs-example-navbar-collapse {
+  height: 60px !important;
+  padding: 5px 0;
+  background-position: left 5px, left 52px;
+}
+
+/* line 177, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: $space-m;
+  line-height: 1;
+
+  &:after {
+    content: '';
+    width: 1px;
+    height: 18px;
+    position: absolute;
+    border: 1px solid $color-secondary;
+    top: 18px;
+    right: 0;
+  }
+}
+
+/* line 183, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #D24541;
+}
+
+.navbar-nav {
+  float: none;
+  display: inline-block;
+}
+/*======================================
+			Mobile
+====================================== */
+@media only screen and (max-width: 769px) {
+  /* line 194, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  #bs-example-navbar-collapse {
+    background-color: #FECF87;
+    height: auto !important;
+    margin: 0px;
+    padding: 5px 0;
+    background-image: none;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /* line 203, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #D24541;
+    font-size: 1.15em;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-bottom: 2px solid #D24541;
+  }
+
+  /* line 210, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #D24541;
+    border-bottom: 2px solid #D24541;
+  }
+
+  /* line 214, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  .navbar-default .navbar-nav > li:last-child > a {
+    color: #D24541;
+    border-bottom: none;
+  }
+
+  /* line 218, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  ul.top-links {
+    list-style: none;
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  /* line 225, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  ul.top-links li:last-child {
+    display: block;
+    margin: 20px auto;
+  }
+
+  /* line 229, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  h1 {
+    font-size: 1.8em;
+  }
+
+  /* line 233, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  h2 {
+    color: #FECF87;
+    font-size: 1.6em;
+    font-weight: 700;
+  }
+
+  /* line 238, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  h3 {
+    font-size: 1.35em;
+  }
+
+  /* line 241, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  h4 {
+    font-size: 1.2em;
+  }
+
+  /* line 244, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  h5 {
+    font-size: 1.1em;
+  }
+
+  /* line 247, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  h6 {
+    font-size: 0.85em;
+  }
+
+  /* line 250, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  p {
+    font-size: 0.85em;
+  }
+
+  /* line 254, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+  a {
+    font-size: 0.85em;
+  }
+}
+/* line 260, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+/* line 263, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+  color: #D24541;
+}
+
+/* line 267, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+body {
+  padding-top: 0px;
+}
+
+/* line 274, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
+.subscribe_button {
+  background-color: #D54545;
+}
+
+
+.navbar-nav > li > a {
+  &:before {
+    border-right: 1px solid $color-secondary;
+  }
+}
+
+
+/////////////////////////////////////
+
+.bg-white {
+  background-color: #fff;
+}
+
+.logo-container {
+  width: 100px;
+  margin: 0 auto;
+  
+  img {
+    position: relative;
+    top: 20px;
+    border: 10px solid $color-primary;
+    border-radius: 50%;
+  }
+}
+
+.nav > li {
+
+  &:hover {
+
+    &:before {
+      content: '';
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      bottom: -3px;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid $color-base-bg;
+    }
+  }
+}

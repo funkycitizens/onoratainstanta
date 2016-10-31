@@ -1,0 +1,37 @@
+$color-primary: #05817a;
+$color-secondary: #e4be84;
+$color-dark-text: #111;
+
+$color-base-bg: #fff;
+$color-light-bg: #ededed;
+
+$space-xl: 72px;
+$space-m: 18px;
+
+
+// maps for helper classes
+
+$colors: (
+    green: #05817a,
+    yellow: #e4be84,
+    black: #111
+);
+
+$spaces: (
+    sm: 9px,
+    md: 18px,
+    lg: 36px,
+    xl: 72px
+);
+
+$icon-sizes: (
+    sm: 18px,
+    md: 36px,
+    lg: 72px,
+    xl: 144px
+);
+
+
+// overwriting bootstrap default font-family
+$headings-font-family: 'Oswald', sans-serif;
+

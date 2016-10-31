@@ -1,0 +1,9 @@
+@mixin v-spaces($spaces) {
+    @each $space, $value in $spaces {
+        .v-space-#{$space} {
+            margin-top: $value;
+        }
+    }
+}
+
+@include v-spaces($spaces);

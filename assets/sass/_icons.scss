@@ -1,0 +1,15 @@
+.icon {
+    height: 36px;
+    max-width: 100%;
+    display: inline-block;
+}
+@mixin icon-sizes($icons) {
+    @debug $icons;
+    @each $size, $value in $icons {
+        .icon-#{$size} {
+            height: $value;
+        }
+    }
+}
+
+@include icon-sizes($icon-sizes);

@@ -1,0 +1,14 @@
+
+@mixin color-classes($colors) {
+    @each $color, $value in $colors {
+        .color-#{$color} {
+            color: $value;
+        }
+
+        .fill-#{$color} {
+            fill: $value;
+        }
+    }
+}
+
+@include color-classes($colors);
