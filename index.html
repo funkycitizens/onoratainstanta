@@ -7,25 +7,25 @@ layout: base
 <h3 class="color-green text-center">Topul instanțelor din Rom&acirc;nia, conform indicelui de performanță</h3>
 <!--<p class="v-space-lg"><img src="/assets/hpage.jpg" style="width: 100%" /></p>-->
 <div class="row v-space-xl">
-  <div class="col-sm-3">
+  <div class="col-xs-6 col-sm-3">
     <svg class="icon icon-lg fill-green">
         <use xlink:href="#book"></use>
     </svg>
     <h4 class="text-center text-uppercase color-black v-space-md">Judecatorii</h4>
   </div>
-  <div class="col-sm-3">
+  <div class="col-xs-6 col-sm-3">
     <svg class="icon icon-lg fill-green">
         <use xlink:href="#judge"></use>
     </svg>
     <h4 class="text-center text-uppercase color-black v-space-md">Tribunale</h4>
   </div>
-  <div class="col-sm-3">
+  <div class="col-xs-6 col-sm-3 v-space-md-screen-sm">
     <svg class="icon icon-lg fill-green">
         <use xlink:href="#libra"></use>
     </svg>
     <h4 class="text-center text-uppercase color-black v-space-md">Curti de Apel</h4>
   </div>
-  <div class="col-sm-3">
+  <div class="col-xs-6 col-sm-3 v-space-md-screen-sm">
     <svg class="icon icon-lg fill-green">
         <use xlink:href="#court"></use>
     </svg>
@@ -34,4 +34,142 @@ layout: base
 </div>
 
 <hr />
-<p class="v-space-md"><img src="http://www.funkycitizens.org/wp-content/uploads/2015/10/indice-de-performanta-instante-parchete-romania-2015-funky-citizens.png" /></p>
+
+<div class="row v-space-xl">
+  <div class="col-sm-12 col-md-6 col-lg-5 filter-types">
+    <h2 class="filter-types__header text-center text-uppercase bg-green color-white v-padding-sm">instante</h2>
+    <table class="table table-striped filter-types__table">
+      {% assign rows=site.data.performance.instante.curtideapel %}
+      <thead class="v-padding-sm">
+        <th><h4 class="heading text-left text-uppercase color-black">Curți de Apel</h4></th>
+        <th><p class="heading text-right color-gray-60">Performanță</p></th>
+      </thead>
+
+      {% for row in rows limit:3 %}
+      <tr>
+        <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.location_name }}</span></td>
+        {% assign performance = row.perf_2015 | plus:0 %}
+        {% if performance > 0 %}
+        <td class="text-right color-success row__performance"><strong>+{{ row.perf_2015 }}</strong></td>
+        {% else %}
+        <td class="text-right text-danger row__performance"><strong>{{ row.perf_2015 }}</strong></td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+    <a class="btn btn-primary v-padding-sm">vezi toate curtile de apel</a>
+
+    <table class="table table-striped filter-types__table v-space-lg">
+      {% assign rows=site.data.performance.instante.tribunale %}
+      <thead class="v-padding-sm">
+        <th><h4 class="heading text-left text-uppercase color-black">tribunale</h4></th>
+        <th><p class="heading text-right color-gray-60">Performanță</p></th>
+      </thead>
+
+      {% for row in rows limit:3 %}
+      <tr>
+        <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.location_name }}</span></td>
+        {% assign performance = row.perf_2015 | plus:0 %}
+        {% if performance > 0 %}
+        <td class="text-right color-success row__performance"><strong>+{{ row.perf_2015 }}</strong></td>
+        {% else %}
+        <td class="text-right text-danger row__performance"><strong>{{ row.perf_2015 }}</strong></td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+    <a class="btn btn-primary v-padding-sm">vezi toate tribunalele</a>
+
+    <table class="table table-striped filter-types__table v-space-lg">
+      {% assign rows=site.data.performance.instante.judecatorii %}
+      <thead class="v-padding-sm">
+        <th><h4 class="heading text-left text-uppercase color-black">judecătorii</h4></th>
+        <th><p class="heading text-right color-gray-60">Performanță</p></th>
+      </thead>
+
+      {% for row in rows limit:3 %}
+      <tr>
+        <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.location_name }}</span></td>
+        {% assign performance = row.perf_2015 | plus:0 %}
+        {% if performance > 0 %}
+        <td class="text-right color-success row__performance"><strong>+{{ row.perf_2015 }}</strong></td>
+        {% else %}
+        <td class="text-right text-danger row__performance"><strong>{{ row.perf_2015 }}</strong></td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+    <a class="btn btn-primary v-padding-sm">vezi toate judecatoriile</a>
+
+  </div>
+
+
+  <div class="col-sm-12 col-md-6 col-lg-5 filter-types col-lg-push-2 v-space-lg-screen-sm">
+    <h2 class="filter-types__header text-center text-uppercase bg-green color-white v-padding-sm">parchete</h2>
+    <table class="table table-striped filter-types__table">
+      {% assign rows=site.data.performance.parchete.curtideapel %}
+      <thead>
+        <th><h4 class="heading text-left text-uppercase color-black">Parchete de pe lângă Curți de Apel</h4></th>
+        <th><p class="heading text-right color-gray-60">Performanță</p></th>
+      </thead>
+
+      {% for row in rows limit:3 %}
+      <tr>
+        <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.location_name }}</span></td>
+        {% assign performance = row.perf | plus:0 %}
+        {% if performance > 0 %}
+        <td class="text-right color-success row__performance"><strong>+{{ row.perf }}</strong></td>
+        {% else %}
+        <td class="text-right text-danger row__performance"><strong>{{ row.perf }}</strong></td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+    <a class="btn btn-primary v-padding-sm">vezi toate parchetele de pe langa curti de apel</a>
+
+    <table class="table table-striped filter-types__table v-space-lg">
+      {% assign rows=site.data.performance.parchete.tribunale %}
+      <thead>
+        <th><h4 class="heading text-left text-uppercase color-black">Parchete de pe lângă tribunale</h4></th>
+        <th><p class="heading text-right color-gray-60">Performanță</p></th>
+      </thead>
+
+      {% for row in rows limit:3 %}
+      <tr>
+        <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.location_name }}</span></td>
+        {% assign performance = row.perf | plus:0 %}
+        {% if performance > 0 %}
+        <td class="text-right color-success row__performance"><strong>+{{ row.perf }}</strong></td>
+        {% else %}
+        <td class="text-right text-danger row__performance"><strong>{{ row.perf }}</strong></td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+    <a class="btn btn-primary v-padding-sm">vezi toate parchetele de pe langa tribunale</a>
+
+    <table class="table table-striped filter-types__table v-space-lg">
+      {% assign rows=site.data.performance.parchete.judecatorii %}
+      <thead>
+        <th><h4 class="heading text-left text-uppercase color-black">Parchete de pe lângă judecatorii</h4></th>
+        <th><p class="heading text-right color-gray-60">Performanță</p></th>
+      </thead>
+
+      {% for row in rows limit:3 %}
+      <tr>
+        <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.location_name }}</span></td>
+        {% assign performance = row.perf | plus:0 %}
+        {% if performance > 0 %}
+        <td class="text-right color-success row__performance"><strong>+{{ row.perf }}</strong></td>
+        {% else %}
+        <td class="text-right text-danger row__performance"><strong>{{ row.perf }}</strong></td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+    <a class="btn btn-primary v-padding-sm">vezi toate parchetele de pe langa judecatorii</a>
+  </div>
+</div>
+
+
+<div class="v-space-xl"></div>
