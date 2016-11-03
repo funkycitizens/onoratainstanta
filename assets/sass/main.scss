@@ -1,4 +1,5 @@
 @import 'libs/bootstrap/assets/stylesheets/_bootstrap.scss';
+@import '../../node_modules/breakpoint-sass/stylesheets/breakpoint';
 
 @import 'variables';
 @import 'typography';
@@ -8,3 +9,4 @@
 @import 'icons';
 
 @import 'navigation';
+@import 'modules';

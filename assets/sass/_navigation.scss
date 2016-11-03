@@ -35,12 +35,6 @@ h1 {
   font-size: 2.2em;
 }
 
-/* line 59, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
-h2 {
-  font-size: 2em;
-  font-weight: 700;
-}
-
 /* line 64, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
 h3 {
   font-size: 1.75em;
@@ -162,6 +156,8 @@ ul.find-more li {
   background-color: #05817a;
   border: none;
   border-radius: 0;
+  
+  
 }
 
 /* line 167, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
@@ -188,6 +184,13 @@ ul.find-more li {
     top: 18px;
     right: 0;
   }
+
+  @include breakpoint($screen-sm) {
+    
+    &:after {
+      content: none;
+    }
+  }
 }
 
 /* line 183, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
@@ -205,7 +208,6 @@ ul.find-more li {
 @media only screen and (max-width: 769px) {
   /* line 194, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
   #bs-example-navbar-collapse {
-    background-color: #FECF87;
     height: auto !important;
     margin: 0px;
     padding: 5px 0;
@@ -214,24 +216,17 @@ ul.find-more li {
     width: 100%;
   }
 
+
+
   /* line 203, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
   .navbar-default .navbar-nav > li > a {
-    color: #D24541;
     font-size: 1.15em;
     font-weight: 700;
     padding: 10px 30px;
-    border-bottom: 2px solid #D24541;
-  }
-
-  /* line 210, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
-  .navbar-default .navbar-nav > li > a:hover {
-    color: #D24541;
-    border-bottom: 2px solid #D24541;
   }
 
   /* line 214, /home/andrei/Dev/tribunal/app/assets/stylesheets/application.css.scss */
   .navbar-default .navbar-nav > li:last-child > a {
-    color: #D24541;
     border-bottom: none;
   }
 
@@ -333,7 +328,8 @@ body {
   
   img {
     position: relative;
-    top: 20px;
+    top: 30px;
+    background-color: $color-primary;
     border: 10px solid $color-primary;
     border-radius: 50%;
   }
@@ -352,6 +348,56 @@ body {
       border-left: 5px solid transparent;
       border-right: 5px solid transparent;
       border-bottom: 5px solid $color-base-bg;
+      left: 50%;
+      transform: translateX(-50%);
+
+      @include breakpoint($screen-sm) {
+        display: none;
+      }
     }
   }
+}
+
+.navbar-default {
+  transition: all 0.5s ease;
+
+  .navbar-toggle {
+    border-color: transparent;
+
+    .icon-bar {
+      background-color: #fff;
+      height: 3px;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: darken($color-primary, 10%);
+    }
+  }
+  @include breakpoint($screen-sm) {
+    margin-top: -20px;
+  }
+}
+
+.navbar-collapse {
+
+  @include breakpoint($screen-sm) {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: transparent !important;
+  color: #D24541 !important;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  @include breakpoint($screen-sm) {
+    color: #fff !important;
+  }
+}
+
+.dropdown-menu {
+  text-align: center !important;
 }
