@@ -3,7 +3,38 @@
         .v-space-#{$space} {
             margin-top: $value;
         }
+
+        .v-space-screen-#{$space} {
+
+            @include breakpoint($screen-xs) {
+                margin-top: $value;
+            }
+        }
+
+        .v-padding-#{$space} {
+            padding-top: $value;
+            padding-bottom: $value;
+        }
+
+        .h-space-#{$space} {
+            margin-left: $value;
+        }
     }
 }
 
+@mixin responsive-v-spaces($breakpoints) {
+    @each $bp, $bpValue in $breakpoints {
+
+        @include breakpoint($bpValue) {
+
+            @each $space, $value in $spaces {
+                .v-space-#{$space}-screen-#{$bp} {
+                    margin-top: $value;
+                }
+            }
+        }
+    }
+} 
+
 @include v-spaces($spaces);
+@include responsive-v-spaces($breakpoints);

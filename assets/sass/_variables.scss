@@ -1,6 +1,10 @@
 $color-primary: #05817a;
 $color-secondary: #e4be84;
-$color-dark-text: #111;
+$color-black-text: #111;
+$color-gray-80: change-color($color-black-text, $lightness: 30);
+$color-gray-60: change-color($color-black-text, $lightness: 40);
+
+$color-success: #8eb467;
 
 $color-base-bg: #fff;
 $color-light-bg: #ededed;
@@ -14,7 +18,11 @@ $space-m: 18px;
 $colors: (
     green: #05817a,
     yellow: #e4be84,
-    black: #111
+    black: #111,
+    white: #fff,
+    gray-80: $color-gray-80,
+    gray-60: $color-gray-60,
+    success: $color-success
 );
 
 $spaces: (
@@ -30,6 +38,29 @@ $icon-sizes: (
     lg: 72px,
     xl: 144px
 );
+
+$breakpoints: (
+    xs: 480px,
+    sm: 768px,
+    md: 992px,
+    lg: 1200px
+);
+
+// breakpoints
+@include breakpoint-set('default feature', max-width);
+$breakpoint-to-ems: true;
+
+$screen-xs:                  480px;
+
+// Small screen / tablet
+$screen-sm:                  768px;
+
+// Medium screen / desktop
+$screen-md:                  992px;
+
+// Large screen / wide desktop
+$screen-lg:                  1200px;
+
 
 
 // overwriting bootstrap default font-family

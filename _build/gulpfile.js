@@ -115,6 +115,7 @@ gulp.task('data', function() {
     var name = row.name
     var item = {
       name: name,
+      location_name: name.split(" ").slice(1).join(" "),
       perf_2014: row.perf_2014,
       perf_2015: row.perf_2015,
     }
@@ -125,6 +126,7 @@ gulp.task('data', function() {
       perf.instante.tribunale.push(item)
     }
     if(name.match(/^(Curtea de Apel)(.*)$/)) {
+      item.location_name = name.split(" ").slice(3).join(" ")
       perf.instante.curtideapel.push(item)
     }
   })
@@ -133,6 +135,7 @@ gulp.task('data', function() {
     var name = row.type + ' ' + row.name.trim()
     var item = {
       name: name,
+      location_name: name.split(" ").slice(1).join(" "),
       perf: row.performance,
     }
     if(name.match(/^(Judecătoria)(.*)$/)) {
@@ -142,7 +145,8 @@ gulp.task('data', function() {
       perf.parchete.tribunale.push(item)
     }
     if(name.match(/^(Curtea de Apel)(.*)$/)) {
-      perf.parchete.curtideapel.push(item)
+      item.location_name = name.split(" ").slice(3).join(" ")
+      perf.parchete.curtideapel.push(item);
     }
   })
 

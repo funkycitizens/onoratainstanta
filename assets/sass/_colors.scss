@@ -5,6 +5,10 @@
             color: $value;
         }
 
+        .bg-#{$color} {
+            background-color: $value;
+        }
+
         .fill-#{$color} {
             fill: $value;
         }
