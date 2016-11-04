@@ -4,20 +4,20 @@ layout: page
 
 {{ content }}
 
-<h2>Instanțe – Judecătorii</h2>
+<h2 id="instanteJudecatorii">Instanțe – Judecătorii</h2>
 {% include perftable-instante.html rows=site.data.performance.instante.judecatorii %}
 
-<h2>Instanțe – Tribunale</h2>
+<h2 id="instanteTribunale">Instanțe – Tribunale</h2>
 {% include perftable-instante.html rows=site.data.performance.instante.tribunale %}
 
-<h2>Instanțe – Curți de apel</h2>
+<h2 id="instanteCurtiApel">Instanțe – Curți de apel</h2>
 {% include perftable-instante.html rows=site.data.performance.instante.curtideapel %}
 
-<h2>Parchete de pe lângă judecătorii</h2>
+<h2 id="parcheteJudecatorii">Parchete de pe lângă judecătorii</h2>
 {% include perftable-parchete.html rows=site.data.performance.parchete.judecatorii %}
 
-<h2>Parchete de pe lângă tribunale</h2>
+<h2 id="parcheteTribunale">Parchete de pe lângă tribunale</h2>
 {% include perftable-parchete.html rows=site.data.performance.parchete.tribunale %}
 
-<h2>Parchete de pe lângă curțile de apel</h2>
+<h2 id="parcheteCurtiApel">Parchete de pe lângă curțile de apel</h2>
 {% include perftable-parchete.html rows=site.data.performance.parchete.curtideapel %}
