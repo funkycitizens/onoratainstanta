@@ -2,11 +2,15 @@
 @import '../../node_modules/breakpoint-sass/stylesheets/breakpoint';
 
 @import 'variables';
+
+@import 'global';
 @import 'typography';
 
 @import 'colors';
 @import 'spaces';
 @import 'icons';
+
+@import 'buttons';
 
 @import 'navigation';
 @import 'modules';

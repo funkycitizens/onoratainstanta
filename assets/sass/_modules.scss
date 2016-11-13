@@ -39,23 +39,31 @@
             font-size: 18px;
         }
     }
+}
 
-    .btn-primary {
-        background-color: $color-primary;
-        border-radius: 0;
-
-        &:after {
-            content: '>';
-            margin-left: 9px;
-            transition: all 0.1s ease-in-out;
-            right: 0;
-            position: relative;
+.dictionar-legalez {
+    td {
+        p {
+            padding: map-get($spaces, md);
+            color: $color-gray-60;    
         }
 
-        &:hover {
-            &:after {
-                right: -8px;
+        &:first-of-type {
+            border-left: none !important;
+            span {
+                font-family: 'Oswald', sans-serif !important;
+                font-size: 18px !important;
+                letter-spacing: 0.06rem;
+                color: $color-gray-80;  
             }
         }
+
+        &:nth-of-type(3) {
+            vertical-align: top !important;
+            span {
+                font-size: 16px !important;
+            }
+        }
+        
     }
 }

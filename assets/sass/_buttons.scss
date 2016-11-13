@@ -1,0 +1,22 @@
+.btn-primary {
+    background-color: $color-primary;
+    border-radius: 0;
+    border: none;
+
+    &:after {
+        content: '>';
+        margin-left: 9px;
+        transition: all 0.1s ease-in-out;
+        right: 0;
+        position: relative;
+    }
+
+    @include button-variant(#fff, $color-primary, $color-primary)
+
+    &:hover {
+        background-color: $color-primary;
+        &:after {
+            right: -8px;
+        }
+    }
+}
