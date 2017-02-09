@@ -3,6 +3,7 @@ $color-secondary: #e4be84;
 $color-black-text: #111;
 $color-gray-80: change-color($color-black-text, $lightness: 30);
 $color-gray-60: change-color($color-black-text, $lightness: 40);
+$color-gray-40: change-color($color-black-text, $lightness: 60);
 
 $color-success: #8eb467;
 
