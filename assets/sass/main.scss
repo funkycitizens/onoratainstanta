@@ -4,6 +4,7 @@
 @import 'variables';
 
 @import 'global';
+@import 'helpers/_classes.scss';
 @import 'typography';
 
 @import 'colors';
@@ -13,4 +14,4 @@
 @import 'buttons';
 
 @import 'navigation';
-@import 'modules';
+@import 'modules/modules';
