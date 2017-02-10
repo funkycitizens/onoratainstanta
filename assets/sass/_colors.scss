@@ -3,6 +3,14 @@
     @each $color, $value in $colors {
         .color-#{$color} {
             color: $value;
+
+            > a {
+                color: $value;
+            }
+
+            > a:focus {
+                color: darken($value, 5%);
+            }
         }
 
         .bg-#{$color} {
