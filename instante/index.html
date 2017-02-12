@@ -1,33 +1,52 @@
 ---
 title: "Instanțe"
+breadcrumb: Instante
 ---
 <div class="row">
 
-  <div class="col-md-4">
-    <h2>Curți de apel</h2>
+  <div class="col-sm-12 col-md-4">
+    <h3 class="filter-types__header text-center text-uppercase bg-green color-white v-padding-sm line-height-md">Curți de Apel</h3>
+    <table class="table table-striped filter-types__table">
     {% for i in site.instante %}
       {% if i.type == 'curtideapel' %}
-        <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
+        <tr>
+          <td class="v-padding-md">
+            <a  class="color-gray-80 h4 h-space-sm row__location" href="{{ site.base_url }}{{ i.url }}">{{ i.subtitle }}</a>
+          </td>
+        </tr>
       {% endif %}
     {% endfor %}
+    </table>
   </div>
 
-  <div class="col-md-4">
-    <h2>Tribunale</h2>
+  <div class="col-sm-12 col-md-4">
+    <h3 class="filter-types__header text-center text-uppercase bg-green color-white v-padding-sm line-height-md">Tribunale</h3>
+    <table class="table table-striped filter-types__table">
     {% for i in site.instante %}
       {% if i.type == 'tribunale' %}
-        <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
+        <tr>
+          <td class="v-padding-md">
+            <a  class="color-gray-80 h4 h-space-sm row__location" href="{{ site.base_url }}{{ i.url }}">{{ i.subtitle }}</a>
+          </td>
+        </tr>
       {% endif %}
     {% endfor %}
+    </table>
   </div>
 
-  <div class="col-md-4">
-    <h2>Judecătorii</h2>
+  <div class="col-sm-12 col-md-4">
+    <h3 class="filter-types__header text-center text-uppercase bg-green color-white v-padding-sm line-height-md">Judecătorii</h3>
+    <table class="table table-striped filter-types__table">
     {% for i in site.instante %}
       {% if i.type == 'judecatorii' %}
-        <p><a href="{{ site.base_url }}{{ i.url }}">{{ i.title }}</a></p>
+        <tr>
+          <td class="v-padding-md">
+            <a  class="color-gray-80 h4 h-space-sm row__location" href="{{ site.base_url }}{{ i.url }}">{{ i.subtitle }}</a>
+          </td>
+        </tr>
       {% endif %}
     {% endfor %}
+    </table>
   </div>
 
 </div>
