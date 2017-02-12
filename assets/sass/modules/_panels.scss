@@ -1,0 +1,20 @@
+.panel-ovr {
+    &__heading {
+        a[aria-expanded="true"] {
+            color: $color-gray-80 !important;
+            transition: color 0.2s;
+            svg {
+                fill: $color-gray-80 !important;
+                transition: color 0.2s;
+            }
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__body {
+        border-top: none !important;
+    }
+}

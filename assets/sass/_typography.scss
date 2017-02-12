@@ -15,3 +15,16 @@ h1, h2, h3, h4, h5, h6,
     color: $headings-small-color;
   }
 }
+
+
+.h1-bold, .h2-bold, .h3-bold, .h4-bold, .h5-bold, .h6-bold {
+  font-weight: 700;
+}
+
+.measure-wide {   max-width: 44em; }
+.measure {        max-width: 40em; }
+.measure-narrow { max-width: 30em; }
+
+.line-height-md {
+  line-height: 1.5;
+}
