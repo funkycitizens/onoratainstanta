@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.flex-fill {
+    flex: 1 0 auto;
+}
+
 .flex-row {
     flex-direction: row;
 }
@@ -10,10 +14,34 @@
     flex-direction: column;
 }
 
+.flex-justify-end {
+    justify-content: flex-end;
+}
+
 .flex-align-center {
     align-items: center;
 }
 
 .flex-align-self-center {
     align-self: center;
+}
+
+.flex-align-items-baseline {
+    align-items: baseline;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-basis-sm {
+    width: 20rem;
+}
+
+.border-top-none {
+    border-top: none;
 }

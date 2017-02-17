@@ -2,6 +2,11 @@
     &__header {
         position: relative;
 
+        &.mod-left-arrow:before {
+            left: map-get($spaces, md);
+            transform: initial;
+        }
+
         &:before {
         content: '';
         width: 0px;
