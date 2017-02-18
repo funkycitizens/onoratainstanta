@@ -1,6 +1,7 @@
 ---
 layout: base
 ---
+ {% if page.hasCrumbs == true %}
  <ol class="breadcrumb breadcrumb-ovr v-space-lg">
   <li><a href="{{ site.baseurl }}/">Home</a></li>
   {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
@@ -21,6 +22,7 @@ layout: base
       {% endfor %}
   {% endfor %}
 </ol>
+{% endif %}
 <h1 class="text-center color-gray-80 v-space-lg">{{ page.title }}</h1>
 
 {{ content }}
