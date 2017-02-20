@@ -1,65 +1,283 @@
 ---
 layout: page
+breadcrumb: {{page.title}}
 ---
-
-<h2>Indicatori</h2>
+<div class="row">
+    <div class="col-md-6">
+        <h1 class="color-gray-80 text-left">{{page.subtitle}}</h1>
+    </div>
+    <div class="col-md-6 d-flex flex-justify-end">
+        {% assign type = page.type %}
+        {% assign items = site.data.performance.instante[type] %}
+        {% for item in items  %}
+            {% if item.name == page.subtitle %}
+            <!-- assumes list is sorted-->
+            <div class="d-flex bg-yellow h-padding-md v-padding-sm flex-align-items-baseline">
+                <span class="h1 all-margin-0 color-gray-80">
+                    {{ forloop.index }} 
+                </span>
+                <span class="h4 all-margin-0 color-gray-60 h-space-xs">/</span>
+                <span class="color-black-opacity-60 h4 all-margin-0 h-space-xs">
+                    {{ items | size }}
+                </span>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    </div>
+</div>
 
 <div class="row">
+    <div class="col-sm-12 d-flex flex-justify-end">
+        <span class="text-right">cf. indicelui de performanta</span>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped filter-types__table">
+            <thead>
+                <th class="h-padding-0">
+                  <h3 class="filter-types__header mod-left-arrow text-left text-uppercase bg-green color-white v-padding-sm line-height-md hl-padding-sm">Indicatori</h3>
+                </th>
+                <th class="h-padding-0">
+                  <h3 class="filter-types__header mod-left-arrow text-left text-uppercase bg-green color-white v-padding-sm line-height-md hl-padding-sm">2013</h3>
+                </th>
+                <th class="h-padding-0">
+                  <h3 class="filter-types__header mod-left-arrow text-left text-uppercase bg-green color-white v-padding-sm line-height-md hl-padding-sm">2014</h3>
+                </th>
+            </thead>
+            <tr>
+                <td><span class="color-gray-80  row__location">Performanță: </span></td>
+                <td class="text-left color-gray-60 row__performance"><strong>{{ page.indici.2013.performanta }}</strong></td>
+                <td class="text-left color-gray-60 row__performance d-flex border-top-none">
+                  <strong class="flex-fill">{{ page.indici.2014.performanta }}</strong>
+                  {% assign yoy = page.indici.2014.performanta | minus:page.indici.2013.performanta %}
+                  {% if yoy > 0 %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-success text-v-align-bottom">
+                      <use xlink:href="#arrow-up"></use>
+                  </svg>
+                  {% else %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-danger text-v-align-bottom">
+                      <use xlink:href="#arrow-down"></use>
+                  </svg>
+                  {% endif %}
+                </td>
+            </tr>
+             <tr>
+                <td><span class="color-gray-80  row__location">Siguranță: </span></td>
+                <td class="text-left color-gray-60 row__performance"><strong>{{ page.indici.2013.siguranta }}</strong></td>
+                <td class="text-left color-gray-60 row__performance d-flex">
+                  <strong class="flex-fill">{{ page.indici.2014.siguranta }}</strong>
+                  {% assign yoy = page.indici.2014.siguranta | minus:page.indici.2013.siguranta %}
+                  {% if yoy > 0 %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-success text-v-align-bottom">
+                      <use xlink:href="#arrow-up"></use>
+                  </svg>
+                  {% else %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-danger text-v-align-bottom">
+                      <use xlink:href="#arrow-down"></use>
+                  </svg>
+                  {% endif %}
+                </td>
+            </tr>
+             <tr>
+                <td><span class="color-gray-80  row__location">Operativitate: </span></td>
+                <td class="text-left color-gray-60 row__performance"><strong>{{ page.indici.2013.operativitate }}</strong></td>
+                <td class="text-left color-gray-60 row__performance d-flex">
+                  <strong class="flex-fill">{{ page.indici.2014.operativitate }}</strong>
+                  {% assign yoy = page.indici.2014.operativitate | minus:page.indici.2013.operativitate %}
+                  {% if yoy > 0 %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-success text-v-align-bottom">
+                      <use xlink:href="#arrow-up"></use>
+                  </svg>
+                  {% else %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-danger text-v-align-bottom">
+                      <use xlink:href="#arrow-down"></use>
+                  </svg>
+                  {% endif %}
+                </td>
+            </tr>
+             <tr>
+                <td><span class="color-gray-80  row__location">Încărcătură: </span></td>
+                <td class="text-left color-gray-60 row__performance"><strong>{{ page.indici.2013.incarcatura }}</strong></td>
+                <td class="text-left color-gray-60 row__performance d-flex">
+                  <strong class="flex-fill">{{ page.indici.2014.incarcatura }}</strong>
+                  {% assign yoy = page.indici.2014.incarcatura | minus:page.indici.2013.incarcatura %}
+                  {% if yoy > 0 %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-success text-v-align-bottom">
+                      <use xlink:href="#arrow-up"></use>
+                  </svg>
+                  {% else %}
+                  <svg class="icon icon-sm icon-sm-fixed-w fill-danger text-v-align-bottom">
+                      <use xlink:href="#arrow-down"></use>
+                  </svg>
+                  {% endif %}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="row">   
+    <div class="col-md-4 col-lg-4">
+        <h3 class="pos-relative has-arrow mod-left-arrow text-left text-uppercase bg-gray-60 color-white hl-padding-sm v-padding-sm">INDICATORI</h3>
+        <table class="table table-striped filter-types__table">
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Populație deservită:</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Nr. judecători:</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Stoc dosare:</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Nr. dosare soluționate:</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Încărcătură pe judecător:</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Indice de atacabilitate:</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Indice de casare:</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">Durată în zile:</span></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="col-md-4 col-lg-4">
+        <h3 class="pos-relative has-arrow mod-left-arrow text-left text-uppercase bg-gray-60 color-white hl-padding-sm v-padding-sm">2013</h3>
+        <table class="table table-striped filter-types__table">
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.populatie }}</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.judecatori }}</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.stoc }}</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.dosare_solutionate }}</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.incarcatura_judecator }}</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.indice_atacabilitate }}</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.indice_casare }}</span></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2013.durata }}</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="col-md-4 col-lg-4">
+    <h3 class="pos-relative has-arrow mod-left-arrow text-left text-uppercase bg-gray-60 color-white hl-padding-sm v-padding-sm">2014</h3>
+    <table class="table table-striped filter-types__table">
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.populatie }}</span></td>
+        </tr>
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.judecatori }}</span></td>
+        </tr>
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.stoc }}</span></td>
+        </tr>
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.dosare_solutionate }}</span></td>
+        </tr>
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.incarcatura_judecator }}</span></td>
+        </tr>
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.indice_atacabilitate }}</span></td>
+        </tr>
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.indice_casare }}</span></td>
+        </tr>
+        <tr>
+            <td><span class="color-gray-80 h-space-sm row__location">{{ page.indici.2014.durata }}</span></td>
+        </tr>
+    </table>
+</div>
+</div>
+
+
+<!--<div class="row">
   <div class="col-sm-6">
     <h3>2013</h3>
 
     <div class="chart" data-year="2013"></div>
 
-    <p>Performanță: {{ page.indici.2013.performanta }}</p>
-    <p>Siguranță: {{ page.indici.2013.siguranta }}</p>
-    <p>Operativitate: {{ page.indici.2013.operativitate }}</p>
-    <p>Încărcătură: {{ page.indici.2013.incarcatura }}</p>
-    <p>Populație deservită: {{ page.indici.2013.populatie }}</p>
-    <p>Nr. judecători: {{ page.indici.2013.judecatori }}</p>
-    <p>Stoc dosare: {{ page.indici.2013.stoc }}</p>
-    <p>Nr. dosare soluționate: {{ page.indici.2013.dosare_solutionate }}</p>
-    <p>Încărcătură pe judecător: {{ page.indici.2013.incarcatura_judecator }}</p>
-    <p>Indice de atacabilitate: {{ page.indici.2013.indice_atacabilitate }}</p>
-    <p>Indice de casare: {{ page.indici.2013.indice_casare }}</p>
-    <p>Durată în zile: {{ page.indici.2013.durata }}</p>
+    <p></p>
+    
   </div>
 
   <div class="col-sm-6">
     <h3>2014</h3>
 
     <div class="chart" data-year="2014"></div>
-
-    <p>Performanță: {{ page.indici.2014.performanta }}</p>
-    <p>Siguranță: {{ page.indici.2014.siguranta }}</p>
-    <p>Operativitate: {{ page.indici.2014.operativitate }}</p>
-    <p>Încărcătură: {{ page.indici.2014.incarcatura }}</p>
-    <p>Populație deservită: {{ page.indici.2014.populatie }}</p>
-    <p>Nr. judecători: {{ page.indici.2014.judecatori }}</p>
-    <p>Stoc dosare: {{ page.indici.2014.stoc }}</p>
-    <p>Nr. dosare soluționate: {{ page.indici.2014.dosare_solutionate }}</p>
-    <p>Încărcătură pe judecător: {{ page.indici.2014.incarcatura_judecator }}</p>
-    <p>Indice de atacabilitate: {{ page.indici.2014.indice_atacabilitate }}</p>
-    <p>Indice de casare: {{ page.indici.2014.indice_casare }}</p>
-    <p>Durată în zile: {{ page.indici.2014.durata }}</p>
+    
   </div>
+</div>-->
+
+<div class="row">
+    <div class="col-md-12 d-flex flex-column">
+        <div class="d-flex flex-wrap">
+            <span class="color-green flex-basis-sm">Web site:</span><span class="color-gray-60">{{ page.contact.website }}</span>
+        </div>
+        <div class="d-flex flex-wrap">
+            <span class="color-green flex-basis-sm">Adresă email:</span><span class="color-gray-60">{{ page.contact.email }}</span>
+        </div>
+        <div class="d-flex flex-wrap">
+            <span class="color-green flex-basis-sm">Telefon:</span><span class="color-gray-60">{{ page.contact.telefon }}</span>
+        </div>
+        <div class="d-flex flex-wrap">
+            <span class="color-green flex-basis-sm">Fax:</span><span class="color-gray-60">{{ page.contact.fax }}</span>
+        </div>
+        <div class="d-flex flex-wrap">
+            <span class="color-green flex-basis-sm">Program:</span><span class="color-gray-60">{{ page.contact.program }}</span>
+        </div>
+        <div class="d-flex flex-wrap">
+            <span class="color-green flex-basis-sm">Adresă:</span><span class="color-gray-60">{{ page.contact.adresa }}</span>
+        </div>
+    </div>
 </div>
 
+<a href="#" class="btn btn-yellow v-padding-sm v-space-sm js-list-display">vezi toti judecatorii</a>
 
-<h2>Judecători</h2>
-<ul class="list-unstyled">
+<ul class="list-unstyled v-space-md js-list" style="display:none">
   {% for p in page.people %}
-    <li>{{ p }}</li>
+    <li class="color-gray-80 v-padding-xs">{{ p }}</li>
   {% endfor %}
 </ul>
 
+<div class="v-space-lg"></div>
 
-<h2>Contact</h2>
 
-<p>Web site: {{ page.contact.website }}</p>
-<p>Adresă email: {{ page.contact.email }}</p>
-<p>Telefon: {{ page.contact.telefon }}</p>
-<p>Fax: {{ page.contact.fax }}</p>
-<p>Program: {{ page.contact.program }}</p>
-<p>Adresă: {{ page.contact.adresa }}</p>
 
 {{ content }}
+<script>
+    $(document).ready(function() {
+        var listDisplayBtn = $('.js-list-display');
+        var list = $('.js-list');
+
+
+        listDisplayBtn.on('click', function() {
+            listDisplayBtn.hide('fast');
+            list.show('fast');
+
+            return false;
+        });
+    })
+</script>

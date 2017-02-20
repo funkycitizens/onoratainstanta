@@ -1,13 +1,17 @@
-<table class="table">
-  <thead>
-    <th>Instanță</th>
-    <th>Indice</th>
+<table class="table table-striped filter-types__table">
+  <thead class="v-padding-sm">
+    <th class="heading text-left text-uppercase color-black">Instanță</th>
+    <th class="heading text-left text-uppercase color-black">Indice</th>
   </thead>
 
   {% for row in include.rows %}
   <tr>
-    <td>{{ row.name }}</td>
-    <td>{{ row.perf }}</td>
+    <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.name }}</span></td>
+    {% assign performance = row.perf | plus:0 %} {% if performance > 0 %}
+    <td class="text-left color-success row__performance"><strong>+{{ row.perf }}</strong></td>
+    {% else %}
+    <td class="text-left text-danger row__performance"><strong>{{ row.perf }}</strong></td>
+    {% endif %}
   </tr>
   {% endfor %}
 </table>

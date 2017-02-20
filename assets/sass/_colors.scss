@@ -3,14 +3,63 @@
     @each $color, $value in $colors {
         .color-#{$color} {
             color: $value;
+
+            > a {
+                color: $value;
+            }
+
+            > a:focus {
+                color: darken($value, 5%);
+            }
         }
 
         .bg-#{$color} {
             background-color: $value;
+
+            &.has-arrow {
+
+                &:before {
+                    content: '';
+                    width: 0px;
+                    height: 0px;
+                    position: absolute;
+                    bottom: -8px;
+                    border-left: 9px solid transparent;
+                    border-right: 9px solid transparent;
+                    border-top: 9px solid $value;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                &.mod-left-arrow:before {
+                    left: map-get($spaces, md);
+                    transform: initial;
+                }
+                
+            }
         }
 
         .fill-#{$color} {
             fill: $value;
+        }
+
+        .btn-#{$color} {
+            background-color: $value;
+            border-radius: 0;
+            border: none;
+            &:after {
+                content: '>';
+                margin-left: 9px;
+                transition: all 0.1s ease-in-out;
+                right: 0;
+                position: relative;
+            }
+            @include button-variant(#fff, $value, $value) &:hover {
+                background-color: $value;
+                &:after {
+                    right: -8px;
+                }
+            }
         }
     }
 }

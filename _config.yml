@@ -2,6 +2,7 @@ base_url: ''
 
 exclude:
   - Readme.md
+  - node_modules
 
 defaults:
   - scope: {path: ''}
@@ -13,6 +14,9 @@ defaults:
 
   - scope: {path: '', type: 'parchete'}
     values: {layout: 'parchet'}
+  
+  - scope: {path: ''}
+    values: {hasCrumbs: false}
 
 collections:
   instante: {output: true}

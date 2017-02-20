@@ -1,0 +1,11 @@
+.law-type {
+    display: flex;
+
+    @include breakpoint($screen-md) {
+        display: initial;
+    } 
+
+    .law-type__example {
+        flex: 1 0 auto;
+    }
+}

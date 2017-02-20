@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 
 
 h1, h2, h3, h4, h5, h6,
@@ -14,4 +14,23 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1;
     color: $headings-small-color;
   }
+}
+
+
+.h1-bold, .h2-bold, .h3-bold, .h4-bold, .h5-bold, .h6-bold {
+  font-weight: 700;
+}
+
+.measure-wide {   max-width: 44em; }
+.measure {        max-width: 40em; }
+.measure-narrow { max-width: 30em; }
+.measure-xnarrow { max-width: 24em; }
+
+.line-height-md {
+  line-height: 1.5;
+}
+
+
+.text-v-align-bottom {
+  vertical-align: bottom;
 }

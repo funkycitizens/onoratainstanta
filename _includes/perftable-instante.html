@@ -1,15 +1,25 @@
-<table class="table">
-  <thead>
-    <th>Instanță</th>
-    <th>Indice 2014</th>
-    <th>Indice 2015</th>
+<table class="table table-striped filter-types__table">
+  <thead class="v-padding-sm">
+    <th class="heading text-left text-uppercase color-black">Instanță</th>
+    <th class="heading text-left text-uppercase color-black">Indice 2014</th>
+    <th class="heading text-left text-uppercase color-black">Indice 2015</th>
   </thead>
 
   {% for row in include.rows %}
   <tr>
-    <td>{{ row.name }}</td>
-    <td>{{ row.perf_2014 }}</td>
-    <td>{{ row.perf_2015 }}</td>
+    <td><span class="color-green h4">{{ forloop.index }}</span><span class="color-gray-80 h-space-sm row__location">{{ row.name }}</span></td>
+    {% assign performance = row.perf_2014 | plus:0 %} {% if performance > 0 %}
+
+    <td class="text-left color-success row__performance"><strong>+{{ row.perf_2014 }}</strong></td>
+    {% else %}
+    <td class="text-left text-danger row__performance"><strong>{{ row.perf_2014 }}</strong></td>
+    {% endif %}
+
+    {% assign performance = row.perf_2015 | plus:0 %} {% if performance > 0 %}
+    <td class="text-left color-success row__performance"><strong>+{{ row.perf_2015 }}</strong></td>
+    {% else %}
+    <td class="text-left text-danger row__performance"><strong>{{ row.perf_2015 }}</strong></td>
+    {% endif %}
   </tr>
   {% endfor %}
 </table>

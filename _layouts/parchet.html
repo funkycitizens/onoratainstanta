@@ -2,35 +2,146 @@
 layout: page
 ---
 
-<h2>Indicatori</h2>
+<div class="row">
+    <div class="col-md-6">
+        <h1 class="color-gray-80 text-left">{{page.subtitle}}</h1>
+    </div>
+    <div class="col-md-6"></div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-lg-10">
+        <h3 class="filter-types__header text-center text-uppercase bg-green color-white v-padding-sm line-height-md">Indicatori</h3>
+        <table class="table table-striped filter-types__table">
+            <thead>
+                <th><h4 class="heading text-left text-uppercase color-black">Indicator</h4></th>
+                <th><p class="heading text-right color-gray-60">Valoare</p></th>
+            </thead>
+            <tr>
+                <td><span class="color-gray-80  row__location">UNITATEA DE PARCHET (ACTIVITATE PROPRIE):</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.name }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">POSTURI DE PROCUROR OCUPATE EFECTIV: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.procurori }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">TOTAL LUCRĂRI DE SOLUȚIONAT, DIN CARE:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.lucrari }}</strong></td>
+            </tr>
+             <tr>
+                <td><span class="color-gray-80  row__location">TOTAL DOSARE DE SOLUȚIONAT: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare }}</strong></td>
+            </tr>
 
-<p>UNITATEA DE PARCHET (ACTIVITATE PROPRIE): {{ page.indici.2014.name }}</p>
-<p>POSTURI DE PROCUROR OCUPATE EFECTIV: {{ page.indici.2014.procurori }}</p>
-<p>TOTAL LUCRĂRI DE SOLUȚIONAT, DIN CARE: {{ page.indici.2014.lucrari }}</p>
-<p>TOTAL DOSARE DE SOLUȚIONAT: {{ page.indici.2014.dosare }}</p>
-<p>TOTAL LUCRĂRI SOLUȚIONATE, DIN CARE: {{ page.indici.2014.lucrari_solutionate }}</p>
-<p>TOTAL DOSARE SOLUȚIONATE: {{ page.indici.2014.dosare_solutionate }}</p>
-<p>PRIN RECHIZITORIU: {{ page.indici.2014.dosare_solutionate_rechizitoriu }}</p>
-<p>PRIN ACORDURI DE RECUNOAȘTERE A VINOVĂȚIEI: {{ page.indici.2014.dosare_solutionate_recunoastere }}</p>
-<p>PRIN RENUNȚARE LA URMĂRIREA PENALĂ: {{ page.indici.2014.dosare_solutionate_neurmarire }}</p>
-<p>PRIN CLASARE: {{ page.indici.2014.dosare_solutionate_clasare }}</p>
-<p>DOSARE SOLUȚIONATE PÂNĂ ÎN 6 LUNI DE LA SESIZARE: {{ page.indici.2014.dosare_solutionate_6luni }}</p>
-<p>DOSARE SOLUȚIONATE ÎNTRE 6 LUNI ȘI 1 AN DE LA SESIZARE: {{ page.indici.2014.dosare_solutionate_1an }}</p>
-<p>DOSARE SOLUȚIONATE PESTE 1 AN DE LA SESIZARE: {{ page.indici.2014.dosare_solutionate_peste }}</p>
-<p>DOSARE SOLUȚIONATE DUPĂ ÎMPLINIREA TERMENULUI DE PRESCRIPȚIE: {{ page.indici.2014.dosare_solutionate_prescriptie }}</p>
-<p>DOSARE RESTITUITE DE INSTANȚE SAU TRIMISE PROCURORULUI: {{ page.indici.2014.dosare_restituite }}</p>
-<p>DOSARE INFIRMATE SAU CU URMĂRIREA PENALĂ REDESCHISĂ: {{ page.indici.2014.dosare_infirmate }}</p>
-<p>NR. INCULPAȚI SAU SUSPECȚI DIN CAUZELE SOLUȚIONATE: {{ page.indici.2014.inculpati }}</p>
-<p>NR. INCULPAȚI TRIMIȘI ÎN JUDECATĂ PRIN RECHIZITORIU: {{ page.indici.2014.inculpati_judecata_rechizitoriu }}</p>
-<p>NR. INCULPAȚI TRIMIȘI ÎN JUDECATĂ PRIN ACORDURI DE RECUNOAȘTERE A VINOVĂȚIEI: {{ page.indici.2014.inculpati_judecata_recunoastere }}</p>
-<p>NR. INCULPAȚI TRIMIȘI ÎN JUDECATĂ ARESTAȚI PREVENTIV: {{ page.indici.2014.inculpati_judecata_arestati }}</p>
-<p>PREJUDICII ÎN LEI PRODUSE DE INCULPAȚII TRIMIȘI ÎN JUDECATĂ: {{ page.indici.2014.inculpati_judecata_prejudicii_lei }}</p>
-<p>PREJUDICII ÎN EURO PRODUSE DE INCULPAȚII TRIMIȘI ÎN JUDECATĂ: {{ page.indici.2014.inculpati_judecata_prejudicii_euro }}</p>
-<p>VALOAREA MĂSURILOR ASIGURĂTORII ÎN LEI: {{ page.indici.2014.masuri_asiguratorii_lei }}</p>
-<p>NR. INCULPAȚI ACHITAȚI DEFINITIV INDIFERENT DE PERIOADA TRIMITERII ÎN JUDECATĂ: {{ page.indici.2014.inculpati_achitati }}</p>
-<p>NR. INCULPAȚI ACHITAȚI DEFINITIV ARESTAȚI PREVENTIV: {{ page.indici.2014.inculpati_achitati_arestati }}</p>
-<p>TOTAL PLÂNGERI ÎMPOTRIVA ACTELOR ȘI MĂSURILOR PROCURORULUI DE SOLUȚIONAT, DIN CARE: {{ page.indici.2014.plangeri }}</p>
-<p>TOTAL PLÂNGERI ÎMPOTRIVA ACTELOR ȘI MĂSURILOR PROCURORULUI SOLUȚIONATE, DIN CARE: {{ page.indici.2014.plangeri_solutionate }}</p>
-<p>TOTAL PLÂNGERI ÎMPOTRIVA ACTELOR ȘI MĂSURILOR PROCURORULUI ADMISE: {{ page.indici.2014.plangeri_solutionate_admise }}</p>
-<p>TOTAL CĂI DE ATAC DECLARATE DE PROCUROR ÎN CAUZELE PENALE, DIN CARE: {{ page.indici.2014.caideatac_penale }}</p>
-<p>TOTAL CĂI DE ATAC ADMISE ÎN CAUZELE PENALE: {{ page.indici.2014.caideatac_penale_admise }}</p>
+             <tr>
+                <td><span class="color-gray-80  row__location">TOTAL LUCRĂRI SOLUȚIONATE, DIN CARE: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.lucrari_solutionate }}</strong></td>
+            </tr>
+             <tr>
+                <td><span class="color-gray-80  row__location">TOTAL DOSARE SOLUȚIONATE:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">PRIN RECHIZITORIU: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_rechizitoriu }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">PRIN ACORDURI DE RECUNOAȘTERE A VINOVĂȚIEI:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_recunoastere }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">PRIN RENUNȚARE LA URMĂRIREA PENALĂ:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_neurmarire }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">PRIN CLASARE: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_clasare }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">DOSARE SOLUȚIONATE PÂNĂ ÎN 6 LUNI DE LA SESIZARE:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_6luni }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">DOSARE SOLUȚIONATE ÎNTRE 6 LUNI ȘI 1 AN DE LA SESIZARE: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_1an }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">DOSARE SOLUȚIONATE PESTE 1 AN DE LA SESIZARE:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_peste }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">DOSARE SOLUȚIONATE DUPĂ ÎMPLINIREA TERMENULUI DE PRESCRIPȚIE:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_solutionate_prescriptie }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">DOSARE RESTITUITE DE INSTANȚE SAU TRIMISE PROCURORULUI:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_restituite }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">DOSARE INFIRMATE SAU CU URMĂRIREA PENALĂ REDESCHISĂ:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.dosare_infirmate }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">NR. INCULPAȚI SAU SUSPECȚI DIN CAUZELE SOLUȚIONATE:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">NR. INCULPAȚI TRIMIȘI ÎN JUDECATĂ PRIN RECHIZITORIU:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati_judecata_rechizitoriu }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">NR. INCULPAȚI TRIMIȘI ÎN JUDECATĂ PRIN ACORDURI DE RECUNOAȘTERE A VINOVĂȚIEI:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati_judecata_recunoastere }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">NR. INCULPAȚI TRIMIȘI ÎN JUDECATĂ ARESTAȚI PREVENTIV:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati_judecata_arestati }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">PREJUDICII ÎN LEI PRODUSE DE INCULPAȚII TRIMIȘI ÎN JUDECATĂ:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati_judecata_prejudicii_lei }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">PREJUDICII ÎN EURO PRODUSE DE INCULPAȚII TRIMIȘI ÎN JUDECATĂ:</span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati_judecata_prejudicii_euro }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">VALOAREA MĂSURILOR ASIGURĂTORII ÎN LEI: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.masuri_asiguratorii_lei }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">NR. INCULPAȚI ACHITAȚI DEFINITIV INDIFERENT DE PERIOADA TRIMITERII ÎN JUDECATĂ: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati_achitati }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">NR. INCULPAȚI ACHITAȚI DEFINITIV ARESTAȚI PREVENTIV: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.inculpati_achitati_arestati }}</strong></td>
+            </tr>
+
+
+
+
+            <tr>
+                <td><span class="color-gray-80  row__location">TOTAL PLÂNGERI ÎMPOTRIVA ACTELOR ȘI MĂSURILOR PROCURORULUI DE SOLUȚIONAT, DIN CARE: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.plangeri }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">TOTAL PLÂNGERI ÎMPOTRIVA ACTELOR ȘI MĂSURILOR PROCURORULUI SOLUȚIONATE, DIN CARE: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.plangeri_solutionate }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">TOTAL PLÂNGERI ÎMPOTRIVA ACTELOR ȘI MĂSURILOR PROCURORULUI ADMISE: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.plangeri_solutionate_admise }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">TOTAL CĂI DE ATAC DECLARATE DE PROCUROR ÎN CAUZELE PENALE, DIN CARE:  </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.caideatac_penale }}</strong></td>
+            </tr>
+            <tr>
+                <td><span class="color-gray-80  row__location">TOTAL CĂI DE ATAC ADMISE ÎN CAUZELE PENALE: </span></td>
+                <td class="text-right color-gray-60 row__performance"><strong>{{ page.indici.2014.caideatac_penale_admise }}</strong></td>
+            </tr>
+
+        </table>
+    </div>
+</div>

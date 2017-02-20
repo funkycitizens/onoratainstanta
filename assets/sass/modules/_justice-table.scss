@@ -2,6 +2,11 @@
     &__header {
         position: relative;
 
+        &.mod-left-arrow:before {
+            left: map-get($spaces, md);
+            transform: initial;
+        }
+
         &:before {
         content: '';
         width: 0px;
@@ -38,32 +43,5 @@
         &__performance {
             font-size: 18px;
         }
-    }
-}
-
-.dictionar-legalez {
-    td {
-        p {
-            padding: map-get($spaces, md);
-            color: $color-gray-60;    
-        }
-
-        &:first-of-type {
-            border-left: none !important;
-            span {
-                font-family: 'Oswald', sans-serif !important;
-                font-size: 18px !important;
-                letter-spacing: 0.06rem;
-                color: $color-gray-80;  
-            }
-        }
-
-        &:nth-of-type(3) {
-            vertical-align: top !important;
-            span {
-                font-size: 16px !important;
-            }
-        }
-        
     }
 }

@@ -1,0 +1,28 @@
+.breadcrumb-ovr {
+  padding-left: 0;
+  background-color: $color-base-bg;
+
+  > li {
+    display: inline-block;
+
+    + li:before {
+      // [converter] Workaround for https://github.com/sass/libsass/issues/1115
+      $nbsp: "\00a0";
+      content: ">#{$nbsp}"; // Unicode space added since inline-block means non-collapsing white-space
+      padding: 0 5px;
+      color: $color-gray-40;
+    }
+
+    a {
+        color: $color-gray-40;
+    }
+  }
+
+  > .active {
+    color: $color-gray-80;
+
+    a {
+        color: $color-gray-80;
+    }
+  }
+}

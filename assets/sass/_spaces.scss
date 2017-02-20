@@ -12,12 +12,25 @@
         }
 
         .v-padding-#{$space} {
-            padding-top: $value;
-            padding-bottom: $value;
+            padding-top: $value !important;
+            padding-bottom: $value !important;
+        }
+
+        .h-padding-#{$space} {
+            padding-left: $value;
+            padding-right: $value;
+        }
+
+        .hl-padding-#{$space} {
+            padding-left: $value;
         }
 
         .h-space-#{$space} {
-            margin-left: $value;
+            margin-left: $value !important;
+        }
+
+        .all-padding-#{$space} {
+            padding: $value;
         }
     }
 }
@@ -38,3 +51,12 @@
 
 @include v-spaces($spaces);
 @include responsive-v-spaces($breakpoints);
+
+.h-padding-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.all-margin-0 {
+    margin: 0;
+}

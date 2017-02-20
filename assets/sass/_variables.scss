@@ -3,6 +3,7 @@ $color-secondary: #e4be84;
 $color-black-text: #111;
 $color-gray-80: change-color($color-black-text, $lightness: 30);
 $color-gray-60: change-color($color-black-text, $lightness: 40);
+$color-gray-40: change-color($color-black-text, $lightness: 60);
 
 $color-success: #8eb467;
 
@@ -19,13 +20,16 @@ $colors: (
     green: #05817a,
     yellow: #e4be84,
     black: #111,
+    black-opacity-60: rgba(#111, 0.6),
     white: #fff,
     gray-80: $color-gray-80,
     gray-60: $color-gray-60,
-    success: $color-success
+    success: $color-success,
+    danger: $brand-danger
 );
 
 $spaces: (
+    xs: 4px,
     sm: 9px,
     md: 18px,
     lg: 36px,
@@ -66,4 +70,5 @@ $screen-lg:                  1200px;
 
 // overwriting bootstrap default font-family
 $headings-font-family: 'Oswald', sans-serif;
+//$headings-font-weight: 700;
 
