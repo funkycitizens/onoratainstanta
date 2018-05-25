@@ -26,3 +26,18 @@ svg .county {
 svg .county-label {
   text-anchor: middle;
 }
+
+.cookie-message {
+  top: auto;
+  bottom: 0;
+}
+
+.cookie-message p {
+  margin-right: 50px;
+}
+
+.cookie-message a.cookie-more {
+  margin: auto;
+  position: inherit;
+  text-decoration: underline;
+}
