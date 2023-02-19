@@ -6,9 +6,17 @@ The site is rendered using [Jekyll](http://jekyllrb.com/). This happens
 automatically because the site is hosted with [GitHub
 Pages](https://pages.github.com/).
 
-To render the site locally, install Jekyll, and run the build. The `--watch`
-flag will re-generate the site if any file is modified. You can see the output
-in localhost:3000
+### Build with Docker
+```shell
+./_build.sh
+```
+
+The site is generated in the `_site` directory.
+
+### Local Jekyll
+You can also install Jekyll, and run the build. The `--watch` flag will
+re-generate the site if any file is modified. You can see the output at
+http://localhost:3000.
 
 ```shell
 jekyll build --watch
